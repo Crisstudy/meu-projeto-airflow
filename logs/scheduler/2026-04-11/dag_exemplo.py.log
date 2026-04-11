@@ -432,3 +432,598 @@
 [2026-04-11T01:33:22.313+0000] {logging_mixin.py:190} INFO - [2026-04-11T01:33:22.312+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-04-11T01:33:22.339+0000] {logging_mixin.py:190} INFO - [2026-04-11T01:33:22.339+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
 [2026-04-11T01:33:22.369+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.093 seconds
+[2026-04-11T16:45:50.908+0000] {processor.py:186} INFO - Started process (PID=4614) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:45:50.911+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T16:45:50.921+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:45:50.920+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:45:50.938+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:45:50.966+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:45:50.966+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T16:45:50.978+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:45:50.977+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T16:45:50.995+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.105 seconds
+[2026-04-11T16:47:16.400+0000] {processor.py:186} INFO - Started process (PID=5489) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:47:16.401+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T16:47:16.402+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:47:16.402+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:47:16.407+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:47:16.418+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:47:16.418+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T16:47:16.428+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:47:16.427+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T16:47:16.442+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.046 seconds
+[2026-04-11T16:48:45.317+0000] {processor.py:186} INFO - Started process (PID=6300) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:48:45.318+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T16:48:45.320+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:48:45.319+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:48:45.325+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:48:45.442+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:48:45.442+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T16:48:45.451+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:48:45.451+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T16:48:45.466+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.152 seconds
+[2026-04-11T16:49:42.253+0000] {processor.py:186} INFO - Started process (PID=7119) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:49:42.253+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T16:49:42.255+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:49:42.255+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:49:42.260+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:49:42.271+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:49:42.271+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T16:49:42.281+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:49:42.281+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T16:49:42.296+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.048 seconds
+[2026-04-11T16:51:05.946+0000] {processor.py:186} INFO - Started process (PID=8433) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:51:05.946+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T16:51:05.948+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:51:05.948+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:51:05.954+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:51:05.968+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:51:05.968+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T16:51:05.979+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:51:05.979+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T16:51:05.995+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.054 seconds
+[2026-04-11T16:52:27.169+0000] {processor.py:186} INFO - Started process (PID=9123) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:52:27.170+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T16:52:27.172+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:52:27.171+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:52:27.177+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:52:27.188+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:52:27.188+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T16:52:27.198+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:52:27.198+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T16:52:27.213+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.048 seconds
+[2026-04-11T16:53:53.222+0000] {processor.py:186} INFO - Started process (PID=9876) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:53:53.226+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T16:53:53.229+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:53:53.229+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:53:53.238+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:53:53.254+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:53:53.254+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T16:53:53.279+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:53:53.279+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T16:53:53.296+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.093 seconds
+[2026-04-11T16:54:51.494+0000] {processor.py:186} INFO - Started process (PID=10347) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:54:51.494+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T16:54:51.496+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:54:51.496+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:54:51.501+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:54:51.513+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:54:51.512+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T16:54:51.522+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:54:51.522+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T16:54:51.539+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.049 seconds
+[2026-04-11T16:56:09.477+0000] {processor.py:186} INFO - Started process (PID=11165) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:56:09.477+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T16:56:09.479+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:56:09.479+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:56:09.484+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:56:09.495+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:56:09.495+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T16:56:09.505+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:56:09.505+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T16:56:09.521+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.048 seconds
+[2026-04-11T16:57:34.268+0000] {processor.py:186} INFO - Started process (PID=12113) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:57:34.268+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T16:57:34.270+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:57:34.270+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:57:34.276+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:57:34.286+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:57:34.286+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T16:57:34.296+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:57:34.296+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T16:57:34.312+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.049 seconds
+[2026-04-11T16:59:01.553+0000] {processor.py:186} INFO - Started process (PID=13402) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:59:01.553+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T16:59:01.555+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:59:01.555+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:59:01.560+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T16:59:01.571+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:59:01.571+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T16:59:01.580+0000] {logging_mixin.py:190} INFO - [2026-04-11T16:59:01.580+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T16:59:01.594+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.046 seconds
+[2026-04-11T17:00:24.072+0000] {processor.py:186} INFO - Started process (PID=14159) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:00:24.073+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:00:24.074+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:00:24.074+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:00:24.080+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:00:24.090+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:00:24.090+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:00:24.101+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:00:24.100+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:00:24.115+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.049 seconds
+[2026-04-11T17:01:50.070+0000] {processor.py:186} INFO - Started process (PID=14887) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:01:50.072+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:01:50.076+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:01:50.074+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:01:50.093+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:01:50.130+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:01:50.130+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:01:50.173+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:01:50.173+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:01:50.226+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.161 seconds
+[2026-04-11T17:03:12.408+0000] {processor.py:186} INFO - Started process (PID=15643) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:03:12.409+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:03:12.410+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:03:12.410+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:03:12.416+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:03:12.426+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:03:12.426+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:03:12.436+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:03:12.436+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:03:12.452+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.048 seconds
+[2026-04-11T17:04:36.791+0000] {processor.py:186} INFO - Started process (PID=16344) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:04:36.791+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:04:36.793+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:04:36.793+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:04:36.798+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:04:36.809+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:04:36.809+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:04:36.818+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:04:36.818+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:04:36.833+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.046 seconds
+[2026-04-11T17:05:58.829+0000] {processor.py:186} INFO - Started process (PID=17271) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:05:58.830+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:05:58.831+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:05:58.831+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:05:58.837+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:05:58.848+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:05:58.847+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:05:58.857+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:05:58.857+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:05:58.871+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.046 seconds
+[2026-04-11T17:07:18.875+0000] {processor.py:186} INFO - Started process (PID=18137) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:07:18.876+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:07:18.878+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:07:18.877+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:07:18.883+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:07:18.894+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:07:18.893+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:07:18.903+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:07:18.903+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:07:18.918+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.047 seconds
+[2026-04-11T17:08:38.700+0000] {processor.py:186} INFO - Started process (PID=18873) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:08:38.701+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:08:38.703+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:08:38.702+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:08:38.709+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:08:38.721+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:08:38.721+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:08:38.731+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:08:38.731+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:08:38.748+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.052 seconds
+[2026-04-11T17:09:59.762+0000] {processor.py:186} INFO - Started process (PID=19704) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:09:59.762+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:09:59.764+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:09:59.763+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:09:59.769+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:09:59.781+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:09:59.781+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:09:59.791+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:09:59.791+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:09:59.806+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.048 seconds
+[2026-04-11T17:10:59.018+0000] {processor.py:186} INFO - Started process (PID=20381) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:10:59.019+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:10:59.020+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:10:59.020+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:10:59.026+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:10:59.036+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:10:59.036+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:10:59.046+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:10:59.046+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:10:59.061+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.048 seconds
+[2026-04-11T17:12:19.678+0000] {processor.py:186} INFO - Started process (PID=21696) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:12:19.679+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:12:19.681+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:12:19.680+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:12:19.686+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:12:19.698+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:12:19.697+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:12:19.708+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:12:19.708+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:12:19.725+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.051 seconds
+[2026-04-11T17:13:42.560+0000] {processor.py:186} INFO - Started process (PID=22470) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:13:42.561+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:13:42.564+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:13:42.563+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:13:42.573+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:13:42.593+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:13:42.592+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:13:42.611+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:13:42.610+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:13:42.656+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.103 seconds
+[2026-04-11T17:15:06.287+0000] {processor.py:186} INFO - Started process (PID=23290) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:15:06.287+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:15:06.289+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:15:06.289+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:15:06.294+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:15:06.304+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:15:06.304+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:15:06.314+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:15:06.314+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:15:06.329+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.047 seconds
+[2026-04-11T17:16:30.014+0000] {processor.py:186} INFO - Started process (PID=23994) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:16:30.014+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:16:30.016+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:16:30.016+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:16:30.021+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:16:30.032+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:16:30.031+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:16:30.041+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:16:30.041+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:16:30.057+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.048 seconds
+[2026-04-11T17:18:07.041+0000] {processor.py:186} INFO - Started process (PID=27808) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:18:07.042+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:18:07.044+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:18:07.044+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:18:07.052+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:18:07.066+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:18:07.066+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:18:07.076+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:18:07.076+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:18:07.091+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.054 seconds
+[2026-04-11T17:19:04.660+0000] {processor.py:186} INFO - Started process (PID=28446) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:19:04.660+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:19:04.662+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:19:04.662+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:19:04.667+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:19:04.678+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:19:04.678+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:19:04.689+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:19:04.688+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:19:04.707+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.052 seconds
+[2026-04-11T17:20:27.373+0000] {processor.py:186} INFO - Started process (PID=29536) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:20:27.373+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:20:27.375+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:20:27.375+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:20:27.380+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:20:27.391+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:20:27.391+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:20:27.401+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:20:27.400+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:20:27.415+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.046 seconds
+[2026-04-11T17:21:50.600+0000] {processor.py:186} INFO - Started process (PID=30320) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:21:50.601+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:21:50.604+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:21:50.603+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:21:50.611+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:21:50.635+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:21:50.635+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:21:50.652+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:21:50.652+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:21:50.676+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.083 seconds
+[2026-04-11T17:23:16.101+0000] {processor.py:186} INFO - Started process (PID=31566) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:23:16.102+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:23:16.104+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:23:16.103+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:23:16.109+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:23:16.120+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:23:16.120+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:23:16.130+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:23:16.129+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:23:16.147+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.050 seconds
+[2026-04-11T17:24:40.718+0000] {processor.py:186} INFO - Started process (PID=32277) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:24:40.719+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:24:40.720+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:24:40.720+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:24:40.726+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:24:40.737+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:24:40.737+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:24:40.747+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:24:40.747+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:24:40.763+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.049 seconds
+[2026-04-11T17:25:38.414+0000] {processor.py:186} INFO - Started process (PID=32858) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:25:38.416+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:25:38.418+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:25:38.418+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:25:38.425+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:25:38.436+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:25:38.436+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:25:38.445+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:25:38.445+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:25:38.460+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.053 seconds
+[2026-04-11T17:27:04.204+0000] {processor.py:186} INFO - Started process (PID=33885) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:27:04.204+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:27:04.206+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:27:04.206+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:27:04.211+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:27:04.223+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:27:04.222+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:27:04.233+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:27:04.233+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:27:04.253+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.054 seconds
+[2026-04-11T17:28:30.636+0000] {processor.py:186} INFO - Started process (PID=35145) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:28:30.639+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:28:30.643+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:28:30.643+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:28:30.655+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:28:30.697+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:28:30.693+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:28:30.744+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:28:30.744+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:28:30.783+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.164 seconds
+[2026-04-11T17:29:54.475+0000] {processor.py:186} INFO - Started process (PID=35894) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:29:54.480+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:29:54.483+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:29:54.482+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:29:54.505+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:29:54.519+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:29:54.519+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:29:54.529+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:29:54.529+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:29:54.543+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.082 seconds
+[2026-04-11T17:31:19.866+0000] {processor.py:186} INFO - Started process (PID=37045) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:31:19.866+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:31:19.868+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:31:19.868+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:31:19.873+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:31:19.884+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:31:19.884+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:31:19.893+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:31:19.893+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:31:19.908+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.046 seconds
+[2026-04-11T17:32:17.696+0000] {processor.py:186} INFO - Started process (PID=37605) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:32:17.704+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:32:17.707+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:32:17.707+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:32:17.713+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:32:17.725+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:32:17.725+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:32:17.735+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:32:17.735+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:32:17.751+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.064 seconds
+[2026-04-11T17:33:42.251+0000] {processor.py:186} INFO - Started process (PID=38512) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:33:42.252+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:33:42.253+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:33:42.253+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:33:42.259+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:33:42.270+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:33:42.269+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:33:42.279+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:33:42.279+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:33:42.294+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.047 seconds
+[2026-04-11T17:34:45.626+0000] {processor.py:186} INFO - Started process (PID=39484) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:34:45.627+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:34:45.629+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:34:45.628+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:34:45.634+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:34:45.645+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:34:45.645+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:34:45.655+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:34:45.655+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:34:45.670+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.047 seconds
+[2026-04-11T17:35:46.846+0000] {processor.py:186} INFO - Started process (PID=40505) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:35:46.847+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:35:46.848+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:35:46.848+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:35:46.854+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:35:46.867+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:35:46.866+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:35:46.877+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:35:46.877+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:35:46.894+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.052 seconds
+[2026-04-11T17:36:44.931+0000] {processor.py:186} INFO - Started process (PID=41081) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:36:44.932+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:36:44.934+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:36:44.933+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:36:44.939+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:36:44.949+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:36:44.949+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:36:44.959+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:36:44.959+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:36:44.975+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.048 seconds
+[2026-04-11T17:38:13.673+0000] {processor.py:186} INFO - Started process (PID=42323) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:38:13.674+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:38:13.676+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:38:13.675+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:38:13.681+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:38:13.692+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:38:13.692+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:38:13.701+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:38:13.701+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:38:13.717+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.047 seconds
+[2026-04-11T17:39:11.967+0000] {processor.py:186} INFO - Started process (PID=42938) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:39:11.968+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:39:11.969+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:39:11.969+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:39:11.975+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:39:11.986+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:39:11.986+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:39:11.999+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:39:11.999+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:39:12.018+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.055 seconds
+[2026-04-11T17:40:32.939+0000] {processor.py:186} INFO - Started process (PID=43735) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:40:32.940+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:40:32.943+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:40:32.942+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:40:32.949+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:40:32.961+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:40:32.960+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:40:32.970+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:40:32.970+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:40:32.984+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.051 seconds
+[2026-04-11T17:41:56.715+0000] {processor.py:186} INFO - Started process (PID=44510) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:41:56.715+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:41:56.717+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:41:56.717+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:41:56.722+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:41:56.733+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:41:56.733+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:41:56.743+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:41:56.743+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:41:56.759+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.049 seconds
+[2026-04-11T17:43:20.740+0000] {processor.py:186} INFO - Started process (PID=45217) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:43:20.741+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:43:20.743+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:43:20.742+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:43:20.748+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:43:20.759+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:43:20.759+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:43:20.769+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:43:20.769+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:43:20.787+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.051 seconds
+[2026-04-11T17:44:44.383+0000] {processor.py:186} INFO - Started process (PID=45937) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:44:44.385+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:44:44.388+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:44:44.387+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:44:44.395+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:44:44.408+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:44:44.408+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:44:44.418+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:44:44.418+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:44:44.432+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.054 seconds
+[2026-04-11T17:46:07.145+0000] {processor.py:186} INFO - Started process (PID=46760) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:46:07.146+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:46:07.147+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:46:07.147+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:46:07.153+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:46:07.164+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:46:07.164+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:46:07.174+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:46:07.174+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:46:07.210+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.069 seconds
+[2026-04-11T17:47:06.461+0000] {processor.py:186} INFO - Started process (PID=47282) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:47:06.462+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:47:06.464+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:47:06.463+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:47:06.470+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:47:06.483+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:47:06.483+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:47:06.498+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:47:06.498+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:47:06.515+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.058 seconds
+[2026-04-11T17:48:14.465+0000] {processor.py:186} INFO - Started process (PID=49221) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:48:14.466+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:48:14.469+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:48:14.468+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:48:14.478+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:48:14.501+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:48:14.500+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:48:14.525+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:48:14.525+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:48:14.553+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.093 seconds
+[2026-04-11T17:49:21.863+0000] {processor.py:186} INFO - Started process (PID=49937) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:49:21.866+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:49:21.870+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:49:21.869+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:49:21.887+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:49:21.904+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:49:21.903+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:49:21.929+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:49:21.927+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:49:21.954+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.107 seconds
+[2026-04-11T17:50:48.561+0000] {processor.py:186} INFO - Started process (PID=51357) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:50:48.562+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:50:48.563+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:50:48.563+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:50:48.569+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:50:48.580+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:50:48.580+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:50:48.589+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:50:48.589+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:50:48.609+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.052 seconds
+[2026-04-11T17:52:13.796+0000] {processor.py:186} INFO - Started process (PID=52552) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:52:13.796+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:52:13.798+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:52:13.798+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:52:13.803+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:52:13.814+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:52:13.814+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:52:13.824+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:52:13.824+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:52:13.839+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.047 seconds
+[2026-04-11T17:53:15.168+0000] {processor.py:186} INFO - Started process (PID=53060) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:53:15.169+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:53:15.171+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:53:15.171+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:53:15.177+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:53:15.190+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:53:15.190+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:53:15.205+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:53:15.205+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:53:15.221+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.057 seconds
+[2026-04-11T17:54:42.560+0000] {processor.py:186} INFO - Started process (PID=53782) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:54:42.561+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:54:42.563+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:54:42.562+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:54:42.569+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:54:42.580+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:54:42.580+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:54:42.593+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:54:42.593+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:54:42.612+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.057 seconds
+[2026-04-11T17:56:05.964+0000] {processor.py:186} INFO - Started process (PID=54588) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:56:05.964+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:56:05.966+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:56:05.966+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:56:05.974+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:56:05.988+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:56:05.987+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:56:06.001+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:56:06.001+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:56:06.018+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.059 seconds
+[2026-04-11T17:57:15.310+0000] {processor.py:186} INFO - Started process (PID=56678) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:57:15.314+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:57:15.316+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:57:15.316+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:57:15.325+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:57:15.345+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:57:15.345+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:57:15.362+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:57:15.362+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:57:15.382+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.079 seconds
+[2026-04-11T17:58:20.828+0000] {processor.py:186} INFO - Started process (PID=57339) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:58:20.829+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:58:20.830+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:58:20.830+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:58:20.837+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:58:20.849+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:58:20.849+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:58:20.859+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:58:20.859+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:58:20.874+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.051 seconds
+[2026-04-11T17:59:26.427+0000] {processor.py:186} INFO - Started process (PID=57921) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:59:26.427+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T17:59:26.429+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:59:26.429+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:59:26.436+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T17:59:26.450+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:59:26.449+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T17:59:26.462+0000] {logging_mixin.py:190} INFO - [2026-04-11T17:59:26.462+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T17:59:26.482+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.058 seconds
+[2026-04-11T18:00:33.364+0000] {processor.py:186} INFO - Started process (PID=58573) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:00:33.368+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T18:00:33.370+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:00:33.370+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:00:33.384+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:00:33.405+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:00:33.405+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T18:00:33.418+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:00:33.418+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T18:00:33.433+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.079 seconds
+[2026-04-11T18:01:42.064+0000] {processor.py:186} INFO - Started process (PID=59153) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:01:42.065+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T18:01:42.066+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:01:42.066+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:01:42.072+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:01:42.083+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:01:42.082+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T18:01:42.095+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:01:42.095+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T18:01:42.111+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.051 seconds
+[2026-04-11T18:02:46.119+0000] {processor.py:186} INFO - Started process (PID=59743) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:02:46.120+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T18:02:46.121+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:02:46.121+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:02:46.131+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:02:46.142+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:02:46.142+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T18:02:46.152+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:02:46.152+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T18:02:46.168+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.054 seconds
+[2026-04-11T18:03:56.147+0000] {processor.py:186} INFO - Started process (PID=60365) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:03:56.148+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T18:03:56.149+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:03:56.148+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:03:56.156+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:03:56.167+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:03:56.167+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T18:03:56.178+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:03:56.178+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T18:03:56.299+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.159 seconds
+[2026-04-11T18:05:04.833+0000] {processor.py:186} INFO - Started process (PID=61014) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:05:04.834+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T18:05:04.835+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:05:04.835+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:05:04.849+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:05:04.866+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:05:04.866+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T18:05:04.879+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:05:04.879+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T18:05:04.898+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.069 seconds
+[2026-04-11T18:06:09.837+0000] {processor.py:186} INFO - Started process (PID=61551) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:06:09.838+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T18:06:09.839+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:06:09.839+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:06:09.845+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:06:09.855+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:06:09.855+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T18:06:09.865+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:06:09.865+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T18:06:09.880+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.047 seconds
+[2026-04-11T18:07:17.572+0000] {processor.py:186} INFO - Started process (PID=62140) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:07:17.572+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T18:07:17.573+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:07:17.573+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:07:17.580+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:07:17.803+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:07:17.803+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T18:07:17.816+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:07:17.816+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T18:07:17.832+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.265 seconds
+[2026-04-11T18:08:19.571+0000] {processor.py:186} INFO - Started process (PID=62658) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:08:19.572+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T18:08:19.573+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:08:19.573+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:08:19.578+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:08:19.592+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:08:19.592+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T18:08:19.606+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:08:19.606+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T18:08:19.622+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.055 seconds
+[2026-04-11T18:09:16.273+0000] {processor.py:186} INFO - Started process (PID=63140) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:09:16.273+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T18:09:16.274+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:09:16.274+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:09:16.280+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:09:16.294+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:09:16.294+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T18:09:16.307+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:09:16.306+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T18:09:16.322+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.053 seconds
+[2026-04-11T18:10:15.202+0000] {processor.py:186} INFO - Started process (PID=63673) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:10:15.203+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T18:10:15.204+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:10:15.204+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:10:15.210+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:10:15.221+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:10:15.221+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T18:10:15.231+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:10:15.231+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T18:10:15.246+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.049 seconds
+[2026-04-11T18:11:14.486+0000] {processor.py:186} INFO - Started process (PID=64170) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:11:14.487+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T18:11:14.488+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:11:14.488+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:11:14.495+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:11:14.509+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:11:14.508+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T18:11:14.519+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:11:14.519+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T18:11:14.539+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.059 seconds
+[2026-04-11T18:12:15.226+0000] {processor.py:186} INFO - Started process (PID=64689) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:12:15.229+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T18:12:15.232+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:12:15.232+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:12:15.241+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:12:15.261+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:12:15.261+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T18:12:15.277+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:12:15.277+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T18:12:15.325+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.104 seconds
+[2026-04-11T18:13:21.056+0000] {processor.py:186} INFO - Started process (PID=65299) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:13:21.057+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T18:13:21.058+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:13:21.058+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:13:21.064+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:13:21.075+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:13:21.075+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T18:13:21.085+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:13:21.085+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T18:13:21.105+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.053 seconds
+[2026-04-11T18:14:21.768+0000] {processor.py:186} INFO - Started process (PID=65844) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:14:21.768+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T18:14:21.770+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:14:21.769+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:14:21.775+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:14:21.787+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:14:21.787+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T18:14:21.800+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:14:21.800+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T18:14:21.819+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.056 seconds
+[2026-04-11T18:15:30.850+0000] {processor.py:186} INFO - Started process (PID=67384) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:15:30.858+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T18:15:30.862+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:15:30.862+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:15:30.907+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:15:30.951+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:15:30.950+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T18:15:30.998+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:15:30.998+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T18:15:31.181+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.362 seconds
+[2026-04-11T18:16:46.667+0000] {processor.py:186} INFO - Started process (PID=68567) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:16:46.668+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T18:16:46.670+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:16:46.669+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:16:46.681+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:16:46.703+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:16:46.702+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T18:16:46.721+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:16:46.720+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T18:16:46.765+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.105 seconds
+[2026-04-11T18:17:47.896+0000] {processor.py:186} INFO - Started process (PID=69062) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:17:47.897+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T18:17:47.898+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:17:47.898+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:17:47.905+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:17:47.916+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:17:47.916+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T18:17:47.926+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:17:47.926+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T18:17:47.943+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.053 seconds
+[2026-04-11T18:18:50.844+0000] {processor.py:186} INFO - Started process (PID=69546) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:18:50.845+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T18:18:50.846+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:18:50.846+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:18:50.852+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:18:50.864+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:18:50.863+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T18:18:50.874+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:18:50.874+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T18:18:50.891+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.052 seconds
+[2026-04-11T18:19:58.984+0000] {processor.py:186} INFO - Started process (PID=70190) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:19:58.987+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T18:19:58.989+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:19:58.988+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:19:58.996+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:19:59.009+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:19:59.009+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T18:19:59.020+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:19:59.019+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T18:19:59.042+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.063 seconds
+[2026-04-11T18:21:02.365+0000] {processor.py:186} INFO - Started process (PID=70772) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:21:02.366+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T18:21:02.367+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:21:02.367+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:21:02.373+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:21:02.384+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:21:02.384+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T18:21:02.396+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:21:02.396+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T18:21:02.414+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.053 seconds
+[2026-04-11T18:22:06.789+0000] {processor.py:186} INFO - Started process (PID=71310) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:22:06.790+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T18:22:06.791+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:22:06.791+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:22:06.798+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:22:06.811+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:22:06.810+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T18:22:06.821+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:22:06.821+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T18:22:06.836+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.053 seconds
+[2026-04-11T18:23:06.024+0000] {processor.py:186} INFO - Started process (PID=71759) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:23:06.025+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T18:23:06.026+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:23:06.026+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:23:06.032+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:23:06.046+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:23:06.046+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T18:23:06.057+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:23:06.057+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T18:23:06.074+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.054 seconds
+[2026-04-11T18:24:31.044+0000] {processor.py:186} INFO - Started process (PID=72383) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:24:31.045+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T18:24:31.046+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:24:31.046+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:24:31.052+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:24:31.063+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:24:31.063+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T18:24:31.073+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:24:31.073+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T18:24:31.091+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.052 seconds
+[2026-04-11T18:25:30.558+0000] {processor.py:186} INFO - Started process (PID=72921) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:25:30.558+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T18:25:30.560+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:25:30.559+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:25:30.566+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:25:30.577+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:25:30.577+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T18:25:30.588+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:25:30.588+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T18:25:30.609+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.056 seconds
+[2026-04-11T18:26:53.787+0000] {processor.py:186} INFO - Started process (PID=73548) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:26:53.788+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T18:26:53.789+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:26:53.789+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:26:53.796+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:26:53.810+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:26:53.809+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T18:26:53.825+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:26:53.825+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T18:26:53.851+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.069 seconds
+[2026-04-11T18:28:18.643+0000] {processor.py:186} INFO - Started process (PID=74248) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:28:18.643+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T18:28:18.644+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:28:18.644+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:28:18.650+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:28:18.661+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:28:18.661+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T18:28:18.671+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:28:18.671+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T18:28:18.687+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.048 seconds
+[2026-04-11T18:29:17.229+0000] {processor.py:186} INFO - Started process (PID=74725) to work on /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:29:17.230+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_exemplo.py for tasks to queue
+[2026-04-11T18:29:17.231+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:29:17.231+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:29:17.237+0000] {processor.py:925} INFO - DAG(s) 'dag_exemplo' retrieved from /workspaces/meu-projeto-airflow/dags/dag_exemplo.py
+[2026-04-11T18:29:17.248+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:29:17.248+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T18:29:17.259+0000] {logging_mixin.py:190} INFO - [2026-04-11T18:29:17.259+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2026-04-11T18:29:17.274+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_exemplo.py took 0.049 seconds
