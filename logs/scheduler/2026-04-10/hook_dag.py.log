@@ -1,0 +1,68 @@
+[2026-04-10T23:48:13.925+0000] {processor.py:186} INFO - Started process (PID=42815) to work on /workspaces/meu-projeto-airflow/dags/hook_dag.py
+[2026-04-10T23:48:13.926+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/hook_dag.py for tasks to queue
+[2026-04-10T23:48:13.927+0000] {logging_mixin.py:190} INFO - [2026-04-10T23:48:13.927+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/hook_dag.py
+[2026-04-10T23:48:13.932+0000] {logging_mixin.py:190} INFO - [2026-04-10T23:48:13.928+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/hook_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/hook_dag.py", line 13
+    
+    ^
+IndentationError: expected an indented block after 'with' statement on line 8
+[2026-04-10T23:48:13.932+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/hook_dag.py
+[2026-04-10T23:48:13.946+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/hook_dag.py took 0.024 seconds
+[2026-04-10T23:48:52.696+0000] {processor.py:186} INFO - Started process (PID=43176) to work on /workspaces/meu-projeto-airflow/dags/hook_dag.py
+[2026-04-10T23:48:52.697+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/hook_dag.py for tasks to queue
+[2026-04-10T23:48:52.698+0000] {logging_mixin.py:190} INFO - [2026-04-10T23:48:52.698+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/hook_dag.py
+[2026-04-10T23:48:52.701+0000] {logging_mixin.py:190} INFO - [2026-04-10T23:48:52.700+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/hook_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/hook_dag.py", line 13
+    
+    ^
+IndentationError: expected an indented block after 'with' statement on line 8
+[2026-04-10T23:48:52.701+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/hook_dag.py
+[2026-04-10T23:48:52.715+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/hook_dag.py took 0.023 seconds
+[2026-04-10T23:49:44.271+0000] {processor.py:186} INFO - Started process (PID=43636) to work on /workspaces/meu-projeto-airflow/dags/hook_dag.py
+[2026-04-10T23:49:44.271+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/hook_dag.py for tasks to queue
+[2026-04-10T23:49:44.272+0000] {logging_mixin.py:190} INFO - [2026-04-10T23:49:44.272+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/hook_dag.py
+[2026-04-10T23:49:44.275+0000] {logging_mixin.py:190} INFO - [2026-04-10T23:49:44.274+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/hook_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/hook_dag.py", line 13
+    
+    ^
+IndentationError: expected an indented block after 'with' statement on line 8
+[2026-04-10T23:49:44.276+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/hook_dag.py
+[2026-04-10T23:49:44.293+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/hook_dag.py took 0.027 seconds
+[2026-04-10T23:50:39.228+0000] {processor.py:186} INFO - Started process (PID=44115) to work on /workspaces/meu-projeto-airflow/dags/hook_dag.py
+[2026-04-10T23:50:39.228+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/hook_dag.py for tasks to queue
+[2026-04-10T23:50:39.229+0000] {logging_mixin.py:190} INFO - [2026-04-10T23:50:39.229+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/hook_dag.py
+[2026-04-10T23:50:39.232+0000] {logging_mixin.py:190} INFO - [2026-04-10T23:50:39.231+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/hook_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/hook_dag.py", line 13
+    
+    ^
+IndentationError: expected an indented block after 'with' statement on line 8
+[2026-04-10T23:50:39.232+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/hook_dag.py
+[2026-04-10T23:50:39.247+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/hook_dag.py took 0.024 seconds
