@@ -1,0 +1,296 @@
+[2026-04-12T17:48:28.253+0000] {processor.py:186} INFO - Started process (PID=67739) to work on /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:48:28.254+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/execution_dag.py for tasks to queue
+[2026-04-12T17:48:28.255+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:48:28.254+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:48:28.258+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:48:28.257+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/execution_dag.py", line 27
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 22
+[2026-04-12T17:48:28.259+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:48:28.283+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/execution_dag.py took 0.038 seconds
+[2026-04-12T17:48:51.435+0000] {processor.py:186} INFO - Started process (PID=68010) to work on /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:48:51.436+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/execution_dag.py for tasks to queue
+[2026-04-12T17:48:51.437+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:48:51.437+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:48:51.442+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:48:51.440+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/execution_dag.py", line 29
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 24
+[2026-04-12T17:48:51.442+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:48:51.466+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/execution_dag.py took 0.038 seconds
+[2026-04-12T17:49:22.994+0000] {processor.py:186} INFO - Started process (PID=68267) to work on /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:49:22.994+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/execution_dag.py for tasks to queue
+[2026-04-12T17:49:22.995+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:49:22.995+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:49:22.998+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:49:22.997+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/execution_dag.py", line 30
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 25
+[2026-04-12T17:49:22.998+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:49:23.011+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/execution_dag.py took 0.022 seconds
+[2026-04-12T17:49:55.106+0000] {processor.py:186} INFO - Started process (PID=68586) to work on /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:49:55.107+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/execution_dag.py for tasks to queue
+[2026-04-12T17:49:55.108+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:49:55.107+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:49:55.110+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:49:55.109+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/execution_dag.py", line 30
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 25
+[2026-04-12T17:49:55.110+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:49:55.125+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/execution_dag.py took 0.024 seconds
+[2026-04-12T17:50:27.297+0000] {processor.py:186} INFO - Started process (PID=68863) to work on /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:50:27.297+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/execution_dag.py for tasks to queue
+[2026-04-12T17:50:27.298+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:50:27.298+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:50:27.301+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:50:27.300+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/execution_dag.py", line 32
+    t1 = PythonOperator(
+                       ^
+SyntaxError: '(' was never closed
+[2026-04-12T17:50:27.301+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:50:27.316+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/execution_dag.py took 0.023 seconds
+[2026-04-12T17:50:58.339+0000] {processor.py:186} INFO - Started process (PID=69218) to work on /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:50:58.340+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/execution_dag.py for tasks to queue
+[2026-04-12T17:50:58.340+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:50:58.340+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:50:58.347+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:50:58.343+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/execution_dag.py", line 32, in <module>
+    t1 = PythonOperator(
+         ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2026-04-12T17:50:58.351+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:50:58.365+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/execution_dag.py took 0.030 seconds
+[2026-04-12T17:51:28.688+0000] {processor.py:186} INFO - Started process (PID=69537) to work on /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:51:28.689+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/execution_dag.py for tasks to queue
+[2026-04-12T17:51:28.692+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:51:28.691+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:51:28.697+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:51:28.695+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/execution_dag.py", line 47
+    t1 = PythonOperator(
+IndentationError: unexpected indent
+[2026-04-12T17:51:28.697+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:51:28.746+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/execution_dag.py took 0.087 seconds
+[2026-04-12T17:51:58.457+0000] {processor.py:186} INFO - Started process (PID=69767) to work on /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:51:58.458+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/execution_dag.py for tasks to queue
+[2026-04-12T17:51:58.459+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:51:58.458+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:51:58.465+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:51:58.461+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/execution_dag.py", line 32, in <module>
+    t1 = PythonOperator(
+         ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2026-04-12T17:51:58.469+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:51:58.486+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/execution_dag.py took 0.032 seconds
+[2026-04-12T17:52:28.958+0000] {processor.py:186} INFO - Started process (PID=70182) to work on /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:52:28.959+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/execution_dag.py for tasks to queue
+[2026-04-12T17:52:28.961+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:52:28.961+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:52:28.971+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:52:28.964+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/execution_dag.py", line 32, in <module>
+    t1 = PythonOperator(
+         ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2026-04-12T17:52:28.979+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:52:29.012+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/execution_dag.py took 0.060 seconds
+[2026-04-12T17:53:00.255+0000] {processor.py:186} INFO - Started process (PID=70431) to work on /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:53:00.256+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/execution_dag.py for tasks to queue
+[2026-04-12T17:53:00.257+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:53:00.256+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:53:00.263+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:53:00.259+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/execution_dag.py", line 32, in <module>
+    t1 = PythonOperator(
+         ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2026-04-12T17:53:00.267+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:53:00.283+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/execution_dag.py took 0.032 seconds
+[2026-04-12T17:53:30.890+0000] {processor.py:186} INFO - Started process (PID=70865) to work on /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:53:30.892+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/execution_dag.py for tasks to queue
+[2026-04-12T17:53:30.897+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:53:30.896+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:53:30.936+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:53:30.908+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/execution_dag.py", line 32, in <module>
+    t1 = PythonOperator(
+         ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2026-04-12T17:53:30.982+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:53:31.057+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/execution_dag.py took 0.172 seconds
+[2026-04-12T17:54:00.657+0000] {processor.py:186} INFO - Started process (PID=71297) to work on /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:54:00.657+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/execution_dag.py for tasks to queue
+[2026-04-12T17:54:00.658+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:54:00.658+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:54:00.666+0000] {processor.py:925} INFO - DAG(s) 'execution_dag_v2' retrieved from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:54:00.769+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:54:00.768+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:execution_dag_v2
+[2026-04-12T17:54:00.782+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:54:00.781+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:execution_dag_v2
+[2026-04-12T17:54:00.790+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:54:00.790+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:execution_dag_v2
+[2026-04-12T17:54:00.801+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:54:00.800+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:execution_dag_v2
+[2026-04-12T17:54:00.807+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:54:00.807+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:execution_dag_v2
+[2026-04-12T17:54:00.814+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:54:00.814+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:execution_dag_v2
+[2026-04-12T17:54:00.821+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:54:00.821+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:execution_dag_v2
+[2026-04-12T17:54:00.821+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:54:00.821+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-12T17:54:00.831+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:54:00.831+0000] {dag.py:3262} INFO - Creating ORM DAG for execution_dag_v2
+[2026-04-12T17:54:00.832+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:54:00.831+0000] {dag.py:4180} INFO - Setting next_dagrun for execution_dag_v2 to None, run_after=None
+[2026-04-12T17:54:00.854+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/execution_dag.py took 0.202 seconds
+[2026-04-12T17:55:00.514+0000] {processor.py:186} INFO - Started process (PID=72182) to work on /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:55:00.514+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/execution_dag.py for tasks to queue
+[2026-04-12T17:55:00.515+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:55:00.515+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:55:00.522+0000] {processor.py:925} INFO - DAG(s) 'execution_dag_v2' retrieved from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:55:00.535+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:55:00.535+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-12T17:55:00.550+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:55:00.549+0000] {dag.py:4180} INFO - Setting next_dagrun for execution_dag_v2 to None, run_after=None
+[2026-04-12T17:55:00.573+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/execution_dag.py took 0.063 seconds
+[2026-04-12T17:55:55.325+0000] {processor.py:186} INFO - Started process (PID=73040) to work on /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:55:55.326+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/execution_dag.py for tasks to queue
+[2026-04-12T17:55:55.327+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:55:55.327+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:55:55.334+0000] {processor.py:925} INFO - DAG(s) 'execution_dag_v2' retrieved from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:55:55.347+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:55:55.346+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-12T17:55:55.357+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:55:55.357+0000] {dag.py:4180} INFO - Setting next_dagrun for execution_dag_v2 to None, run_after=None
+[2026-04-12T17:55:55.373+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/execution_dag.py took 0.052 seconds
+[2026-04-12T17:56:48.839+0000] {processor.py:186} INFO - Started process (PID=73595) to work on /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:56:48.840+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/execution_dag.py for tasks to queue
+[2026-04-12T17:56:48.842+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:56:48.842+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:56:48.851+0000] {processor.py:925} INFO - DAG(s) 'execution_dag_v2' retrieved from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:56:48.951+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:56:48.951+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-12T17:56:48.960+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:56:48.959+0000] {dag.py:4180} INFO - Setting next_dagrun for execution_dag_v2 to None, run_after=None
+[2026-04-12T17:56:48.980+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/execution_dag.py took 0.147 seconds
+[2026-04-12T17:57:22.505+0000] {processor.py:186} INFO - Started process (PID=73990) to work on /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:57:22.505+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/execution_dag.py for tasks to queue
+[2026-04-12T17:57:22.506+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:57:22.506+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:57:22.513+0000] {processor.py:925} INFO - DAG(s) 'execution_dag_v2' retrieved from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:57:22.529+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:57:22.529+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-12T17:57:22.542+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:57:22.542+0000] {dag.py:4180} INFO - Setting next_dagrun for execution_dag_v2 to None, run_after=None
+[2026-04-12T17:57:22.560+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/execution_dag.py took 0.059 seconds
+[2026-04-12T17:58:30.057+0000] {processor.py:186} INFO - Started process (PID=75181) to work on /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:58:30.058+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/execution_dag.py for tasks to queue
+[2026-04-12T17:58:30.059+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:58:30.059+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:58:30.065+0000] {processor.py:925} INFO - DAG(s) 'execution_dag_v2' retrieved from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:58:30.080+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:58:30.079+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-12T17:58:30.092+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:58:30.092+0000] {dag.py:4180} INFO - Setting next_dagrun for execution_dag_v2 to None, run_after=None
+[2026-04-12T17:58:30.109+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/execution_dag.py took 0.056 seconds
+[2026-04-12T17:59:05.564+0000] {processor.py:186} INFO - Started process (PID=75529) to work on /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:59:05.565+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/execution_dag.py for tasks to queue
+[2026-04-12T17:59:05.566+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:59:05.566+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:59:05.575+0000] {processor.py:925} INFO - DAG(s) 'execution_dag_v2' retrieved from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T17:59:05.600+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:59:05.600+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-12T17:59:05.613+0000] {logging_mixin.py:190} INFO - [2026-04-12T17:59:05.613+0000] {dag.py:4180} INFO - Setting next_dagrun for execution_dag_v2 to None, run_after=None
+[2026-04-12T17:59:05.628+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/execution_dag.py took 0.072 seconds
+[2026-04-12T18:00:00.991+0000] {processor.py:186} INFO - Started process (PID=76011) to work on /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T18:00:00.991+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/execution_dag.py for tasks to queue
+[2026-04-12T18:00:00.992+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:00:00.992+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T18:00:00.998+0000] {processor.py:925} INFO - DAG(s) 'execution_dag_v2' retrieved from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T18:00:01.011+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:00:01.011+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-12T18:00:01.021+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:00:01.021+0000] {dag.py:4180} INFO - Setting next_dagrun for execution_dag_v2 to None, run_after=None
+[2026-04-12T18:00:01.038+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/execution_dag.py took 0.052 seconds
+[2026-04-12T18:00:32.008+0000] {processor.py:186} INFO - Started process (PID=76307) to work on /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T18:00:32.009+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/execution_dag.py for tasks to queue
+[2026-04-12T18:00:32.009+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:00:32.009+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T18:00:32.017+0000] {processor.py:925} INFO - DAG(s) 'execution_dag_v2' retrieved from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T18:00:32.030+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:00:32.030+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-12T18:00:32.040+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:00:32.040+0000] {dag.py:4180} INFO - Setting next_dagrun for execution_dag_v2 to None, run_after=None
+[2026-04-12T18:00:32.057+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/execution_dag.py took 0.053 seconds
+[2026-04-12T18:01:02.234+0000] {processor.py:186} INFO - Started process (PID=76539) to work on /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T18:01:02.235+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/execution_dag.py for tasks to queue
+[2026-04-12T18:01:02.236+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:01:02.235+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T18:01:02.241+0000] {processor.py:925} INFO - DAG(s) 'execution_dag_v2' retrieved from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T18:01:02.253+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:01:02.253+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-12T18:01:02.263+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:01:02.263+0000] {dag.py:4180} INFO - Setting next_dagrun for execution_dag_v2 to None, run_after=None
+[2026-04-12T18:01:02.281+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/execution_dag.py took 0.051 seconds
+[2026-04-12T18:01:33.779+0000] {processor.py:186} INFO - Started process (PID=76841) to work on /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T18:01:33.780+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/execution_dag.py for tasks to queue
+[2026-04-12T18:01:33.781+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:01:33.780+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T18:01:33.790+0000] {processor.py:925} INFO - DAG(s) 'execution_dag_v2' retrieved from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T18:01:33.816+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:01:33.816+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-12T18:01:33.832+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:01:33.832+0000] {dag.py:4180} INFO - Setting next_dagrun for execution_dag_v2 to None, run_after=None
+[2026-04-12T18:01:33.849+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/execution_dag.py took 0.076 seconds
+[2026-04-12T18:02:04.077+0000] {processor.py:186} INFO - Started process (PID=77075) to work on /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T18:02:04.078+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/execution_dag.py for tasks to queue
+[2026-04-12T18:02:04.079+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:02:04.079+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T18:02:04.087+0000] {processor.py:925} INFO - DAG(s) 'execution_dag_v2' retrieved from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T18:02:04.101+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:02:04.101+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-12T18:02:04.112+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:02:04.111+0000] {dag.py:4180} INFO - Setting next_dagrun for execution_dag_v2 to None, run_after=None
+[2026-04-12T18:02:04.128+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/execution_dag.py took 0.056 seconds
+[2026-04-12T18:03:02.712+0000] {processor.py:186} INFO - Started process (PID=77595) to work on /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T18:03:02.712+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/execution_dag.py for tasks to queue
+[2026-04-12T18:03:02.713+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:03:02.713+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T18:03:02.719+0000] {processor.py:925} INFO - DAG(s) 'execution_dag_v2' retrieved from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T18:03:02.731+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:03:02.731+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-12T18:03:02.741+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:03:02.741+0000] {dag.py:4180} INFO - Setting next_dagrun for execution_dag_v2 to None, run_after=None
+[2026-04-12T18:03:02.757+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/execution_dag.py took 0.050 seconds
+[2026-04-12T18:03:33.318+0000] {processor.py:186} INFO - Started process (PID=77908) to work on /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T18:03:33.319+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/execution_dag.py for tasks to queue
+[2026-04-12T18:03:33.320+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:03:33.320+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T18:03:33.325+0000] {processor.py:925} INFO - DAG(s) 'execution_dag_v2' retrieved from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T18:03:33.338+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:03:33.338+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-12T18:03:33.348+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:03:33.348+0000] {dag.py:4180} INFO - Setting next_dagrun for execution_dag_v2 to None, run_after=None
+[2026-04-12T18:03:33.364+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/execution_dag.py took 0.050 seconds
+[2026-04-12T18:04:03.527+0000] {processor.py:186} INFO - Started process (PID=78182) to work on /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T18:04:03.528+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/execution_dag.py for tasks to queue
+[2026-04-12T18:04:03.529+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:04:03.528+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T18:04:03.534+0000] {processor.py:925} INFO - DAG(s) 'execution_dag_v2' retrieved from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T18:04:03.546+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:04:03.546+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-12T18:04:03.556+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:04:03.556+0000] {dag.py:4180} INFO - Setting next_dagrun for execution_dag_v2 to None, run_after=None
+[2026-04-12T18:04:03.577+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/execution_dag.py took 0.054 seconds
+[2026-04-12T18:05:04.372+0000] {processor.py:186} INFO - Started process (PID=78785) to work on /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T18:05:04.373+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/execution_dag.py for tasks to queue
+[2026-04-12T18:05:04.374+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:05:04.374+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T18:05:04.381+0000] {processor.py:925} INFO - DAG(s) 'execution_dag_v2' retrieved from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-12T18:05:04.396+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:05:04.396+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-12T18:05:04.406+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:05:04.406+0000] {dag.py:4180} INFO - Setting next_dagrun for execution_dag_v2 to None, run_after=None
+[2026-04-12T18:05:04.421+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/execution_dag.py took 0.053 seconds

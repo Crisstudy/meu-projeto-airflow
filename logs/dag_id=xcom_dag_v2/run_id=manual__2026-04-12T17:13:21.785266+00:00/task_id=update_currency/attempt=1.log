@@ -1,0 +1,121 @@
+[2026-04-12T17:13:40.555+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-04-12T17:13:40.563+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: xcom_dag_v2.update_currency manual__2026-04-12T17:13:21.785266+00:00 [queued]>
+[2026-04-12T17:13:40.568+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: xcom_dag_v2.update_currency manual__2026-04-12T17:13:21.785266+00:00 [queued]>
+[2026-04-12T17:13:40.568+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2026-04-12T17:13:40.581+0000] {taskinstance.py:2888} INFO - Executing <Task(PostgresOperator): update_currency> on 2026-04-12 17:13:21.785266+00:00
+[2026-04-12T17:13:40.589+0000] {standard_task_runner.py:72} INFO - Started process 47016 to run task
+[2026-04-12T17:13:40.593+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'xcom_dag_v2', 'update_currency', 'manual__2026-04-12T17:13:21.785266+00:00', '--job-id', '56', '--raw', '--subdir', 'DAGS_FOLDER/xcom_dag.py', '--cfg-path', '/tmp/tmpx4u1f9yo']
+[2026-04-12T17:13:40.594+0000] {standard_task_runner.py:105} INFO - Job 56: Subtask update_currency
+[2026-04-12T17:13:40.625+0000] {task_command.py:467} INFO - Running <TaskInstance: xcom_dag_v2.update_currency manual__2026-04-12T17:13:21.785266+00:00 [running]> on host codespaces-1f1e00
+[2026-04-12T17:13:40.704+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='xcom_dag_v2' AIRFLOW_CTX_TASK_ID='update_currency' AIRFLOW_CTX_EXECUTION_DATE='2026-04-12T17:13:21.785266+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-12T17:13:21.785266+00:00'
+[2026-04-12T17:13:40.705+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-04-12T17:13:40.705+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-04-12T17:13:40.706+0000] {logging_mixin.py:190} INFO - Current task name:update_currency state:running start_date:2026-04-12 17:13:40.563873+00:00
+[2026-04-12T17:13:40.706+0000] {logging_mixin.py:190} INFO - Dag name:xcom_dag_v2 and current dag run status:running
+[2026-04-12T17:13:40.706+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-04-12T17:13:40.706+0000] {sql.py:266} INFO - Executing: UPDATE currency SET currency_amount= currency_amount + 500 WHERE player_id in(1, 2)
+[2026-04-12T17:13:40.712+0000] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 267, in execute
+    hook = self.get_db_hook()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 178, in get_db_hook
+    return self._hook
+           ^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/functools.py", line 995, in __get__
+    val = self.func(instance)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 153, in _hook
+    conn = BaseHook.get_connection(conn_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/hooks/base.py", line 83, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/connection.py", line 537, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `PG_SWORDBLAST` isn't defined
+[2026-04-12T17:13:40.986+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2026-04-12T17:13:40.986+0000] {logging_mixin.py:190} INFO - Task start:2026-04-12 17:13:40.563873+00:00 end:2026-04-12 17:13:40.985915+00:00 duration:0.422042
+[2026-04-12T17:13:40.987+0000] {logging_mixin.py:190} INFO - Task:<Task(PostgresOperator): update_currency> dag:<DAG: xcom_dag_v2> dagrun:<DagRun xcom_dag_v2 @ 2026-04-12 17:13:21.785266+00:00: manual__2026-04-12T17:13:21.785266+00:00, state:running, queued_at: 2026-04-12 17:13:21.795557+00:00. externally triggered: True>
+[2026-04-12T17:13:40.988+0000] {logging_mixin.py:190} INFO - Failure caused by The conn_id `PG_SWORDBLAST` isn't defined
+[2026-04-12T17:13:40.988+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=xcom_dag_v2, task_id=update_currency, run_id=manual__2026-04-12T17:13:21.785266+00:00, execution_date=20260412T171321, start_date=20260412T171340, end_date=20260412T171340
+[2026-04-12T17:13:41.034+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-04-12T17:13:41.034+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 56 for task update_currency (The conn_id `PG_SWORDBLAST` isn't defined; 47016)
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 267, in execute
+    hook = self.get_db_hook()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 178, in get_db_hook
+    return self._hook
+           ^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/functools.py", line 995, in __get__
+    val = self.func(instance)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 153, in _hook
+    conn = BaseHook.get_connection(conn_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/hooks/base.py", line 83, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/connection.py", line 537, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `PG_SWORDBLAST` isn't defined
+[2026-04-12T17:13:41.046+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2026-04-12T17:13:41.055+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-04-12T17:13:41.056+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
