@@ -1,0 +1,31 @@
+[2026-04-13T13:17:33.049+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-04-13T13:17:33.057+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: atividade_pratica2_cristina.branch_check_players manual__2026-04-13T13:17:23.501737+00:00 [queued]>
+[2026-04-13T13:17:33.061+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: atividade_pratica2_cristina.branch_check_players manual__2026-04-13T13:17:23.501737+00:00 [queued]>
+[2026-04-13T13:17:33.061+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2026-04-13T13:17:33.073+0000] {taskinstance.py:2888} INFO - Executing <Task(BranchPythonOperator): branch_check_players> on 2026-04-13 13:17:23.501737+00:00
+[2026-04-13T13:17:33.077+0000] {standard_task_runner.py:72} INFO - Started process 24380 to run task
+[2026-04-13T13:17:33.080+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'atividade_pratica2_cristina', 'branch_check_players', 'manual__2026-04-13T13:17:23.501737+00:00', '--job-id', '82', '--raw', '--subdir', 'DAGS_FOLDER/atividade_pratica2.py', '--cfg-path', '/tmp/tmpjhfckreo']
+[2026-04-13T13:17:33.080+0000] {standard_task_runner.py:105} INFO - Job 82: Subtask branch_check_players
+[2026-04-13T13:17:33.107+0000] {task_command.py:467} INFO - Running <TaskInstance: atividade_pratica2_cristina.branch_check_players manual__2026-04-13T13:17:23.501737+00:00 [running]> on host codespaces-1f1e00
+[2026-04-13T13:17:33.152+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='atividade_pratica2_cristina' AIRFLOW_CTX_TASK_ID='branch_check_players' AIRFLOW_CTX_EXECUTION_DATE='2026-04-13T13:17:23.501737+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-13T13:17:23.501737+00:00'
+[2026-04-13T13:17:33.152+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-04-13T13:17:33.153+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-04-13T13:17:33.153+0000] {logging_mixin.py:190} INFO - Current task name:branch_check_players state:running start_date:2026-04-13 13:17:33.057467+00:00
+[2026-04-13T13:17:33.153+0000] {logging_mixin.py:190} INFO - Dag name:atividade_pratica2_cristina and current dag run status:running
+[2026-04-13T13:17:33.153+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-04-13T13:17:33.154+0000] {baseoperator.py:405} WARNING - BranchPythonOperator.execute cannot be called outside TaskInstance!
+[2026-04-13T13:17:33.157+0000] {base.py:84} INFO - Retrieving connection 'postgres_default'
+[2026-04-13T13:17:33.427+0000] {logging_mixin.py:190} WARNING - /usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py:283 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2026-04-13T13:17:33.750+0000] {python.py:240} INFO - Done. Returned value was: task_com_dados
+[2026-04-13T13:17:33.751+0000] {branch.py:38} INFO - Branch into task_com_dados
+[2026-04-13T13:17:33.751+0000] {skipmixin.py:230} INFO - Following branch ('task_com_dados',)
+[2026-04-13T13:17:33.756+0000] {skipmixin.py:278} INFO - Skipping tasks [('task_sem_dados', -1)]
+[2026-04-13T13:17:33.772+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-04-13T13:17:33.772+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=atividade_pratica2_cristina, task_id=branch_check_players, run_id=manual__2026-04-13T13:17:23.501737+00:00, execution_date=20260413T131723, start_date=20260413T131733, end_date=20260413T131733
+[2026-04-13T13:17:33.781+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-04-13T13:17:33.781+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-04-13T13:17:33.781+0000] {logging_mixin.py:190} INFO - Dag name:atividade_pratica2_cristina queued_at:2026-04-13 13:17:23.511916+00:00
+[2026-04-13T13:17:33.781+0000] {logging_mixin.py:190} INFO - Task hostname:codespaces-1f1e00 operator:BranchPythonOperator
+[2026-04-13T13:17:33.820+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-04-13T13:17:33.835+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-04-13T13:17:33.839+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

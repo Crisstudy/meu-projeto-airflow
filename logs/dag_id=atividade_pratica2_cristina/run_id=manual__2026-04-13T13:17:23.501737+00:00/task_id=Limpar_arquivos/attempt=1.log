@@ -1,0 +1,36 @@
+[2026-04-13T13:17:30.183+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-04-13T13:17:30.191+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: atividade_pratica2_cristina.Limpar_arquivos manual__2026-04-13T13:17:23.501737+00:00 [queued]>
+[2026-04-13T13:17:30.195+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: atividade_pratica2_cristina.Limpar_arquivos manual__2026-04-13T13:17:23.501737+00:00 [queued]>
+[2026-04-13T13:17:30.195+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2026-04-13T13:17:30.208+0000] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): Limpar_arquivos> on 2026-04-13 13:17:23.501737+00:00
+[2026-04-13T13:17:30.212+0000] {standard_task_runner.py:72} INFO - Started process 24329 to run task
+[2026-04-13T13:17:30.214+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'atividade_pratica2_cristina', 'Limpar_arquivos', 'manual__2026-04-13T13:17:23.501737+00:00', '--job-id', '81', '--raw', '--subdir', 'DAGS_FOLDER/atividade_pratica2.py', '--cfg-path', '/tmp/tmpokkq79vq']
+[2026-04-13T13:17:30.215+0000] {standard_task_runner.py:105} INFO - Job 81: Subtask Limpar_arquivos
+[2026-04-13T13:17:30.241+0000] {task_command.py:467} INFO - Running <TaskInstance: atividade_pratica2_cristina.Limpar_arquivos manual__2026-04-13T13:17:23.501737+00:00 [running]> on host codespaces-1f1e00
+[2026-04-13T13:17:30.287+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='atividade_pratica2_cristina' AIRFLOW_CTX_TASK_ID='Limpar_arquivos' AIRFLOW_CTX_EXECUTION_DATE='2026-04-13T13:17:23.501737+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-13T13:17:23.501737+00:00'
+[2026-04-13T13:17:30.288+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-04-13T13:17:30.288+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-04-13T13:17:30.288+0000] {logging_mixin.py:190} INFO - Current task name:Limpar_arquivos state:running start_date:2026-04-13 13:17:30.191701+00:00
+[2026-04-13T13:17:30.289+0000] {logging_mixin.py:190} INFO - Dag name:atividade_pratica2_cristina and current dag run status:running
+[2026-04-13T13:17:30.289+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-04-13T13:17:30.290+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-04-13T13:17:30.291+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'ls -l /workspaces/meu-projeto-airflow/data/']
+[2026-04-13T13:17:30.301+0000] {subprocess.py:86} INFO - Output:
+[2026-04-13T13:17:30.305+0000] {subprocess.py:93} INFO - total 28
+[2026-04-13T13:17:30.306+0000] {subprocess.py:93} INFO - -rw-rw-rw- 1 codespace codespace 2090 Apr 10 22:50 arquivo.txt
+[2026-04-13T13:17:30.306+0000] {subprocess.py:93} INFO - -rw-rw-rw- 1 codespace codespace 3390 Apr 10 22:50 arquivo_processado.txt
+[2026-04-13T13:17:30.306+0000] {subprocess.py:93} INFO - -rw-rw-rw- 1 codespace codespace   36 Apr 11 17:38 characters.csv
+[2026-04-13T13:17:30.306+0000] {subprocess.py:93} INFO - -rw-rw-rw- 1 codespace codespace   36 Apr 11 17:38 characters_copy.csv
+[2026-04-13T13:17:30.306+0000] {subprocess.py:93} INFO - -rw-rw-rw- 1 codespace codespace   47 Apr 12 17:21 currency.csv
+[2026-04-13T13:17:30.307+0000] {subprocess.py:93} INFO - -rw-rw-rw- 1 codespace codespace   47 Apr 12 17:21 currency_modified.csv
+[2026-04-13T13:17:30.307+0000] {subprocess.py:93} INFO - -rw-rw-rw- 1 codespace codespace   43 Apr 12 17:21 players.csv
+[2026-04-13T13:17:30.307+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-04-13T13:17:30.321+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-04-13T13:17:30.322+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=atividade_pratica2_cristina, task_id=Limpar_arquivos, run_id=manual__2026-04-13T13:17:23.501737+00:00, execution_date=20260413T131723, start_date=20260413T131730, end_date=20260413T131730
+[2026-04-13T13:17:30.331+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-04-13T13:17:30.331+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-04-13T13:17:30.331+0000] {logging_mixin.py:190} INFO - Dag name:atividade_pratica2_cristina queued_at:2026-04-13 13:17:23.511916+00:00
+[2026-04-13T13:17:30.331+0000] {logging_mixin.py:190} INFO - Task hostname:codespaces-1f1e00 operator:BashOperator
+[2026-04-13T13:17:30.349+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-04-13T13:17:30.364+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-04-13T13:17:30.368+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

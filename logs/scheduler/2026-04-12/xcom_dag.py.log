@@ -1679,3 +1679,31 @@ SyntaxError: unterminated string literal (detected at line 35)
 [2026-04-12T18:05:05.407+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:05:05.406+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-04-12T18:05:05.417+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:05:05.416+0000] {dag.py:4180} INFO - Setting next_dagrun for xcom_dag_v2 to None, run_after=None
 [2026-04-12T18:05:05.433+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/xcom_dag.py took 0.053 seconds
+[2026-04-12T18:05:40.109+0000] {processor.py:186} INFO - Started process (PID=79280) to work on /workspaces/meu-projeto-airflow/dags/xcom_dag.py
+[2026-04-12T18:05:40.109+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/xcom_dag.py for tasks to queue
+[2026-04-12T18:05:40.110+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:05:40.110+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/xcom_dag.py
+[2026-04-12T18:05:40.116+0000] {processor.py:925} INFO - DAG(s) 'xcom_dag_v2' retrieved from /workspaces/meu-projeto-airflow/dags/xcom_dag.py
+[2026-04-12T18:05:40.129+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:05:40.129+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-12T18:05:40.140+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:05:40.140+0000] {dag.py:4180} INFO - Setting next_dagrun for xcom_dag_v2 to None, run_after=None
+[2026-04-12T18:05:40.164+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/xcom_dag.py took 0.060 seconds
+[2026-04-12T18:06:13.882+0000] {processor.py:186} INFO - Started process (PID=79684) to work on /workspaces/meu-projeto-airflow/dags/xcom_dag.py
+[2026-04-12T18:06:13.882+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/xcom_dag.py for tasks to queue
+[2026-04-12T18:06:13.884+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:06:13.883+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/xcom_dag.py
+[2026-04-12T18:06:13.892+0000] {processor.py:925} INFO - DAG(s) 'xcom_dag_v2' retrieved from /workspaces/meu-projeto-airflow/dags/xcom_dag.py
+[2026-04-12T18:06:13.905+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:06:13.905+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-12T18:06:13.915+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:06:13.915+0000] {dag.py:4180} INFO - Setting next_dagrun for xcom_dag_v2 to None, run_after=None
+[2026-04-12T18:06:13.933+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/xcom_dag.py took 0.057 seconds
+[2026-04-12T18:06:46.202+0000] {processor.py:186} INFO - Started process (PID=80094) to work on /workspaces/meu-projeto-airflow/dags/xcom_dag.py
+[2026-04-12T18:06:46.203+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/xcom_dag.py for tasks to queue
+[2026-04-12T18:06:46.204+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:06:46.204+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/xcom_dag.py
+[2026-04-12T18:06:46.210+0000] {processor.py:925} INFO - DAG(s) 'xcom_dag_v2' retrieved from /workspaces/meu-projeto-airflow/dags/xcom_dag.py
+[2026-04-12T18:06:46.222+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:06:46.222+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-12T18:06:46.232+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:06:46.232+0000] {dag.py:4180} INFO - Setting next_dagrun for xcom_dag_v2 to None, run_after=None
+[2026-04-12T18:06:46.251+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/xcom_dag.py took 0.054 seconds
+[2026-04-12T18:07:17.087+0000] {processor.py:186} INFO - Started process (PID=80601) to work on /workspaces/meu-projeto-airflow/dags/xcom_dag.py
+[2026-04-12T18:07:17.088+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/xcom_dag.py for tasks to queue
+[2026-04-12T18:07:17.089+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:07:17.089+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/xcom_dag.py
+[2026-04-12T18:07:17.099+0000] {processor.py:925} INFO - DAG(s) 'xcom_dag_v2' retrieved from /workspaces/meu-projeto-airflow/dags/xcom_dag.py
+[2026-04-12T18:07:17.113+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:07:17.113+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-12T18:07:17.124+0000] {logging_mixin.py:190} INFO - [2026-04-12T18:07:17.123+0000] {dag.py:4180} INFO - Setting next_dagrun for xcom_dag_v2 to None, run_after=None
+[2026-04-12T18:07:17.169+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/xcom_dag.py took 0.102 seconds

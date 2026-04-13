@@ -1,0 +1,521 @@
+[2026-04-13T13:06:36.615+0000] {processor.py:186} INFO - Started process (PID=16163) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:06:36.619+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:06:36.622+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:06:36.622+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:06:36.630+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:06:36.627+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/atividade_pratica2.py", line 5, in <module>
+    from bashoperator import BashOperator
+ModuleNotFoundError: No module named 'bashoperator'
+[2026-04-13T13:06:36.631+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:06:36.669+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.075 seconds
+[2026-04-13T13:07:39.066+0000] {processor.py:186} INFO - Started process (PID=17128) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:07:39.067+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:07:39.069+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:07:39.068+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:07:39.074+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:07:39.072+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/atividade_pratica2.py", line 42, in <module>
+    t2 = BranchOperator(
+         ^^^^^^^^^^^^^^
+NameError: name 'BranchOperator' is not defined. Did you mean: 'BashOperator'?
+[2026-04-13T13:07:39.076+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:07:39.093+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.031 seconds
+[2026-04-13T13:08:09.940+0000] {processor.py:186} INFO - Started process (PID=17592) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:08:09.941+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:08:09.942+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:08:09.942+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:08:09.949+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:08:09.946+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/atividade_pratica2.py", line 42, in <module>
+    t2 = BranchOperator(
+         ^^^^^^^^^^^^^^
+NameError: name 'BranchOperator' is not defined. Did you mean: 'BashOperator'?
+[2026-04-13T13:08:09.950+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:08:09.964+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.028 seconds
+[2026-04-13T13:09:11.781+0000] {processor.py:186} INFO - Started process (PID=18755) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:09:11.782+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:09:11.783+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:09:11.783+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:09:11.789+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:09:11.786+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/atividade_pratica2.py", line 42, in <module>
+    t2 = BranchOperator(
+         ^^^^^^^^^^^^^^
+NameError: name 'BranchOperator' is not defined. Did you mean: 'BashOperator'?
+[2026-04-13T13:09:11.790+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:09:11.804+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.027 seconds
+[2026-04-13T13:09:46.319+0000] {processor.py:186} INFO - Started process (PID=19082) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:09:46.320+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:09:46.322+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:09:46.322+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:09:46.331+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:09:46.328+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/atividade_pratica2.py", line 42, in <module>
+    t2 = BranchOperator(
+         ^^^^^^^^^^^^^^
+NameError: name 'BranchOperator' is not defined. Did you mean: 'BashOperator'?
+[2026-04-13T13:09:46.334+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:09:46.353+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.043 seconds
+[2026-04-13T13:10:19.611+0000] {processor.py:186} INFO - Started process (PID=19530) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:10:19.612+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:10:19.613+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:10:19.613+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:10:19.618+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:10:19.616+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/atividade_pratica2.py", line 42, in <module>
+    t2 = BranchOperator(
+         ^^^^^^^^^^^^^^
+NameError: name 'BranchOperator' is not defined. Did you mean: 'BashOperator'?
+[2026-04-13T13:10:19.620+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:10:19.634+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.027 seconds
+[2026-04-13T13:10:52.367+0000] {processor.py:186} INFO - Started process (PID=19958) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:10:52.368+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:10:52.370+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:10:52.370+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:10:52.378+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:10:52.375+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/atividade_pratica2.py", line 42, in <module>
+    t2 = BranchOperator(
+         ^^^^^^^^^^^^^^
+NameError: name 'BranchOperator' is not defined. Did you mean: 'BashOperator'?
+[2026-04-13T13:10:52.382+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:10:52.402+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.040 seconds
+[2026-04-13T13:11:50.835+0000] {processor.py:186} INFO - Started process (PID=20546) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:11:50.835+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:11:50.837+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:11:50.836+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:11:50.842+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:11:50.840+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/atividade_pratica2.py", line 42, in <module>
+    t2 = BranchOperator(
+         ^^^^^^^^^^^^^^
+NameError: name 'BranchOperator' is not defined. Did you mean: 'BashOperator'?
+[2026-04-13T13:11:50.843+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:11:50.857+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.027 seconds
+[2026-04-13T13:12:22.353+0000] {processor.py:186} INFO - Started process (PID=20812) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:12:22.354+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:12:22.356+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:12:22.356+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:12:22.365+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:12:22.362+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/atividade_pratica2.py", line 42, in <module>
+    t2 = BanchOperator(
+         ^^^^^^^^^^^^^
+NameError: name 'BanchOperator' is not defined. Did you mean: 'BashOperator'?
+[2026-04-13T13:12:22.367+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:12:22.388+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.046 seconds
+[2026-04-13T13:12:54.915+0000] {processor.py:186} INFO - Started process (PID=21136) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:12:54.916+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:12:54.919+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:12:54.918+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:12:55.090+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:12:54.925+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/atividade_pratica2.py", line 42, in <module>
+    t2 = BashOperator(
+         ^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/operators/bash.py", line 158, in __init__
+    super().__init__(**kwargs)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 949, in __init__
+    validate_key(task_id)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Limpar arquivos' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2026-04-13T13:12:55.091+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:12:55.115+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.205 seconds
+[2026-04-13T13:13:26.649+0000] {processor.py:186} INFO - Started process (PID=21412) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:13:26.650+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:13:26.652+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:13:26.651+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:13:26.657+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:13:26.656+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/atividade_pratica2.py", line 42, in <module>
+    t2 = BashOperator(
+         ^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/operators/bash.py", line 158, in __init__
+    super().__init__(**kwargs)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 949, in __init__
+    validate_key(task_id)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Limpar arquivos' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2026-04-13T13:13:26.658+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:13:26.680+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.035 seconds
+[2026-04-13T13:13:58.065+0000] {processor.py:186} INFO - Started process (PID=21830) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:13:58.065+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:13:58.067+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:13:58.066+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:13:58.072+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:13:58.070+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/atividade_pratica2.py", line 42, in <module>
+    t2 = BashOperator(
+         ^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/operators/bash.py", line 158, in __init__
+    super().__init__(**kwargs)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 949, in __init__
+    validate_key(task_id)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Limpar arquivos' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2026-04-13T13:13:58.072+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:13:58.086+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.026 seconds
+[2026-04-13T13:14:31.624+0000] {processor.py:186} INFO - Started process (PID=22088) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:14:31.625+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:14:31.627+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:14:31.626+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:14:31.631+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:14:31.630+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/atividade_pratica2.py", line 42, in <module>
+    t2 = BashOperator(
+         ^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/operators/bash.py", line 158, in __init__
+    super().__init__(**kwargs)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 949, in __init__
+    validate_key(task_id)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Limpar arquivos' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2026-04-13T13:14:31.632+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:14:31.657+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.037 seconds
+[2026-04-13T13:15:03.666+0000] {processor.py:186} INFO - Started process (PID=22417) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:15:03.667+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:15:03.669+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:15:03.668+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:15:03.674+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:15:03.673+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/atividade_pratica2.py", line 42, in <module>
+    t2 = BashOperator(
+         ^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/operators/bash.py", line 158, in __init__
+    super().__init__(**kwargs)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 949, in __init__
+    validate_key(task_id)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Limpar arquivos' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2026-04-13T13:15:03.675+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:15:03.689+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.027 seconds
+[2026-04-13T13:15:36.328+0000] {processor.py:186} INFO - Started process (PID=22781) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:15:36.329+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:15:36.330+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:15:36.330+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:15:36.335+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:15:36.333+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/atividade_pratica2.py", line 42, in <module>
+    t2 = BashOperator(
+         ^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/operators/bash.py", line 158, in __init__
+    super().__init__(**kwargs)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 949, in __init__
+    validate_key(task_id)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Limpar arquivos' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2026-04-13T13:15:36.335+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:15:36.349+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.025 seconds
+[2026-04-13T13:16:10.829+0000] {processor.py:186} INFO - Started process (PID=23141) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:16:10.830+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:16:10.831+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:16:10.831+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:16:10.838+0000] {processor.py:925} INFO - DAG(s) 'atividade_pratica2_cristina' retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:16:10.927+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:16:10.926+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:atividade_pratica2_cristina
+[2026-04-13T13:16:10.935+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:16:10.935+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:atividade_pratica2_cristina
+[2026-04-13T13:16:10.942+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:16:10.942+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:atividade_pratica2_cristina
+[2026-04-13T13:16:10.953+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:16:10.953+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:atividade_pratica2_cristina
+[2026-04-13T13:16:10.959+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:16:10.959+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:atividade_pratica2_cristina
+[2026-04-13T13:16:10.965+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:16:10.965+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:atividade_pratica2_cristina
+[2026-04-13T13:16:10.972+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:16:10.972+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:atividade_pratica2_cristina
+[2026-04-13T13:16:10.972+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:16:10.972+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-13T13:16:10.981+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:16:10.981+0000] {dag.py:3262} INFO - Creating ORM DAG for atividade_pratica2_cristina
+[2026-04-13T13:16:10.981+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:16:10.981+0000] {dag.py:4180} INFO - Setting next_dagrun for atividade_pratica2_cristina to None, run_after=None
+[2026-04-13T13:16:10.999+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.174 seconds
+[2026-04-13T13:16:41.730+0000] {processor.py:186} INFO - Started process (PID=23649) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:16:41.731+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:16:41.733+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:16:41.733+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:16:41.743+0000] {processor.py:925} INFO - DAG(s) 'atividade_pratica2_cristina' retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:16:41.763+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:16:41.763+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-13T13:16:41.774+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:16:41.773+0000] {dag.py:4180} INFO - Setting next_dagrun for atividade_pratica2_cristina to None, run_after=None
+[2026-04-13T13:16:41.790+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.066 seconds
+[2026-04-13T13:17:12.670+0000] {processor.py:186} INFO - Started process (PID=23976) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:17:12.670+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:17:12.673+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:17:12.673+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:17:12.683+0000] {processor.py:925} INFO - DAG(s) 'atividade_pratica2_cristina' retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:17:12.717+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:17:12.717+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-13T13:17:12.741+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:17:12.741+0000] {dag.py:4180} INFO - Setting next_dagrun for atividade_pratica2_cristina to None, run_after=None
+[2026-04-13T13:17:12.763+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.101 seconds
+[2026-04-13T13:17:54.109+0000] {processor.py:186} INFO - Started process (PID=24737) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:17:54.110+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:17:54.113+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:17:54.112+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:17:54.122+0000] {processor.py:925} INFO - DAG(s) 'atividade_pratica2_cristina' retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:17:54.145+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:17:54.145+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-13T13:17:54.161+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:17:54.161+0000] {dag.py:4180} INFO - Setting next_dagrun for atividade_pratica2_cristina to None, run_after=None
+[2026-04-13T13:17:54.178+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.075 seconds
+[2026-04-13T13:18:34.671+0000] {processor.py:186} INFO - Started process (PID=25058) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:18:34.671+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:18:34.673+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:18:34.672+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:18:34.679+0000] {processor.py:925} INFO - DAG(s) 'atividade_pratica2_cristina' retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:18:34.694+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:18:34.694+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-13T13:18:34.703+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:18:34.703+0000] {dag.py:4180} INFO - Setting next_dagrun for atividade_pratica2_cristina to None, run_after=None
+[2026-04-13T13:18:34.719+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.052 seconds
+[2026-04-13T13:19:05.128+0000] {processor.py:186} INFO - Started process (PID=25360) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:19:05.129+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:19:05.130+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:19:05.130+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:19:05.137+0000] {processor.py:925} INFO - DAG(s) 'atividade_pratica2_cristina' retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:19:05.150+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:19:05.150+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-13T13:19:05.159+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:19:05.159+0000] {dag.py:4180} INFO - Setting next_dagrun for atividade_pratica2_cristina to None, run_after=None
+[2026-04-13T13:19:05.175+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.050 seconds
+[2026-04-13T13:19:36.102+0000] {processor.py:186} INFO - Started process (PID=25602) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:19:36.102+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:19:36.104+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:19:36.103+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:19:36.110+0000] {processor.py:925} INFO - DAG(s) 'atividade_pratica2_cristina' retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:19:36.122+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:19:36.122+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-13T13:19:36.131+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:19:36.131+0000] {dag.py:4180} INFO - Setting next_dagrun for atividade_pratica2_cristina to None, run_after=None
+[2026-04-13T13:19:36.146+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.049 seconds
+[2026-04-13T13:20:06.958+0000] {processor.py:186} INFO - Started process (PID=25903) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:20:06.958+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:20:06.960+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:20:06.959+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:20:06.966+0000] {processor.py:925} INFO - DAG(s) 'atividade_pratica2_cristina' retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:20:06.978+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:20:06.977+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-13T13:20:06.987+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:20:06.987+0000] {dag.py:4180} INFO - Setting next_dagrun for atividade_pratica2_cristina to None, run_after=None
+[2026-04-13T13:20:07.009+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.055 seconds
+[2026-04-13T13:20:37.216+0000] {processor.py:186} INFO - Started process (PID=26165) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:20:37.217+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:20:37.218+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:20:37.218+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:20:37.225+0000] {processor.py:925} INFO - DAG(s) 'atividade_pratica2_cristina' retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:20:37.237+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:20:37.236+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-13T13:20:37.249+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:20:37.249+0000] {dag.py:4180} INFO - Setting next_dagrun for atividade_pratica2_cristina to None, run_after=None
+[2026-04-13T13:20:37.265+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.052 seconds
+[2026-04-13T13:21:07.667+0000] {processor.py:186} INFO - Started process (PID=26432) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:21:07.667+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:21:07.669+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:21:07.669+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:21:07.676+0000] {processor.py:925} INFO - DAG(s) 'atividade_pratica2_cristina' retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:21:07.712+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:21:07.712+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-13T13:21:07.742+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:21:07.742+0000] {dag.py:4180} INFO - Setting next_dagrun for atividade_pratica2_cristina to None, run_after=None
+[2026-04-13T13:21:07.774+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.111 seconds
+[2026-04-13T13:22:05.437+0000] {processor.py:186} INFO - Started process (PID=27006) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:22:05.438+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:22:05.439+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:22:05.439+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:22:05.445+0000] {processor.py:925} INFO - DAG(s) 'atividade_pratica2_cristina' retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:22:05.457+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:22:05.457+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-13T13:22:05.466+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:22:05.466+0000] {dag.py:4180} INFO - Setting next_dagrun for atividade_pratica2_cristina to None, run_after=None
+[2026-04-13T13:22:05.481+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.048 seconds
+[2026-04-13T13:22:36.855+0000] {processor.py:186} INFO - Started process (PID=27248) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:22:36.855+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:22:36.857+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:22:36.856+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:22:36.863+0000] {processor.py:925} INFO - DAG(s) 'atividade_pratica2_cristina' retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:22:36.874+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:22:36.874+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-13T13:22:36.907+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:22:36.907+0000] {dag.py:4180} INFO - Setting next_dagrun for atividade_pratica2_cristina to None, run_after=None
+[2026-04-13T13:22:36.958+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.107 seconds
+[2026-04-13T13:23:08.261+0000] {processor.py:186} INFO - Started process (PID=27547) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:23:08.262+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:23:08.263+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:23:08.263+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:23:08.272+0000] {processor.py:925} INFO - DAG(s) 'atividade_pratica2_cristina' retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:23:08.308+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:23:08.306+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-13T13:23:08.343+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:23:08.343+0000] {dag.py:4180} INFO - Setting next_dagrun for atividade_pratica2_cristina to None, run_after=None
+[2026-04-13T13:23:08.365+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.108 seconds
+[2026-04-13T13:23:38.499+0000] {processor.py:186} INFO - Started process (PID=27858) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:23:38.500+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:23:38.501+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:23:38.501+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:23:38.507+0000] {processor.py:925} INFO - DAG(s) 'atividade_pratica2_cristina' retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:23:38.519+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:23:38.519+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-13T13:23:38.531+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:23:38.531+0000] {dag.py:4180} INFO - Setting next_dagrun for atividade_pratica2_cristina to None, run_after=None
+[2026-04-13T13:23:38.548+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.053 seconds
+[2026-04-13T13:24:36.696+0000] {processor.py:186} INFO - Started process (PID=28303) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:24:36.697+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:24:36.698+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:24:36.698+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:24:36.704+0000] {processor.py:925} INFO - DAG(s) 'atividade_pratica2_cristina' retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:24:36.716+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:24:36.716+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-13T13:24:36.732+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:24:36.732+0000] {dag.py:4180} INFO - Setting next_dagrun for atividade_pratica2_cristina to None, run_after=None
+[2026-04-13T13:24:36.757+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.065 seconds
+[2026-04-13T13:25:38.483+0000] {processor.py:186} INFO - Started process (PID=28916) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:25:38.484+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:25:38.485+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:25:38.485+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:25:38.491+0000] {processor.py:925} INFO - DAG(s) 'atividade_pratica2_cristina' retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:25:38.503+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:25:38.503+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-13T13:25:38.512+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:25:38.512+0000] {dag.py:4180} INFO - Setting next_dagrun for atividade_pratica2_cristina to None, run_after=None
+[2026-04-13T13:25:38.528+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.049 seconds
+[2026-04-13T13:26:10.445+0000] {processor.py:186} INFO - Started process (PID=29158) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:26:10.445+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:26:10.447+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:26:10.446+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:26:10.453+0000] {processor.py:925} INFO - DAG(s) 'atividade_pratica2_cristina' retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:26:10.464+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:26:10.464+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-13T13:26:10.474+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:26:10.474+0000] {dag.py:4180} INFO - Setting next_dagrun for atividade_pratica2_cristina to None, run_after=None
+[2026-04-13T13:26:10.489+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.049 seconds
+[2026-04-13T13:27:08.419+0000] {processor.py:186} INFO - Started process (PID=29711) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:27:08.420+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:27:08.421+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:27:08.421+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:27:08.428+0000] {processor.py:925} INFO - DAG(s) 'atividade_pratica2_cristina' retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:27:08.440+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:27:08.440+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-13T13:27:08.449+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:27:08.449+0000] {dag.py:4180} INFO - Setting next_dagrun for atividade_pratica2_cristina to None, run_after=None
+[2026-04-13T13:27:08.466+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.051 seconds
+[2026-04-13T13:28:06.697+0000] {processor.py:186} INFO - Started process (PID=30226) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:28:06.698+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:28:06.699+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:28:06.699+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:28:06.705+0000] {processor.py:925} INFO - DAG(s) 'atividade_pratica2_cristina' retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:28:06.717+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:28:06.717+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-13T13:28:06.726+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:28:06.726+0000] {dag.py:4180} INFO - Setting next_dagrun for atividade_pratica2_cristina to None, run_after=None
+[2026-04-13T13:28:06.741+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.048 seconds
+[2026-04-13T13:28:36.976+0000] {processor.py:186} INFO - Started process (PID=30461) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:28:36.977+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:28:36.979+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:28:36.978+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:28:36.985+0000] {processor.py:925} INFO - DAG(s) 'atividade_pratica2_cristina' retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:28:36.996+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:28:36.996+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-13T13:28:37.006+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:28:37.006+0000] {dag.py:4180} INFO - Setting next_dagrun for atividade_pratica2_cristina to None, run_after=None
+[2026-04-13T13:28:37.021+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.049 seconds
+[2026-04-13T13:29:08.532+0000] {processor.py:186} INFO - Started process (PID=30758) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:29:08.532+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:29:08.534+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:29:08.534+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:29:08.540+0000] {processor.py:925} INFO - DAG(s) 'atividade_pratica2_cristina' retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:29:08.552+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:29:08.552+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-13T13:29:08.562+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:29:08.561+0000] {dag.py:4180} INFO - Setting next_dagrun for atividade_pratica2_cristina to None, run_after=None
+[2026-04-13T13:29:08.577+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.050 seconds
+[2026-04-13T13:29:38.904+0000] {processor.py:186} INFO - Started process (PID=31051) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:29:38.905+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:29:38.906+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:29:38.906+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:29:38.912+0000] {processor.py:925} INFO - DAG(s) 'atividade_pratica2_cristina' retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:29:38.927+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:29:38.926+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-13T13:29:38.941+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:29:38.941+0000] {dag.py:4180} INFO - Setting next_dagrun for atividade_pratica2_cristina to None, run_after=None
+[2026-04-13T13:29:38.982+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.082 seconds
+[2026-04-13T13:30:09.309+0000] {processor.py:186} INFO - Started process (PID=31289) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:30:09.309+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:30:09.311+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:30:09.310+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:30:09.317+0000] {processor.py:925} INFO - DAG(s) 'atividade_pratica2_cristina' retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:30:09.329+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:30:09.328+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-13T13:30:09.338+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:30:09.338+0000] {dag.py:4180} INFO - Setting next_dagrun for atividade_pratica2_cristina to None, run_after=None
+[2026-04-13T13:30:09.354+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.050 seconds
+[2026-04-13T13:31:10.021+0000] {processor.py:186} INFO - Started process (PID=31818) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:31:10.022+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:31:10.023+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:31:10.023+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:31:10.029+0000] {processor.py:925} INFO - DAG(s) 'atividade_pratica2_cristina' retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:31:10.041+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:31:10.041+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-13T13:31:10.051+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:31:10.051+0000] {dag.py:4180} INFO - Setting next_dagrun for atividade_pratica2_cristina to None, run_after=None
+[2026-04-13T13:31:10.067+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.050 seconds
+[2026-04-13T13:32:08.710+0000] {processor.py:186} INFO - Started process (PID=32406) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:32:08.710+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:32:08.712+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:32:08.711+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:32:08.718+0000] {processor.py:925} INFO - DAG(s) 'atividade_pratica2_cristina' retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:32:08.729+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:32:08.729+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-13T13:32:08.740+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:32:08.739+0000] {dag.py:4180} INFO - Setting next_dagrun for atividade_pratica2_cristina to None, run_after=None
+[2026-04-13T13:32:08.755+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.049 seconds
+[2026-04-13T13:33:06.710+0000] {processor.py:186} INFO - Started process (PID=32918) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:33:06.711+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:33:06.712+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:33:06.712+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:33:06.718+0000] {processor.py:925} INFO - DAG(s) 'atividade_pratica2_cristina' retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:33:06.731+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:33:06.730+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-13T13:33:06.740+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:33:06.740+0000] {dag.py:4180} INFO - Setting next_dagrun for atividade_pratica2_cristina to None, run_after=None
+[2026-04-13T13:33:06.758+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.053 seconds
+[2026-04-13T13:33:38.846+0000] {processor.py:186} INFO - Started process (PID=33229) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:33:38.847+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:33:38.850+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:33:38.849+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:33:38.864+0000] {processor.py:925} INFO - DAG(s) 'atividade_pratica2_cristina' retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:33:38.890+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:33:38.890+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-13T13:33:38.907+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:33:38.907+0000] {dag.py:4180} INFO - Setting next_dagrun for atividade_pratica2_cristina to None, run_after=None
+[2026-04-13T13:33:38.929+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.089 seconds
+[2026-04-13T13:34:09.973+0000] {processor.py:186} INFO - Started process (PID=33465) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:34:09.974+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:34:09.977+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:34:09.977+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:34:09.987+0000] {processor.py:925} INFO - DAG(s) 'atividade_pratica2_cristina' retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:34:10.023+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:34:10.023+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-13T13:34:10.033+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:34:10.033+0000] {dag.py:4180} INFO - Setting next_dagrun for atividade_pratica2_cristina to None, run_after=None
+[2026-04-13T13:34:10.056+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.089 seconds
+[2026-04-13T13:34:44.734+0000] {processor.py:186} INFO - Started process (PID=33993) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:34:44.735+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:34:44.736+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:34:44.736+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:34:44.744+0000] {processor.py:925} INFO - DAG(s) 'atividade_pratica2_cristina' retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:34:44.756+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:34:44.756+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-13T13:34:44.765+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:34:44.765+0000] {dag.py:4180} INFO - Setting next_dagrun for atividade_pratica2_cristina to None, run_after=None
+[2026-04-13T13:34:44.781+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.050 seconds
+[2026-04-13T13:35:18.481+0000] {processor.py:186} INFO - Started process (PID=34267) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:35:18.481+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:35:18.483+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:35:18.483+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:35:18.489+0000] {processor.py:925} INFO - DAG(s) 'atividade_pratica2_cristina' retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:35:18.501+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:35:18.501+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-13T13:35:18.511+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:35:18.511+0000] {dag.py:4180} INFO - Setting next_dagrun for atividade_pratica2_cristina to None, run_after=None
+[2026-04-13T13:35:18.526+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.049 seconds
+[2026-04-13T13:35:51.891+0000] {processor.py:186} INFO - Started process (PID=34786) to work on /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:35:51.892+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py for tasks to queue
+[2026-04-13T13:35:51.893+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:35:51.893+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:35:51.899+0000] {processor.py:925} INFO - DAG(s) 'atividade_pratica2_cristina' retrieved from /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py
+[2026-04-13T13:35:51.911+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:35:51.911+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-13T13:35:51.920+0000] {logging_mixin.py:190} INFO - [2026-04-13T13:35:51.920+0000] {dag.py:4180} INFO - Setting next_dagrun for atividade_pratica2_cristina to None, run_after=None
+[2026-04-13T13:35:51.936+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/atividade_pratica2.py took 0.049 seconds
