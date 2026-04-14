@@ -1,0 +1,29 @@
+[2026-04-14T14:37:51.958+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-04-14T14:37:51.971+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sensor_dag.filesensor manual__2026-04-14T14:37:46.242970+00:00 [queued]>
+[2026-04-14T14:37:51.978+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sensor_dag.filesensor manual__2026-04-14T14:37:46.242970+00:00 [queued]>
+[2026-04-14T14:37:51.979+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2026-04-14T14:37:52.015+0000] {taskinstance.py:2888} INFO - Executing <Task(FileSensor): filesensor> on 2026-04-14 14:37:46.242970+00:00
+[2026-04-14T14:37:52.023+0000] {standard_task_runner.py:72} INFO - Started process 83888 to run task
+[2026-04-14T14:37:52.029+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'sensor_dag', 'filesensor', 'manual__2026-04-14T14:37:46.242970+00:00', '--job-id', '94', '--raw', '--subdir', 'DAGS_FOLDER/sensor_dag.py', '--cfg-path', '/tmp/tmpwaev59ew']
+[2026-04-14T14:37:52.030+0000] {standard_task_runner.py:105} INFO - Job 94: Subtask filesensor
+[2026-04-14T14:37:52.064+0000] {task_command.py:467} INFO - Running <TaskInstance: sensor_dag.filesensor manual__2026-04-14T14:37:46.242970+00:00 [running]> on host codespaces-1f1e00
+[2026-04-14T14:37:52.154+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='sensor_dag' AIRFLOW_CTX_TASK_ID='filesensor' AIRFLOW_CTX_EXECUTION_DATE='2026-04-14T14:37:46.242970+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-14T14:37:46.242970+00:00'
+[2026-04-14T14:37:52.155+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-04-14T14:37:52.155+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-04-14T14:37:52.156+0000] {logging_mixin.py:190} INFO - Current task name:filesensor state:running start_date:2026-04-14 14:37:51.972153+00:00
+[2026-04-14T14:37:52.156+0000] {logging_mixin.py:190} INFO - Dag name:sensor_dag and current dag run status:running
+[2026-04-14T14:37:52.156+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-04-14T14:37:52.157+0000] {baseoperator.py:405} WARNING - FileSensor.execute cannot be called outside TaskInstance!
+[2026-04-14T14:37:52.162+0000] {base.py:84} INFO - Retrieving connection 'fs_default'
+[2026-04-14T14:37:52.162+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflow/data/
+[2026-04-14T14:37:52.163+0000] {base.py:336} INFO - Success criteria met. Exiting.
+[2026-04-14T14:37:52.164+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflow/data/
+[2026-04-14T14:37:52.173+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-04-14T14:37:52.174+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=sensor_dag, task_id=filesensor, run_id=manual__2026-04-14T14:37:46.242970+00:00, execution_date=20260414T143746, start_date=20260414T143751, end_date=20260414T143752
+[2026-04-14T14:37:52.205+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-04-14T14:37:52.206+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-04-14T14:37:52.206+0000] {logging_mixin.py:190} INFO - Dag name:sensor_dag queued_at:2026-04-14 14:37:46.249053+00:00
+[2026-04-14T14:37:52.206+0000] {logging_mixin.py:190} INFO - Task hostname:codespaces-1f1e00 operator:FileSensor
+[2026-04-14T14:37:52.244+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-04-14T14:37:52.279+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-04-14T14:37:52.291+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

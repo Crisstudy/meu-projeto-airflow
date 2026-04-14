@@ -1,0 +1,163 @@
+[2026-04-14T14:19:01.527+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-04-14T14:19:01.536+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sensor_dag.filesensor manual__2026-04-14T14:15:52.131071+00:00 [queued]>
+[2026-04-14T14:19:01.540+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sensor_dag.filesensor manual__2026-04-14T14:15:52.131071+00:00 [queued]>
+[2026-04-14T14:19:01.540+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2026-04-14T14:19:01.555+0000] {taskinstance.py:2888} INFO - Executing <Task(FileSensor): filesensor> on 2026-04-14 14:15:52.131071+00:00
+[2026-04-14T14:19:01.565+0000] {standard_task_runner.py:72} INFO - Started process 69099 to run task
+[2026-04-14T14:19:01.569+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'sensor_dag', 'filesensor', 'manual__2026-04-14T14:15:52.131071+00:00', '--job-id', '92', '--raw', '--subdir', 'DAGS_FOLDER/sensor_dag.py', '--cfg-path', '/tmp/tmp9dcd_bre']
+[2026-04-14T14:19:01.574+0000] {standard_task_runner.py:105} INFO - Job 92: Subtask filesensor
+[2026-04-14T14:19:01.618+0000] {task_command.py:467} INFO - Running <TaskInstance: sensor_dag.filesensor manual__2026-04-14T14:15:52.131071+00:00 [running]> on host codespaces-1f1e00
+[2026-04-14T14:19:01.731+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='sensor_dag' AIRFLOW_CTX_TASK_ID='filesensor' AIRFLOW_CTX_EXECUTION_DATE='2026-04-14T14:15:52.131071+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-14T14:15:52.131071+00:00'
+[2026-04-14T14:19:01.732+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-04-14T14:19:01.732+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-04-14T14:19:01.732+0000] {logging_mixin.py:190} INFO - Current task name:filesensor state:running start_date:2026-04-14 14:19:01.536415+00:00
+[2026-04-14T14:19:01.733+0000] {logging_mixin.py:190} INFO - Dag name:sensor_dag and current dag run status:running
+[2026-04-14T14:19:01.733+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-04-14T14:19:01.733+0000] {baseoperator.py:405} WARNING - FileSensor.execute cannot be called outside TaskInstance!
+[2026-04-14T14:19:01.737+0000] {base.py:84} INFO - Retrieving connection 'fs_default'
+[2026-04-14T14:19:01.737+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:19:06.738+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:19:11.738+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:19:16.739+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:19:21.739+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:19:26.740+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:19:31.740+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:19:36.741+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:19:41.741+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:19:46.742+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:19:51.743+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:19:56.744+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:20:01.745+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:20:06.747+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:20:11.747+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:20:16.748+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:20:21.748+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:20:26.749+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:20:31.749+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:20:36.750+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:20:41.750+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:20:46.751+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:20:51.751+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:20:56.752+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:21:01.753+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:21:06.753+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:21:11.754+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:21:16.754+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:21:21.755+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:21:26.756+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:21:31.756+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:21:36.757+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:21:41.757+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:21:46.758+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:21:51.759+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:21:56.759+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:22:01.760+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:22:06.760+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:22:11.761+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:22:16.761+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:22:21.763+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:22:26.764+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:22:31.764+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:22:36.765+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:22:41.765+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:22:46.766+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:22:51.766+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:22:56.767+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:23:01.768+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:23:06.768+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:23:11.769+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:23:16.769+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:23:21.770+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:23:26.771+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:23:31.771+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:23:36.772+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:23:41.772+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:23:46.773+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:23:51.773+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:23:56.774+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:24:01.775+0000] {filesystem.py:109} INFO - Poking for file /workspaces/meu-projeto-airflowdata/
+[2026-04-14T14:24:01.775+0000] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/sensors/filesystem.py", line 123, in execute
+    super().execute(context=context)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/sensors/base.py", line 323, in execute
+    raise AirflowSensorTimeout(message)
+airflow.exceptions.AirflowSensorTimeout: Sensor has timed out; run duration of 300.0417140359996 seconds exceeds the specified timeout of 300.0.
+[2026-04-14T14:24:01.785+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2026-04-14T14:24:01.785+0000] {logging_mixin.py:190} INFO - Task start:2026-04-14 14:19:01.536415+00:00 end:2026-04-14 14:24:01.784783+00:00 duration:300.248368
+[2026-04-14T14:24:01.786+0000] {logging_mixin.py:190} INFO - Task:<Task(FileSensor): filesensor> dag:<DAG: sensor_dag> dagrun:<DagRun sensor_dag @ 2026-04-14 14:15:52.131071+00:00: manual__2026-04-14T14:15:52.131071+00:00, state:running, queued_at: 2026-04-14 14:15:52.138036+00:00. externally triggered: True>
+[2026-04-14T14:24:01.786+0000] {logging_mixin.py:190} INFO - Failure caused by Sensor has timed out; run duration of 300.0417140359996 seconds exceeds the specified timeout of 300.0.
+[2026-04-14T14:24:01.786+0000] {taskinstance.py:1225} INFO - Immediate failure requested. Marking task as FAILED. dag_id=sensor_dag, task_id=filesensor, run_id=manual__2026-04-14T14:15:52.131071+00:00, execution_date=20260414T141552, start_date=20260414T141901, end_date=20260414T142401
+[2026-04-14T14:24:01.815+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-04-14T14:24:01.815+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 92 for task filesensor (Sensor has timed out; run duration of 300.0417140359996 seconds exceeds the specified timeout of 300.0.; 69099)
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/sensors/filesystem.py", line 123, in execute
+    super().execute(context=context)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/sensors/base.py", line 323, in execute
+    raise AirflowSensorTimeout(message)
+airflow.exceptions.AirflowSensorTimeout: Sensor has timed out; run duration of 300.0417140359996 seconds exceeds the specified timeout of 300.0.
+[2026-04-14T14:24:01.838+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2026-04-14T14:24:01.853+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-04-14T14:24:01.859+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
