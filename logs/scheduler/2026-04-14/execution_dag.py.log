@@ -1783,3 +1783,17 @@
 [2026-04-14T15:56:01.451+0000] {logging_mixin.py:190} INFO - [2026-04-14T15:56:01.450+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-04-14T15:56:01.459+0000] {logging_mixin.py:190} INFO - [2026-04-14T15:56:01.459+0000] {dag.py:4180} INFO - Setting next_dagrun for execution_dag_v2 to None, run_after=None
 [2026-04-14T15:56:01.475+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/execution_dag.py took 0.052 seconds
+[2026-04-14T15:57:04.325+0000] {processor.py:186} INFO - Started process (PID=131352) to work on /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-14T15:57:04.326+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/execution_dag.py for tasks to queue
+[2026-04-14T15:57:04.327+0000] {logging_mixin.py:190} INFO - [2026-04-14T15:57:04.327+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-14T15:57:04.332+0000] {processor.py:925} INFO - DAG(s) 'execution_dag_v2' retrieved from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-14T15:57:04.345+0000] {logging_mixin.py:190} INFO - [2026-04-14T15:57:04.345+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-14T15:57:04.354+0000] {logging_mixin.py:190} INFO - [2026-04-14T15:57:04.354+0000] {dag.py:4180} INFO - Setting next_dagrun for execution_dag_v2 to None, run_after=None
+[2026-04-14T15:57:04.369+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/execution_dag.py took 0.050 seconds
+[2026-04-14T15:57:40.265+0000] {processor.py:186} INFO - Started process (PID=131731) to work on /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-14T15:57:40.266+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/execution_dag.py for tasks to queue
+[2026-04-14T15:57:40.267+0000] {logging_mixin.py:190} INFO - [2026-04-14T15:57:40.267+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-14T15:57:40.271+0000] {processor.py:925} INFO - DAG(s) 'execution_dag_v2' retrieved from /workspaces/meu-projeto-airflow/dags/execution_dag.py
+[2026-04-14T15:57:40.285+0000] {logging_mixin.py:190} INFO - [2026-04-14T15:57:40.284+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-14T15:57:40.297+0000] {logging_mixin.py:190} INFO - [2026-04-14T15:57:40.296+0000] {dag.py:4180} INFO - Setting next_dagrun for execution_dag_v2 to None, run_after=None
+[2026-04-14T15:57:40.312+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/execution_dag.py took 0.054 seconds

@@ -1,0 +1,25 @@
+[2026-04-19T17:51:05.985+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-04-19T17:51:05.995+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_scheduler.gera_arquivo scheduled__2026-04-12T00:00:00+00:00 [queued]>
+[2026-04-19T17:51:06.003+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_scheduler.gera_arquivo scheduled__2026-04-12T00:00:00+00:00 [queued]>
+[2026-04-19T17:51:06.003+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2026-04-19T17:51:06.020+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): gera_arquivo> on 2026-04-12 00:00:00+00:00
+[2026-04-19T17:51:06.026+0000] {standard_task_runner.py:72} INFO - Started process 11580 to run task
+[2026-04-19T17:51:06.032+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'dag_scheduler', 'gera_arquivo', 'scheduled__2026-04-12T00:00:00+00:00', '--job-id', '105', '--raw', '--subdir', 'DAGS_FOLDER/dag_scheduler.py', '--cfg-path', '/tmp/tmpluhl7z7m']
+[2026-04-19T17:51:06.032+0000] {standard_task_runner.py:105} INFO - Job 105: Subtask gera_arquivo
+[2026-04-19T17:51:06.075+0000] {task_command.py:467} INFO - Running <TaskInstance: dag_scheduler.gera_arquivo scheduled__2026-04-12T00:00:00+00:00 [running]> on host codespaces-1f1e00
+[2026-04-19T17:51:06.308+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='dag_scheduler' AIRFLOW_CTX_TASK_ID='gera_arquivo' AIRFLOW_CTX_EXECUTION_DATE='2026-04-12T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-04-12T00:00:00+00:00'
+[2026-04-19T17:51:06.310+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-04-19T17:51:06.311+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-04-19T17:51:06.311+0000] {logging_mixin.py:190} INFO - Current task name:gera_arquivo state:running start_date:2026-04-19 17:51:05.996175+00:00
+[2026-04-19T17:51:06.311+0000] {logging_mixin.py:190} INFO - Dag name:dag_scheduler and current dag run status:running
+[2026-04-19T17:51:06.312+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-04-19T17:51:06.348+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-04-19T17:51:06.366+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-04-19T17:51:06.368+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=dag_scheduler, task_id=gera_arquivo, run_id=scheduled__2026-04-12T00:00:00+00:00, execution_date=20260412T000000, start_date=20260419T175105, end_date=20260419T175106
+[2026-04-19T17:51:06.404+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-04-19T17:51:06.406+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-04-19T17:51:06.407+0000] {logging_mixin.py:190} INFO - Dag name:dag_scheduler queued_at:2026-04-19 17:51:01.392677+00:00
+[2026-04-19T17:51:06.407+0000] {logging_mixin.py:190} INFO - Task hostname:codespaces-1f1e00 operator:PythonOperator
+[2026-04-19T17:51:06.452+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-04-19T17:51:06.520+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-04-19T17:51:06.531+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

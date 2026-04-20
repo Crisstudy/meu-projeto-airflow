@@ -1,0 +1,39 @@
+[2026-04-19T19:05:35.323+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-04-19T19:05:35.333+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: load_dag.read_pandas manual__2026-04-19T19:05:27.183931+00:00 [queued]>
+[2026-04-19T19:05:35.339+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: load_dag.read_pandas manual__2026-04-19T19:05:27.183931+00:00 [queued]>
+[2026-04-19T19:05:35.339+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2026-04-19T19:05:35.355+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): read_pandas> on 2026-04-19 19:05:27.183931+00:00
+[2026-04-19T19:05:35.361+0000] {standard_task_runner.py:72} INFO - Started process 72599 to run task
+[2026-04-19T19:05:35.364+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'load_dag', 'read_pandas', 'manual__2026-04-19T19:05:27.183931+00:00', '--job-id', '118', '--raw', '--subdir', 'DAGS_FOLDER/load_dag.py', '--cfg-path', '/tmp/tmpvcmlc3es']
+[2026-04-19T19:05:35.365+0000] {standard_task_runner.py:105} INFO - Job 118: Subtask read_pandas
+[2026-04-19T19:05:35.396+0000] {task_command.py:467} INFO - Running <TaskInstance: load_dag.read_pandas manual__2026-04-19T19:05:27.183931+00:00 [running]> on host codespaces-1f1e00
+[2026-04-19T19:05:35.444+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='load_dag' AIRFLOW_CTX_TASK_ID='read_pandas' AIRFLOW_CTX_EXECUTION_DATE='2026-04-19T19:05:27.183931+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-19T19:05:27.183931+00:00'
+[2026-04-19T19:05:35.445+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-04-19T19:05:35.446+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-04-19T19:05:35.446+0000] {logging_mixin.py:190} INFO - Current task name:read_pandas state:running start_date:2026-04-19 19:05:35.334134+00:00
+[2026-04-19T19:05:35.447+0000] {logging_mixin.py:190} INFO - Dag name:load_dag and current dag run status:running
+[2026-04-19T19:05:35.447+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-04-19T19:05:35.469+0000] {logging_mixin.py:190} INFO -                        0
+0    Arquivo text linha0
+1    Arquivo text linha1
+2    Arquivo text linha2
+3    Arquivo text linha3
+4    Arquivo text linha4
+..                   ...
+95  Arquivo text linha95
+96  Arquivo text linha96
+97  Arquivo text linha97
+98  Arquivo text linha98
+99  Arquivo text linha99
+
+[100 rows x 1 columns]
+[2026-04-19T19:05:35.469+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-04-19T19:05:35.473+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-04-19T19:05:35.473+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=load_dag, task_id=read_pandas, run_id=manual__2026-04-19T19:05:27.183931+00:00, execution_date=20260419T190527, start_date=20260419T190535, end_date=20260419T190535
+[2026-04-19T19:05:35.483+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-04-19T19:05:35.483+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-04-19T19:05:35.484+0000] {logging_mixin.py:190} INFO - Dag name:load_dag queued_at:2026-04-19 19:05:27.195493+00:00
+[2026-04-19T19:05:35.484+0000] {logging_mixin.py:190} INFO - Task hostname:codespaces-1f1e00 operator:PythonOperator
+[2026-04-19T19:05:35.497+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-04-19T19:05:35.512+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-04-19T19:05:35.518+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

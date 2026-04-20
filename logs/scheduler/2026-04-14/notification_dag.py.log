@@ -529,3 +529,24 @@ TypeError: sucess_callback() takes 0 positional arguments but 1 was given
 [2026-04-14T15:55:57.431+0000] {logging_mixin.py:190} INFO - [2026-04-14T15:55:57.431+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-04-14T15:55:57.447+0000] {logging_mixin.py:190} INFO - [2026-04-14T15:55:57.446+0000] {dag.py:4180} INFO - Setting next_dagrun for notification_dag to None, run_after=None
 [2026-04-14T15:55:57.472+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/notification_dag.py took 0.068 seconds
+[2026-04-14T15:57:00.075+0000] {processor.py:186} INFO - Started process (PID=131295) to work on /workspaces/meu-projeto-airflow/dags/notification_dag.py
+[2026-04-14T15:57:00.076+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/notification_dag.py for tasks to queue
+[2026-04-14T15:57:00.078+0000] {logging_mixin.py:190} INFO - [2026-04-14T15:57:00.077+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/notification_dag.py
+[2026-04-14T15:57:00.081+0000] {processor.py:925} INFO - DAG(s) 'notification_dag' retrieved from /workspaces/meu-projeto-airflow/dags/notification_dag.py
+[2026-04-14T15:57:00.097+0000] {logging_mixin.py:190} INFO - [2026-04-14T15:57:00.097+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-14T15:57:00.113+0000] {logging_mixin.py:190} INFO - [2026-04-14T15:57:00.113+0000] {dag.py:4180} INFO - Setting next_dagrun for notification_dag to None, run_after=None
+[2026-04-14T15:57:00.130+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/notification_dag.py took 0.062 seconds
+[2026-04-14T15:57:35.397+0000] {processor.py:186} INFO - Started process (PID=131691) to work on /workspaces/meu-projeto-airflow/dags/notification_dag.py
+[2026-04-14T15:57:35.398+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/notification_dag.py for tasks to queue
+[2026-04-14T15:57:35.399+0000] {logging_mixin.py:190} INFO - [2026-04-14T15:57:35.399+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/notification_dag.py
+[2026-04-14T15:57:35.403+0000] {processor.py:925} INFO - DAG(s) 'notification_dag' retrieved from /workspaces/meu-projeto-airflow/dags/notification_dag.py
+[2026-04-14T15:57:35.420+0000] {logging_mixin.py:190} INFO - [2026-04-14T15:57:35.420+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-14T15:57:35.434+0000] {logging_mixin.py:190} INFO - [2026-04-14T15:57:35.433+0000] {dag.py:4180} INFO - Setting next_dagrun for notification_dag to None, run_after=None
+[2026-04-14T15:57:35.451+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/notification_dag.py took 0.061 seconds
+[2026-04-14T15:58:08.359+0000] {processor.py:186} INFO - Started process (PID=132168) to work on /workspaces/meu-projeto-airflow/dags/notification_dag.py
+[2026-04-14T15:58:08.360+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/notification_dag.py for tasks to queue
+[2026-04-14T15:58:08.361+0000] {logging_mixin.py:190} INFO - [2026-04-14T15:58:08.361+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/notification_dag.py
+[2026-04-14T15:58:08.365+0000] {processor.py:925} INFO - DAG(s) 'notification_dag' retrieved from /workspaces/meu-projeto-airflow/dags/notification_dag.py
+[2026-04-14T15:58:08.378+0000] {logging_mixin.py:190} INFO - [2026-04-14T15:58:08.378+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-14T15:58:08.395+0000] {logging_mixin.py:190} INFO - [2026-04-14T15:58:08.395+0000] {dag.py:4180} INFO - Setting next_dagrun for notification_dag to None, run_after=None
+[2026-04-14T15:58:08.411+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/notification_dag.py took 0.059 seconds

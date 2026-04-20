@@ -1,0 +1,25 @@
+[2026-04-20T01:09:59.326+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-04-20T01:09:59.334+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dataset_schedule_dag.read_characters dataset_triggered__2026-04-20T01:09:55.171443+00:00 [queued]>
+[2026-04-20T01:09:59.338+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dataset_schedule_dag.read_characters dataset_triggered__2026-04-20T01:09:55.171443+00:00 [queued]>
+[2026-04-20T01:09:59.338+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2026-04-20T01:09:59.351+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): read_characters> on 2026-04-20 01:09:55.171443+00:00
+[2026-04-20T01:09:59.355+0000] {standard_task_runner.py:72} INFO - Started process 31793 to run task
+[2026-04-20T01:09:59.358+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'dataset_schedule_dag', 'read_characters', 'dataset_triggered__2026-04-20T01:09:55.171443+00:00', '--job-id', '126', '--raw', '--subdir', 'DAGS_FOLDER/dataset_schedule.py', '--cfg-path', '/tmp/tmpob09er8k']
+[2026-04-20T01:09:59.358+0000] {standard_task_runner.py:105} INFO - Job 126: Subtask read_characters
+[2026-04-20T01:09:59.388+0000] {task_command.py:467} INFO - Running <TaskInstance: dataset_schedule_dag.read_characters dataset_triggered__2026-04-20T01:09:55.171443+00:00 [running]> on host codespaces-1f1e00
+[2026-04-20T01:09:59.429+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='dataset_schedule_dag' AIRFLOW_CTX_TASK_ID='read_characters' AIRFLOW_CTX_EXECUTION_DATE='2026-04-20T01:09:55.171443+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='dataset_triggered__2026-04-20T01:09:55.171443+00:00'
+[2026-04-20T01:09:59.430+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-04-20T01:09:59.430+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-04-20T01:09:59.430+0000] {logging_mixin.py:190} INFO - Current task name:read_characters state:running start_date:2026-04-20 01:09:59.334220+00:00
+[2026-04-20T01:09:59.430+0000] {logging_mixin.py:190} INFO - Dag name:dataset_schedule_dag and current dag run status:running
+[2026-04-20T01:09:59.430+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-04-20T01:09:59.434+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-04-20T01:09:59.437+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-04-20T01:09:59.437+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=dataset_schedule_dag, task_id=read_characters, run_id=dataset_triggered__2026-04-20T01:09:55.171443+00:00, execution_date=20260420T010955, start_date=20260420T010959, end_date=20260420T010959
+[2026-04-20T01:09:59.446+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-04-20T01:09:59.446+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-04-20T01:09:59.447+0000] {logging_mixin.py:190} INFO - Dag name:dataset_schedule_dag queued_at:2026-04-20 01:09:55.750944+00:00
+[2026-04-20T01:09:59.447+0000] {logging_mixin.py:190} INFO - Task hostname:codespaces-1f1e00 operator:PythonOperator
+[2026-04-20T01:09:59.492+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-04-20T01:09:59.503+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-04-20T01:09:59.503+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -2030,3 +2030,24 @@ SyntaxError: unterminated string literal (detected at line 24)
 [2026-04-14T15:55:59.346+0000] {logging_mixin.py:190} INFO - [2026-04-14T15:55:59.345+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-04-14T15:55:59.364+0000] {logging_mixin.py:190} INFO - [2026-04-14T15:55:59.364+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_scheduler to 2026-04-12 00:00:00+00:00, run_after=2026-04-19 00:00:00+00:00
 [2026-04-14T15:55:59.380+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_scheduler.py took 0.063 seconds
+[2026-04-14T15:57:02.201+0000] {processor.py:186} INFO - Started process (PID=131315) to work on /workspaces/meu-projeto-airflow/dags/dag_scheduler.py
+[2026-04-14T15:57:02.202+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_scheduler.py for tasks to queue
+[2026-04-14T15:57:02.203+0000] {logging_mixin.py:190} INFO - [2026-04-14T15:57:02.203+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_scheduler.py
+[2026-04-14T15:57:02.211+0000] {processor.py:925} INFO - DAG(s) 'dag_scheduler' retrieved from /workspaces/meu-projeto-airflow/dags/dag_scheduler.py
+[2026-04-14T15:57:02.228+0000] {logging_mixin.py:190} INFO - [2026-04-14T15:57:02.228+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-14T15:57:02.246+0000] {logging_mixin.py:190} INFO - [2026-04-14T15:57:02.245+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_scheduler to 2026-04-12 00:00:00+00:00, run_after=2026-04-19 00:00:00+00:00
+[2026-04-14T15:57:02.262+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_scheduler.py took 0.067 seconds
+[2026-04-14T15:57:38.168+0000] {processor.py:186} INFO - Started process (PID=131712) to work on /workspaces/meu-projeto-airflow/dags/dag_scheduler.py
+[2026-04-14T15:57:38.170+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_scheduler.py for tasks to queue
+[2026-04-14T15:57:38.172+0000] {logging_mixin.py:190} INFO - [2026-04-14T15:57:38.171+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_scheduler.py
+[2026-04-14T15:57:38.177+0000] {processor.py:925} INFO - DAG(s) 'dag_scheduler' retrieved from /workspaces/meu-projeto-airflow/dags/dag_scheduler.py
+[2026-04-14T15:57:38.194+0000] {logging_mixin.py:190} INFO - [2026-04-14T15:57:38.194+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-14T15:57:38.212+0000] {logging_mixin.py:190} INFO - [2026-04-14T15:57:38.212+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_scheduler to 2026-04-12 00:00:00+00:00, run_after=2026-04-19 00:00:00+00:00
+[2026-04-14T15:57:38.227+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_scheduler.py took 0.065 seconds
+[2026-04-14T15:58:11.498+0000] {processor.py:186} INFO - Started process (PID=132192) to work on /workspaces/meu-projeto-airflow/dags/dag_scheduler.py
+[2026-04-14T15:58:11.501+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dag_scheduler.py for tasks to queue
+[2026-04-14T15:58:11.503+0000] {logging_mixin.py:190} INFO - [2026-04-14T15:58:11.502+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dag_scheduler.py
+[2026-04-14T15:58:11.510+0000] {processor.py:925} INFO - DAG(s) 'dag_scheduler' retrieved from /workspaces/meu-projeto-airflow/dags/dag_scheduler.py
+[2026-04-14T15:58:11.532+0000] {logging_mixin.py:190} INFO - [2026-04-14T15:58:11.531+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-14T15:58:11.551+0000] {logging_mixin.py:190} INFO - [2026-04-14T15:58:11.551+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_scheduler to 2026-04-12 00:00:00+00:00, run_after=2026-04-19 00:00:00+00:00
+[2026-04-14T15:58:11.568+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dag_scheduler.py took 0.077 seconds

@@ -18,3 +18,26 @@
 [2026-04-14T15:09:40.744+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
 [2026-04-14T15:09:40.770+0000] {local_task_job_runner.py:260} INFO - Task exited with return code 100 (task deferral)
 [2026-04-14T15:09:40.771+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2026-04-19T17:51:09.721+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-04-19T17:51:09.758+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_defereable.sensor manual__2026-04-14T15:09:34.259110+00:00 [queued]>
+[2026-04-19T17:51:09.763+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_defereable.sensor manual__2026-04-14T15:09:34.259110+00:00 [queued]>
+[2026-04-19T17:51:09.763+0000] {taskinstance.py:2863} INFO - Resuming after deferral
+[2026-04-19T17:51:09.777+0000] {taskinstance.py:2888} INFO - Executing <Task(TimeSensorAsync): sensor> on 2026-04-14 15:09:34.259110+00:00
+[2026-04-19T17:51:09.782+0000] {standard_task_runner.py:72} INFO - Started process 11674 to run task
+[2026-04-19T17:51:09.787+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'dag_defereable', 'sensor', 'manual__2026-04-14T15:09:34.259110+00:00', '--job-id', '106', '--raw', '--subdir', 'DAGS_FOLDER/defareble_dag.py', '--cfg-path', '/tmp/tmp6zv0814_']
+[2026-04-19T17:51:09.788+0000] {standard_task_runner.py:105} INFO - Job 106: Subtask sensor
+[2026-04-19T17:51:09.819+0000] {task_command.py:467} INFO - Running <TaskInstance: dag_defereable.sensor manual__2026-04-14T15:09:34.259110+00:00 [running]> on host codespaces-1f1e00
+[2026-04-19T17:51:09.858+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-04-19T17:51:09.859+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-04-19T17:51:09.859+0000] {logging_mixin.py:190} INFO - Current task name:sensor state:running start_date:2026-04-14 15:09:40.613151+00:00
+[2026-04-19T17:51:09.859+0000] {logging_mixin.py:190} INFO - Dag name:dag_defereable and current dag run status:running
+[2026-04-19T17:51:09.859+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-04-19T17:51:09.862+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-04-19T17:51:09.863+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=dag_defereable, task_id=sensor, run_id=manual__2026-04-14T15:09:34.259110+00:00, execution_date=20260414T150934, start_date=20260414T150940, end_date=20260419T175109
+[2026-04-19T17:51:09.872+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-04-19T17:51:09.872+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-04-19T17:51:09.873+0000] {logging_mixin.py:190} INFO - Dag name:dag_defereable queued_at:2026-04-14 15:09:34.270289+00:00
+[2026-04-19T17:51:09.873+0000] {logging_mixin.py:190} INFO - Task hostname:codespaces-1f1e00 operator:TimeSensorAsync
+[2026-04-19T17:51:09.917+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-04-19T17:51:09.934+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-04-19T17:51:09.940+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

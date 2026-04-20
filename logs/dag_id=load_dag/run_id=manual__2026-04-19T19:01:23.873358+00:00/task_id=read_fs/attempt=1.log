@@ -1,0 +1,125 @@
+[2026-04-19T19:01:29.987+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-04-19T19:01:30.007+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: load_dag.read_fs manual__2026-04-19T19:01:23.873358+00:00 [queued]>
+[2026-04-19T19:01:30.021+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: load_dag.read_fs manual__2026-04-19T19:01:23.873358+00:00 [queued]>
+[2026-04-19T19:01:30.022+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2026-04-19T19:01:30.077+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): read_fs> on 2026-04-19 19:01:23.873358+00:00
+[2026-04-19T19:01:30.085+0000] {standard_task_runner.py:72} INFO - Started process 69595 to run task
+[2026-04-19T19:01:30.090+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'load_dag', 'read_fs', 'manual__2026-04-19T19:01:23.873358+00:00', '--job-id', '113', '--raw', '--subdir', 'DAGS_FOLDER/load_dag.py', '--cfg-path', '/tmp/tmpqg57ip32']
+[2026-04-19T19:01:30.090+0000] {standard_task_runner.py:105} INFO - Job 113: Subtask read_fs
+[2026-04-19T19:01:30.128+0000] {task_command.py:467} INFO - Running <TaskInstance: load_dag.read_fs manual__2026-04-19T19:01:23.873358+00:00 [running]> on host codespaces-1f1e00
+[2026-04-19T19:01:30.230+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='load_dag' AIRFLOW_CTX_TASK_ID='read_fs' AIRFLOW_CTX_EXECUTION_DATE='2026-04-19T19:01:23.873358+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-19T19:01:23.873358+00:00'
+[2026-04-19T19:01:30.231+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-04-19T19:01:30.232+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-04-19T19:01:30.232+0000] {logging_mixin.py:190} INFO - Current task name:read_fs state:running start_date:2026-04-19 19:01:30.009272+00:00
+[2026-04-19T19:01:30.232+0000] {logging_mixin.py:190} INFO - Dag name:load_dag and current dag run status:running
+[2026-04-19T19:01:30.233+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-04-19T19:01:30.233+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha0
+[2026-04-19T19:01:30.234+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha1
+[2026-04-19T19:01:30.234+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha2
+[2026-04-19T19:01:30.234+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha3
+[2026-04-19T19:01:30.235+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha4
+[2026-04-19T19:01:30.235+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha5
+[2026-04-19T19:01:30.235+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha6
+[2026-04-19T19:01:30.236+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha7
+[2026-04-19T19:01:30.236+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha8
+[2026-04-19T19:01:30.236+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha9
+[2026-04-19T19:01:30.236+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha10
+[2026-04-19T19:01:30.236+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha11
+[2026-04-19T19:01:30.237+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha12
+[2026-04-19T19:01:30.237+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha13
+[2026-04-19T19:01:30.237+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha14
+[2026-04-19T19:01:30.238+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha15
+[2026-04-19T19:01:30.238+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha16
+[2026-04-19T19:01:30.238+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha17
+[2026-04-19T19:01:30.238+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha18
+[2026-04-19T19:01:30.239+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha19
+[2026-04-19T19:01:30.239+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha20
+[2026-04-19T19:01:30.239+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha21
+[2026-04-19T19:01:30.240+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha22
+[2026-04-19T19:01:30.240+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha23
+[2026-04-19T19:01:30.240+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha24
+[2026-04-19T19:01:30.240+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha25
+[2026-04-19T19:01:30.240+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha26
+[2026-04-19T19:01:30.240+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha27
+[2026-04-19T19:01:30.241+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha28
+[2026-04-19T19:01:30.241+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha29
+[2026-04-19T19:01:30.241+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha30
+[2026-04-19T19:01:30.242+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha31
+[2026-04-19T19:01:30.242+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha32
+[2026-04-19T19:01:30.242+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha33
+[2026-04-19T19:01:30.243+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha34
+[2026-04-19T19:01:30.243+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha35
+[2026-04-19T19:01:30.243+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha36
+[2026-04-19T19:01:30.244+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha37
+[2026-04-19T19:01:30.244+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha38
+[2026-04-19T19:01:30.244+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha39
+[2026-04-19T19:01:30.244+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha40
+[2026-04-19T19:01:30.245+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha41
+[2026-04-19T19:01:30.245+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha42
+[2026-04-19T19:01:30.245+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha43
+[2026-04-19T19:01:30.246+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha44
+[2026-04-19T19:01:30.246+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha45
+[2026-04-19T19:01:30.246+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha46
+[2026-04-19T19:01:30.246+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha47
+[2026-04-19T19:01:30.247+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha48
+[2026-04-19T19:01:30.247+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha49
+[2026-04-19T19:01:30.247+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha50
+[2026-04-19T19:01:30.247+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha51
+[2026-04-19T19:01:30.247+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha52
+[2026-04-19T19:01:30.247+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha53
+[2026-04-19T19:01:30.248+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha54
+[2026-04-19T19:01:30.248+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha55
+[2026-04-19T19:01:30.248+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha56
+[2026-04-19T19:01:30.249+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha57
+[2026-04-19T19:01:30.249+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha58
+[2026-04-19T19:01:30.249+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha59
+[2026-04-19T19:01:30.249+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha60
+[2026-04-19T19:01:30.250+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha61
+[2026-04-19T19:01:30.250+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha62
+[2026-04-19T19:01:30.250+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha63
+[2026-04-19T19:01:30.250+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha64
+[2026-04-19T19:01:30.251+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha65
+[2026-04-19T19:01:30.251+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha66
+[2026-04-19T19:01:30.251+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha67
+[2026-04-19T19:01:30.251+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha68
+[2026-04-19T19:01:30.252+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha69
+[2026-04-19T19:01:30.252+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha70
+[2026-04-19T19:01:30.252+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha71
+[2026-04-19T19:01:30.252+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha72
+[2026-04-19T19:01:30.253+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha73
+[2026-04-19T19:01:30.253+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha74
+[2026-04-19T19:01:30.253+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha75
+[2026-04-19T19:01:30.253+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha76
+[2026-04-19T19:01:30.254+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha77
+[2026-04-19T19:01:30.254+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha78
+[2026-04-19T19:01:30.254+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha79
+[2026-04-19T19:01:30.254+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha80
+[2026-04-19T19:01:30.255+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha81
+[2026-04-19T19:01:30.255+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha82
+[2026-04-19T19:01:30.255+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha83
+[2026-04-19T19:01:30.255+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha84
+[2026-04-19T19:01:30.255+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha85
+[2026-04-19T19:01:30.256+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha86
+[2026-04-19T19:01:30.256+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha87
+[2026-04-19T19:01:30.256+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha88
+[2026-04-19T19:01:30.256+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha89
+[2026-04-19T19:01:30.256+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha90
+[2026-04-19T19:01:30.257+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha91
+[2026-04-19T19:01:30.257+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha92
+[2026-04-19T19:01:30.257+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha93
+[2026-04-19T19:01:30.257+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha94
+[2026-04-19T19:01:30.257+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha95
+[2026-04-19T19:01:30.258+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha96
+[2026-04-19T19:01:30.258+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha97
+[2026-04-19T19:01:30.258+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha98
+[2026-04-19T19:01:30.258+0000] {logging_mixin.py:190} INFO - Arquivo, text, linha99
+[2026-04-19T19:01:30.258+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-04-19T19:01:30.262+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-04-19T19:01:30.262+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=load_dag, task_id=read_fs, run_id=manual__2026-04-19T19:01:23.873358+00:00, execution_date=20260419T190123, start_date=20260419T190130, end_date=20260419T190130
+[2026-04-19T19:01:30.271+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-04-19T19:01:30.271+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-04-19T19:01:30.271+0000] {logging_mixin.py:190} INFO - Dag name:load_dag queued_at:2026-04-19 19:01:23.881980+00:00
+[2026-04-19T19:01:30.271+0000] {logging_mixin.py:190} INFO - Task hostname:codespaces-1f1e00 operator:PythonOperator
+[2026-04-19T19:01:30.307+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-04-19T19:01:30.322+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-04-19T19:01:30.326+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
