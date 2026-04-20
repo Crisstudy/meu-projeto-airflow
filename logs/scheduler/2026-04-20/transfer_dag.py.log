@@ -1,0 +1,1642 @@
+[2026-04-20T14:23:14.305+0000] {processor.py:186} INFO - Started process (PID=14428) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:23:14.306+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:23:14.307+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:23:14.307+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:23:14.374+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:23:14.309+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 10
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 6
+[2026-04-20T14:23:14.375+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:23:14.391+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.090 seconds
+[2026-04-20T14:24:21.495+0000] {processor.py:186} INFO - Started process (PID=15149) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:24:21.496+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:24:21.497+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:24:21.497+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:24:21.499+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:24:21.498+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 10
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 6
+[2026-04-20T14:24:21.500+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:24:21.515+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.025 seconds
+[2026-04-20T14:24:59.679+0000] {processor.py:186} INFO - Started process (PID=15491) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:24:59.680+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:24:59.681+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:24:59.681+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:24:59.683+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:24:59.683+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 10
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 6
+[2026-04-20T14:24:59.684+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:24:59.700+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.025 seconds
+[2026-04-20T14:25:37.495+0000] {processor.py:186} INFO - Started process (PID=15893) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:25:37.496+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:25:37.497+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:25:37.497+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:25:37.499+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:25:37.499+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 10
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 6
+[2026-04-20T14:25:37.500+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:25:37.516+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.025 seconds
+[2026-04-20T14:26:16.729+0000] {processor.py:186} INFO - Started process (PID=16309) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:26:16.730+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:26:16.731+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:26:16.731+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:26:16.734+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:26:16.733+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 10
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 6
+[2026-04-20T14:26:16.734+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:26:16.752+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.027 seconds
+[2026-04-20T14:26:56.846+0000] {processor.py:186} INFO - Started process (PID=16703) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:26:56.847+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:26:56.848+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:26:56.848+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:26:56.851+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:26:56.850+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 10
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 6
+[2026-04-20T14:26:56.851+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:26:56.872+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.030 seconds
+[2026-04-20T14:27:35.922+0000] {processor.py:186} INFO - Started process (PID=17142) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:27:35.923+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:27:35.924+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:27:35.924+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:27:35.927+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:27:35.926+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 10
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 6
+[2026-04-20T14:27:35.927+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:27:35.943+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.026 seconds
+[2026-04-20T14:28:14.866+0000] {processor.py:186} INFO - Started process (PID=17559) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:28:14.869+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:28:14.870+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:28:14.870+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:28:14.882+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:28:14.878+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 11, in <module>
+    task1
+NameError: name 'task1' is not defined
+[2026-04-20T14:28:14.884+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:28:14.921+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.062 seconds
+[2026-04-20T14:28:53.352+0000] {processor.py:186} INFO - Started process (PID=18022) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:28:53.353+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:28:53.354+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:28:53.354+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:28:53.356+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:28:53.355+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 11
+    task1 = PostgresOperator(
+                            ^
+SyntaxError: '(' was never closed
+[2026-04-20T14:28:53.357+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:28:53.377+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.029 seconds
+[2026-04-20T14:29:29.347+0000] {processor.py:186} INFO - Started process (PID=18438) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:29:29.350+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:29:29.352+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:29:29.351+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:29:29.356+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:29:29.354+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 11
+    task1 = PostgresOperator(
+                            ^
+SyntaxError: '(' was never closed
+[2026-04-20T14:29:29.356+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:29:29.398+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.058 seconds
+[2026-04-20T14:30:07.759+0000] {processor.py:186} INFO - Started process (PID=18763) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:30:07.760+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:30:07.761+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:30:07.761+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:30:07.767+0000] {processor.py:925} INFO - DAG(s) 'transfer_dag' retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:30:07.923+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:30:07.921+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:transfer_dag
+[2026-04-20T14:30:07.979+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:30:07.978+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:transfer_dag
+[2026-04-20T14:30:07.988+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:30:07.988+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:transfer_dag
+[2026-04-20T14:30:08.001+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:30:08.000+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:transfer_dag
+[2026-04-20T14:30:08.013+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:30:08.013+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:transfer_dag
+[2026-04-20T14:30:08.025+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:30:08.025+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:transfer_dag
+[2026-04-20T14:30:08.034+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:30:08.033+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:transfer_dag
+[2026-04-20T14:30:08.034+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:30:08.034+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-20T14:30:08.048+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:30:08.048+0000] {dag.py:3262} INFO - Creating ORM DAG for transfer_dag
+[2026-04-20T14:30:08.049+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:30:08.049+0000] {dag.py:4180} INFO - Setting next_dagrun for transfer_dag to None, run_after=None
+[2026-04-20T14:30:08.072+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.317 seconds
+[2026-04-20T14:30:46.242+0000] {processor.py:186} INFO - Started process (PID=19206) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:30:46.243+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:30:46.244+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:30:46.244+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:30:46.247+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:30:46.246+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 11
+    task1 = PostgresOperator(
+                            ^
+SyntaxError: '(' was never closed
+[2026-04-20T14:30:46.247+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:30:46.264+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.026 seconds
+[2026-04-20T14:31:24.004+0000] {processor.py:186} INFO - Started process (PID=19637) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:31:24.005+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:31:24.006+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:31:24.006+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:31:24.017+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:31:24.010+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 10, in <module>
+    task1 = PostgresOperator(
+            ^^^^^^^^^^^^^^^^
+NameError: name 'PostgresOperator' is not defined
+[2026-04-20T14:31:24.024+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:31:24.041+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.042 seconds
+[2026-04-20T14:32:02.729+0000] {processor.py:186} INFO - Started process (PID=19997) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:32:02.730+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:32:02.731+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:32:02.730+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:32:02.738+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:32:02.734+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 10, in <module>
+    task1 = PostgresOperator(
+            ^^^^^^^^^^^^^^^^
+NameError: name 'PostgresOperator' is not defined
+[2026-04-20T14:32:02.741+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:32:02.757+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.032 seconds
+[2026-04-20T14:32:43.379+0000] {processor.py:186} INFO - Started process (PID=20584) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:32:43.380+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:32:43.381+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:32:43.381+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:32:43.389+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:32:43.384+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 10, in <module>
+    task1 = PostgresOperator(
+            ^^^^^^^^^^^^^^^^
+NameError: name 'PostgresOperator' is not defined
+[2026-04-20T14:32:43.393+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:32:43.408+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.034 seconds
+[2026-04-20T14:33:23.990+0000] {processor.py:186} INFO - Started process (PID=21137) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:33:23.991+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:33:23.993+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:33:23.992+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:33:24.004+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:33:23.998+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 10, in <module>
+    task1 = PostgresOperator(
+            ^^^^^^^^^^^^^^^^
+NameError: name 'PostgresOperator' is not defined
+[2026-04-20T14:33:24.008+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:33:24.024+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.039 seconds
+[2026-04-20T14:34:03.422+0000] {processor.py:186} INFO - Started process (PID=21530) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:34:03.423+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:34:03.425+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:34:03.424+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:34:03.428+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:34:03.427+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 13
+    sql="""
+        ^
+SyntaxError: unterminated triple-quoted string literal (detected at line 14)
+[2026-04-20T14:34:03.429+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:34:03.455+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.040 seconds
+[2026-04-20T14:34:44.106+0000] {processor.py:186} INFO - Started process (PID=21977) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:34:44.107+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:34:44.108+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:34:44.107+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:34:44.115+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:34:44.111+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 10, in <module>
+    task1 = PostgresOperator(
+            ^^^^^^^^^^^^^^^^
+NameError: name 'PostgresOperator' is not defined
+[2026-04-20T14:34:44.118+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:34:44.134+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.033 seconds
+[2026-04-20T14:35:25.747+0000] {processor.py:186} INFO - Started process (PID=22447) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:35:25.748+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:35:25.749+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:35:25.749+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:35:25.756+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:35:25.752+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 10, in <module>
+    task1 = PostgresOperator(
+            ^^^^^^^^^^^^^^^^
+NameError: name 'PostgresOperator' is not defined
+[2026-04-20T14:35:25.760+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:35:25.779+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.036 seconds
+[2026-04-20T14:36:07.517+0000] {processor.py:186} INFO - Started process (PID=22835) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:36:07.518+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:36:07.520+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:36:07.519+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:36:07.548+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:36:07.528+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 10, in <module>
+    task1 = PostgresOperator(
+            ^^^^^^^^^^^^^^^^
+NameError: name 'PostgresOperator' is not defined
+[2026-04-20T14:36:07.555+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:36:07.581+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.070 seconds
+[2026-04-20T14:36:49.251+0000] {processor.py:186} INFO - Started process (PID=23299) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:36:49.252+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:36:49.253+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:36:49.252+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:36:49.259+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:36:49.255+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 10, in <module>
+    task1 = PostgresOperator(
+            ^^^^^^^^^^^^^^^^
+NameError: name 'PostgresOperator' is not defined
+[2026-04-20T14:36:49.263+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:36:49.277+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.031 seconds
+[2026-04-20T14:37:30.104+0000] {processor.py:186} INFO - Started process (PID=23745) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:37:30.105+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:37:30.107+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:37:30.106+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:37:30.118+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:37:30.111+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 10, in <module>
+    task1 = PostgresOperator(
+            ^^^^^^^^^^^^^^^^
+NameError: name 'PostgresOperator' is not defined
+[2026-04-20T14:37:30.124+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:37:30.172+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.076 seconds
+[2026-04-20T14:38:09.692+0000] {processor.py:186} INFO - Started process (PID=24137) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:38:09.693+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:38:09.694+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:38:09.694+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:38:09.701+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:38:09.697+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 10, in <module>
+    task1 = PostgresOperator(
+            ^^^^^^^^^^^^^^^^
+NameError: name 'PostgresOperator' is not defined
+[2026-04-20T14:38:09.705+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:38:09.719+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.032 seconds
+[2026-04-20T14:38:47.308+0000] {processor.py:186} INFO - Started process (PID=24564) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:38:47.313+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:38:47.314+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:38:47.314+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:38:47.337+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:38:47.321+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 10, in <module>
+    task1 = PostgresOperator(
+            ^^^^^^^^^^^^^^^^
+NameError: name 'PostgresOperator' is not defined
+[2026-04-20T14:38:47.348+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:38:47.389+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.087 seconds
+[2026-04-20T14:39:28.775+0000] {processor.py:186} INFO - Started process (PID=25024) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:39:28.776+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:39:28.777+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:39:28.777+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:39:28.779+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:39:28.779+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 23
+    task_id= transfer_tables',
+                            ^
+SyntaxError: unterminated string literal (detected at line 23)
+[2026-04-20T14:39:28.780+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:39:28.795+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.024 seconds
+[2026-04-20T14:40:09.293+0000] {processor.py:186} INFO - Started process (PID=25408) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:40:09.294+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:40:09.295+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:40:09.295+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:40:09.302+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:40:09.298+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 10, in <module>
+    task1 = PostgresOperator(
+            ^^^^^^^^^^^^^^^^
+NameError: name 'PostgresOperator' is not defined
+[2026-04-20T14:40:09.306+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:40:09.321+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.032 seconds
+[2026-04-20T14:40:48.943+0000] {processor.py:186} INFO - Started process (PID=25856) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:40:48.944+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:40:48.945+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:40:48.945+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:40:48.952+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:40:48.948+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 10, in <module>
+    task1 = PostgresOperator(
+            ^^^^^^^^^^^^^^^^
+NameError: name 'PostgresOperator' is not defined
+[2026-04-20T14:40:48.958+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:40:48.975+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.036 seconds
+[2026-04-20T14:41:30.151+0000] {processor.py:186} INFO - Started process (PID=26304) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:41:30.152+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:41:30.153+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:41:30.152+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:41:30.168+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:41:30.157+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 10, in <module>
+    task1 = PostgresOperator(
+            ^^^^^^^^^^^^^^^^
+NameError: name 'PostgresOperator' is not defined
+[2026-04-20T14:41:30.175+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:41:30.220+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.076 seconds
+[2026-04-20T14:42:09.933+0000] {processor.py:186} INFO - Started process (PID=26690) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:42:09.933+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:42:09.935+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:42:09.934+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:42:09.941+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:42:09.937+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 10, in <module>
+    task1 = PostgresOperator(
+            ^^^^^^^^^^^^^^^^
+NameError: name 'PostgresOperator' is not defined
+[2026-04-20T14:42:09.945+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:42:09.960+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.032 seconds
+[2026-04-20T14:42:48.463+0000] {processor.py:186} INFO - Started process (PID=27131) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:42:48.464+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:42:48.466+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:42:48.465+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:42:48.478+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:42:48.470+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 10, in <module>
+    task1 = PostgresOperator(
+            ^^^^^^^^^^^^^^^^
+NameError: name 'PostgresOperator' is not defined
+[2026-04-20T14:42:48.484+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:42:48.506+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.049 seconds
+[2026-04-20T14:43:27.327+0000] {processor.py:186} INFO - Started process (PID=27632) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:43:27.328+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:43:27.329+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:43:27.328+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:43:27.336+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:43:27.332+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 10, in <module>
+    task1 = PostgresOperator(
+            ^^^^^^^^^^^^^^^^
+NameError: name 'PostgresOperator' is not defined
+[2026-04-20T14:43:27.339+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:43:27.354+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.032 seconds
+[2026-04-20T14:44:08.966+0000] {processor.py:186} INFO - Started process (PID=28048) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:44:08.967+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:44:08.968+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:44:08.967+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:44:08.978+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:44:08.972+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 10, in <module>
+    task1 = PostgresOperator(
+            ^^^^^^^^^^^^^^^^
+NameError: name 'PostgresOperator' is not defined
+[2026-04-20T14:44:08.981+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:44:08.998+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.038 seconds
+[2026-04-20T14:44:49.548+0000] {processor.py:186} INFO - Started process (PID=28470) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:44:49.549+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:44:49.550+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:44:49.549+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:44:49.556+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:44:49.552+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 10, in <module>
+    task1 = PostgresOperator(
+            ^^^^^^^^^^^^^^^^
+NameError: name 'PostgresOperator' is not defined
+[2026-04-20T14:44:49.560+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:44:49.574+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.031 seconds
+[2026-04-20T14:45:27.540+0000] {processor.py:186} INFO - Started process (PID=28901) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:45:27.541+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:45:27.542+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:45:27.542+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:45:27.557+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:45:27.545+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 10, in <module>
+    task1 = PostgresOperator(
+            ^^^^^^^^^^^^^^^^
+NameError: name 'PostgresOperator' is not defined
+[2026-04-20T14:45:27.567+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:45:27.596+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.060 seconds
+[2026-04-20T14:46:04.892+0000] {processor.py:186} INFO - Started process (PID=29278) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:46:04.893+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:46:04.894+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:46:04.894+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:46:04.901+0000] {processor.py:925} INFO - DAG(s) 'transfer_dag' retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:46:04.980+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:46:04.979+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-20T14:46:04.988+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:46:04.988+0000] {dag.py:4180} INFO - Setting next_dagrun for transfer_dag to None, run_after=None
+[2026-04-20T14:46:05.013+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.125 seconds
+[2026-04-20T14:46:43.570+0000] {processor.py:186} INFO - Started process (PID=29719) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:46:43.571+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:46:43.572+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:46:43.572+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:46:43.580+0000] {processor.py:925} INFO - DAG(s) 'transfer_dag' retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:46:43.594+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:46:43.594+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-20T14:46:43.607+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:46:43.607+0000] {dag.py:4180} INFO - Setting next_dagrun for transfer_dag to None, run_after=None
+[2026-04-20T14:46:43.624+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.058 seconds
+[2026-04-20T14:47:23.611+0000] {processor.py:186} INFO - Started process (PID=30170) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:47:23.612+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:47:23.613+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:47:23.613+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:47:23.620+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:47:23.616+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 12, in <module>
+    task1 = PostgresOperator(
+            ^^^^^^^^^^^^^^^^
+NameError: name 'PostgresOperator' is not defined
+[2026-04-20T14:47:23.623+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:47:23.639+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.032 seconds
+[2026-04-20T14:48:04.407+0000] {processor.py:186} INFO - Started process (PID=30570) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:48:04.408+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:48:04.410+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:48:04.409+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:48:04.417+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:48:04.413+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 13, in <module>
+    task1 = PostgresOperator(
+            ^^^^^^^^^^^^^^^^
+NameError: name 'PostgresOperator' is not defined
+[2026-04-20T14:48:04.421+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:48:04.438+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.035 seconds
+[2026-04-20T14:48:44.663+0000] {processor.py:186} INFO - Started process (PID=31070) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:48:44.664+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:48:44.665+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:48:44.665+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:48:44.672+0000] {processor.py:925} INFO - DAG(s) 'transfer_dag' retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:48:44.792+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:48:44.791+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-20T14:48:44.813+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:48:44.813+0000] {dag.py:4180} INFO - Setting next_dagrun for transfer_dag to None, run_after=None
+[2026-04-20T14:48:44.864+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.205 seconds
+[2026-04-20T14:49:25.926+0000] {processor.py:186} INFO - Started process (PID=31539) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:49:25.927+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:49:25.928+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:49:25.927+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:49:25.934+0000] {processor.py:925} INFO - DAG(s) 'transfer_dag' retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:49:25.945+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:49:25.945+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-20T14:49:25.959+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:49:25.959+0000] {dag.py:4180} INFO - Setting next_dagrun for transfer_dag to None, run_after=None
+[2026-04-20T14:49:25.976+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.055 seconds
+[2026-04-20T14:50:04.445+0000] {processor.py:186} INFO - Started process (PID=31921) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:50:04.446+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:50:04.447+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:50:04.447+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:50:04.455+0000] {processor.py:925} INFO - DAG(s) 'transfer_dag' retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:50:04.467+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:50:04.467+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-20T14:50:04.478+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:50:04.477+0000] {dag.py:4180} INFO - Setting next_dagrun for transfer_dag to None, run_after=None
+[2026-04-20T14:50:04.494+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.055 seconds
+[2026-04-20T14:50:44.684+0000] {processor.py:186} INFO - Started process (PID=32366) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:50:44.686+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:50:44.687+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:50:44.686+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:50:44.698+0000] {processor.py:925} INFO - DAG(s) 'transfer_dag' retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:50:44.717+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:50:44.716+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-20T14:50:44.733+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:50:44.732+0000] {dag.py:4180} INFO - Setting next_dagrun for transfer_dag to None, run_after=None
+[2026-04-20T14:50:44.753+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.079 seconds
+[2026-04-20T14:51:25.336+0000] {processor.py:186} INFO - Started process (PID=32821) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:51:25.338+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:51:25.340+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:51:25.339+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:51:25.353+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:51:25.346+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 25, in <module>
+    task2 = GenericTransfer(
+            ^^^^^^^^^^^^^^^
+NameError: name 'GenericTransfer' is not defined
+[2026-04-20T14:51:25.359+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:51:25.412+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.083 seconds
+[2026-04-20T14:52:06.742+0000] {processor.py:186} INFO - Started process (PID=33236) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:52:06.743+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:52:06.744+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:52:06.743+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:52:06.747+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:52:06.746+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T14:52:06.748+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:52:06.765+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.028 seconds
+[2026-04-20T14:52:46.198+0000] {processor.py:186} INFO - Started process (PID=33782) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:52:46.199+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:52:46.200+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:52:46.200+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:52:46.203+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:52:46.202+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T14:52:46.203+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:52:46.219+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.025 seconds
+[2026-04-20T14:53:24.602+0000] {processor.py:186} INFO - Started process (PID=34353) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:53:24.603+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:53:24.604+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:53:24.604+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:53:24.607+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:53:24.606+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T14:53:24.607+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:53:24.623+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.026 seconds
+[2026-04-20T14:54:04.325+0000] {processor.py:186} INFO - Started process (PID=34800) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:54:04.326+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:54:04.327+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:54:04.326+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:54:04.329+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:54:04.328+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T14:54:04.330+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:54:04.344+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.023 seconds
+[2026-04-20T14:54:46.577+0000] {processor.py:186} INFO - Started process (PID=35299) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:54:46.578+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:54:46.579+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:54:46.579+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:54:46.582+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:54:46.581+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T14:54:46.583+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:54:46.599+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.026 seconds
+[2026-04-20T14:55:26.613+0000] {processor.py:186} INFO - Started process (PID=35786) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:55:26.614+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:55:26.615+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:55:26.615+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:55:26.618+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:55:26.617+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T14:55:26.618+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:55:26.634+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.025 seconds
+[2026-04-20T14:56:06.569+0000] {processor.py:186} INFO - Started process (PID=36273) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:56:06.570+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:56:06.571+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:56:06.571+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:56:06.575+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:56:06.574+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T14:56:06.575+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:56:06.614+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.052 seconds
+[2026-04-20T14:56:46.216+0000] {processor.py:186} INFO - Started process (PID=36753) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:56:46.217+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:56:46.218+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:56:46.217+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:56:46.220+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:56:46.219+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T14:56:46.221+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:56:46.236+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.025 seconds
+[2026-04-20T14:57:26.746+0000] {processor.py:186} INFO - Started process (PID=37328) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:57:26.746+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:57:26.748+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:57:26.747+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:57:26.751+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:57:26.750+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T14:57:26.751+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:57:26.768+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.026 seconds
+[2026-04-20T14:58:05.751+0000] {processor.py:186} INFO - Started process (PID=37781) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:58:05.751+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:58:05.752+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:58:05.752+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:58:05.755+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:58:05.754+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T14:58:05.756+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:58:05.771+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.025 seconds
+[2026-04-20T14:58:45.764+0000] {processor.py:186} INFO - Started process (PID=38294) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:58:45.764+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:58:45.766+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:58:45.765+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:58:45.768+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:58:45.767+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T14:58:45.769+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:58:45.784+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.024 seconds
+[2026-04-20T14:59:27.404+0000] {processor.py:186} INFO - Started process (PID=38816) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:59:27.404+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T14:59:27.405+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:59:27.405+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:59:27.408+0000] {logging_mixin.py:190} INFO - [2026-04-20T14:59:27.407+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T14:59:27.408+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T14:59:27.424+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.025 seconds
+[2026-04-20T15:00:10.258+0000] {processor.py:186} INFO - Started process (PID=39288) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:00:10.259+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:00:10.260+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:00:10.260+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:00:10.264+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:00:10.263+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:00:10.265+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:00:10.287+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.036 seconds
+[2026-04-20T15:00:50.657+0000] {processor.py:186} INFO - Started process (PID=39801) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:00:50.659+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:00:50.660+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:00:50.660+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:00:50.665+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:00:50.663+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:00:50.665+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:00:50.688+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.037 seconds
+[2026-04-20T15:01:30.479+0000] {processor.py:186} INFO - Started process (PID=40282) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:01:30.480+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:01:30.481+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:01:30.481+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:01:30.484+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:01:30.483+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:01:30.484+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:01:30.501+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.026 seconds
+[2026-04-20T15:02:12.435+0000] {processor.py:186} INFO - Started process (PID=40726) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:02:12.436+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:02:12.437+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:02:12.437+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:02:12.440+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:02:12.439+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:02:12.441+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:02:12.456+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.026 seconds
+[2026-04-20T15:02:55.241+0000] {processor.py:186} INFO - Started process (PID=41218) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:02:55.242+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:02:55.243+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:02:55.242+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:02:55.245+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:02:55.245+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:02:55.246+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:02:55.260+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.023 seconds
+[2026-04-20T15:03:33.710+0000] {processor.py:186} INFO - Started process (PID=41766) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:03:33.711+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:03:33.712+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:03:33.712+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:03:33.715+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:03:33.714+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:03:33.715+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:03:33.733+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.027 seconds
+[2026-04-20T15:04:13.543+0000] {processor.py:186} INFO - Started process (PID=42218) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:04:13.544+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:04:13.545+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:04:13.545+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:04:13.549+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:04:13.548+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:04:13.550+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:04:13.565+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.028 seconds
+[2026-04-20T15:04:56.753+0000] {processor.py:186} INFO - Started process (PID=42746) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:04:56.754+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:04:56.755+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:04:56.755+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:04:56.759+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:04:56.758+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:04:56.759+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:04:56.774+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.025 seconds
+[2026-04-20T15:05:39.041+0000] {processor.py:186} INFO - Started process (PID=43390) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:05:39.042+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:05:39.043+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:05:39.043+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:05:39.046+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:05:39.046+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:05:39.047+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:05:39.063+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.026 seconds
+[2026-04-20T15:06:18.686+0000] {processor.py:186} INFO - Started process (PID=44030) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:06:18.687+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:06:18.688+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:06:18.688+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:06:18.691+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:06:18.690+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:06:18.691+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:06:18.706+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.024 seconds
+[2026-04-20T15:06:59.493+0000] {processor.py:186} INFO - Started process (PID=44752) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:06:59.494+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:06:59.495+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:06:59.494+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:06:59.497+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:06:59.496+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:06:59.498+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:06:59.514+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.026 seconds
+[2026-04-20T15:07:40.710+0000] {processor.py:186} INFO - Started process (PID=45333) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:07:40.711+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:07:40.712+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:07:40.712+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:07:40.715+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:07:40.714+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:07:40.715+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:07:40.729+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.024 seconds
+[2026-04-20T15:08:19.161+0000] {processor.py:186} INFO - Started process (PID=45837) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:08:19.162+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:08:19.163+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:08:19.163+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:08:19.166+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:08:19.165+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:08:19.166+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:08:19.182+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.025 seconds
+[2026-04-20T15:08:58.203+0000] {processor.py:186} INFO - Started process (PID=46289) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:08:58.205+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:08:58.206+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:08:58.206+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:08:58.210+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:08:58.209+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:08:58.212+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:08:58.241+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.045 seconds
+[2026-04-20T15:09:39.587+0000] {processor.py:186} INFO - Started process (PID=46904) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:09:39.604+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:09:39.605+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:09:39.605+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:09:39.609+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:09:39.608+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:09:39.609+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:09:39.625+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.042 seconds
+[2026-04-20T15:10:19.880+0000] {processor.py:186} INFO - Started process (PID=47597) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:10:19.880+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:10:19.881+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:10:19.881+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:10:19.884+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:10:19.883+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:10:19.885+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:10:19.901+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.026 seconds
+[2026-04-20T15:10:59.335+0000] {processor.py:186} INFO - Started process (PID=48237) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:10:59.336+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:10:59.337+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:10:59.336+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:10:59.340+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:10:59.339+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:10:59.340+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:10:59.357+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.027 seconds
+[2026-04-20T15:11:37.775+0000] {processor.py:186} INFO - Started process (PID=48807) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:11:37.776+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:11:37.777+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:11:37.777+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:11:37.780+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:11:37.779+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:11:37.781+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:11:37.842+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.073 seconds
+[2026-04-20T15:12:20.071+0000] {processor.py:186} INFO - Started process (PID=49448) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:12:20.072+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:12:20.073+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:12:20.073+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:12:20.076+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:12:20.075+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:12:20.076+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:12:20.090+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.024 seconds
+[2026-04-20T15:13:02.442+0000] {processor.py:186} INFO - Started process (PID=49880) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:13:02.443+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:13:02.444+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:13:02.443+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:13:02.446+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:13:02.445+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:13:02.447+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:13:02.467+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.029 seconds
+[2026-04-20T15:13:41.425+0000] {processor.py:186} INFO - Started process (PID=50416) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:13:41.426+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:13:41.427+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:13:41.426+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:13:41.429+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:13:41.429+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:13:41.430+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:13:41.445+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.024 seconds
+[2026-04-20T15:14:23.069+0000] {processor.py:186} INFO - Started process (PID=50908) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:14:23.070+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:14:23.071+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:14:23.070+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:14:23.074+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:14:23.073+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:14:23.074+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:14:23.089+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.026 seconds
+[2026-04-20T15:15:03.920+0000] {processor.py:186} INFO - Started process (PID=51337) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:15:03.921+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:15:03.922+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:15:03.922+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:15:03.925+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:15:03.924+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:15:03.925+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:15:03.942+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.026 seconds
+[2026-04-20T15:15:49.829+0000] {processor.py:186} INFO - Started process (PID=51849) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:15:49.830+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:15:49.831+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:15:49.831+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:15:49.834+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:15:49.833+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:15:49.834+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:15:49.848+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.024 seconds
+[2026-04-20T15:16:35.473+0000] {processor.py:186} INFO - Started process (PID=52387) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:16:35.475+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:16:35.477+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:16:35.476+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:16:35.485+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:16:35.481+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:16:35.486+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:16:35.503+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.043 seconds
+[2026-04-20T15:17:15.705+0000] {processor.py:186} INFO - Started process (PID=52816) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:17:15.709+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:17:15.710+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:17:15.710+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:17:15.714+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:17:15.713+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:17:15.714+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:17:15.737+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.042 seconds
+[2026-04-20T15:18:01.978+0000] {processor.py:186} INFO - Started process (PID=53328) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:18:01.979+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:18:01.980+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:18:01.980+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:18:01.983+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:18:01.982+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:18:01.983+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:18:01.999+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.025 seconds
+[2026-04-20T15:18:48.786+0000] {processor.py:186} INFO - Started process (PID=53936) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:18:48.787+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:18:48.788+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:18:48.787+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:18:48.790+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:18:48.790+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:18:48.791+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:18:48.806+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.025 seconds
+[2026-04-20T15:19:30.252+0000] {processor.py:186} INFO - Started process (PID=54429) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:19:30.253+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:19:30.254+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:19:30.253+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:19:30.257+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:19:30.256+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:19:30.257+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:19:30.275+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.028 seconds
+[2026-04-20T15:20:15.817+0000] {processor.py:186} INFO - Started process (PID=54885) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:20:15.818+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:20:15.819+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:20:15.819+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:20:15.822+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:20:15.821+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:20:15.822+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:20:15.838+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.026 seconds
+[2026-04-20T15:20:59.510+0000] {processor.py:186} INFO - Started process (PID=55407) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:20:59.510+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:20:59.511+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:20:59.511+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:20:59.514+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:20:59.513+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:20:59.515+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:20:59.529+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.024 seconds
+[2026-04-20T15:21:42.800+0000] {processor.py:186} INFO - Started process (PID=55905) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:21:42.801+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:21:42.802+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:21:42.801+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:21:42.804+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:21:42.803+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:21:42.805+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:21:42.820+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.024 seconds
+[2026-04-20T15:22:31.081+0000] {processor.py:186} INFO - Started process (PID=56449) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:22:31.082+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:22:31.083+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:22:31.082+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:22:31.085+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:22:31.085+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:22:31.086+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:22:31.100+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.024 seconds
+[2026-04-20T15:23:18.337+0000] {processor.py:186} INFO - Started process (PID=57036) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:23:18.338+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:23:18.339+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:23:18.339+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:23:18.342+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:23:18.341+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:23:18.342+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:23:18.357+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.024 seconds
+[2026-04-20T15:24:02.460+0000] {processor.py:186} INFO - Started process (PID=57503) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:24:02.461+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:24:02.462+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:24:02.462+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:24:02.466+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:24:02.465+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:24:02.466+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:24:02.483+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.028 seconds
+[2026-04-20T15:24:52.239+0000] {processor.py:186} INFO - Started process (PID=58038) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:24:52.242+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:24:52.244+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:24:52.243+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:24:52.248+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:24:52.247+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:24:52.249+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:24:52.277+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.046 seconds
+[2026-04-20T15:25:34.870+0000] {processor.py:186} INFO - Started process (PID=58625) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:25:34.872+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:25:34.873+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:25:34.873+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:25:34.877+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:25:34.875+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:25:34.877+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:25:34.894+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.029 seconds
+[2026-04-20T15:26:13.597+0000] {processor.py:186} INFO - Started process (PID=59024) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:26:13.598+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:26:13.599+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:26:13.599+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:26:13.602+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:26:13.601+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:26:13.602+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:26:13.617+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.025 seconds
+[2026-04-20T15:26:52.560+0000] {processor.py:186} INFO - Started process (PID=59504) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:26:52.561+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:26:52.562+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:26:52.562+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:26:52.565+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:26:52.564+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:26:52.566+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:26:52.587+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.033 seconds
+[2026-04-20T15:27:30.986+0000] {processor.py:186} INFO - Started process (PID=59985) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:27:30.987+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:27:30.988+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:27:30.988+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:27:30.991+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:27:30.990+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:27:30.991+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:27:31.006+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.025 seconds
+[2026-04-20T15:28:10.964+0000] {processor.py:186} INFO - Started process (PID=60404) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:28:10.965+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:28:10.966+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:28:10.966+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:28:10.970+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:28:10.968+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:28:10.970+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:28:10.986+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.028 seconds
+[2026-04-20T15:28:50.107+0000] {processor.py:186} INFO - Started process (PID=60886) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:28:50.108+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:28:50.109+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:28:50.109+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:28:50.112+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:28:50.111+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:28:50.112+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:28:50.129+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.026 seconds
+[2026-04-20T15:29:30.900+0000] {processor.py:186} INFO - Started process (PID=61378) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:29:30.901+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:29:30.902+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:29:30.901+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:29:30.904+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:29:30.904+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:29:30.905+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:29:30.920+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.025 seconds
+[2026-04-20T15:30:10.694+0000] {processor.py:186} INFO - Started process (PID=61800) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:30:10.695+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:30:10.696+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:30:10.696+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:30:10.699+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:30:10.698+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:30:10.699+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:30:10.714+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.025 seconds
+[2026-04-20T15:30:50.775+0000] {processor.py:186} INFO - Started process (PID=62279) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:30:50.776+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:30:50.777+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:30:50.777+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:30:50.780+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:30:50.780+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:30:50.781+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:30:50.802+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.033 seconds
+[2026-04-20T15:31:30.228+0000] {processor.py:186} INFO - Started process (PID=62745) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:31:30.229+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:31:30.231+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:31:30.230+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:31:30.235+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:31:30.233+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:31:30.235+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:31:30.252+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.029 seconds
+[2026-04-20T15:32:07.980+0000] {processor.py:186} INFO - Started process (PID=63156) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:32:07.981+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:32:07.982+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:32:07.982+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:32:07.985+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:32:07.984+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:32:07.985+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:32:08.001+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.025 seconds
+[2026-04-20T15:32:47.411+0000] {processor.py:186} INFO - Started process (PID=63644) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:32:47.412+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:32:47.413+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:32:47.413+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:32:47.416+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:32:47.415+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:32:47.416+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:32:47.431+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.024 seconds
+[2026-04-20T15:33:25.157+0000] {processor.py:186} INFO - Started process (PID=64177) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:33:25.158+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:33:25.159+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:33:25.159+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:33:25.163+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:33:25.161+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:33:25.163+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:33:25.181+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.030 seconds
+[2026-04-20T15:34:05.399+0000] {processor.py:186} INFO - Started process (PID=64611) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:34:05.400+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:34:05.401+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:34:05.401+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:34:05.404+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:34:05.403+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:34:05.405+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:34:05.421+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.026 seconds
+[2026-04-20T15:34:43.623+0000] {processor.py:186} INFO - Started process (PID=65063) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:34:43.624+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:34:43.625+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:34:43.625+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:34:43.628+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:34:43.627+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:34:43.628+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:34:43.644+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.026 seconds
+[2026-04-20T15:35:23.734+0000] {processor.py:186} INFO - Started process (PID=65545) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:35:23.735+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:35:23.736+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:35:23.735+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:35:23.739+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:35:23.738+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:35:23.739+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:35:23.754+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.025 seconds
+[2026-04-20T15:36:02.457+0000] {processor.py:186} INFO - Started process (PID=65964) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:36:02.458+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:36:02.459+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:36:02.459+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:36:02.463+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:36:02.461+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:36:02.463+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:36:02.482+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.031 seconds
+[2026-04-20T15:36:42.601+0000] {processor.py:186} INFO - Started process (PID=66451) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:36:42.602+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:36:42.603+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:36:42.603+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:36:42.607+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:36:42.606+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:36:42.608+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:36:42.625+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.053 seconds
+[2026-04-20T15:37:22.722+0000] {processor.py:186} INFO - Started process (PID=66938) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:37:22.722+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:37:22.724+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:37:22.723+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:37:22.726+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:37:22.725+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:37:22.727+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:37:22.742+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.026 seconds
+[2026-04-20T15:38:03.470+0000] {processor.py:186} INFO - Started process (PID=67364) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:38:03.471+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:38:03.473+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:38:03.472+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:38:03.476+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:38:03.475+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:38:03.477+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:38:03.492+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.028 seconds
+[2026-04-20T15:38:41.876+0000] {processor.py:186} INFO - Started process (PID=67905) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:38:41.877+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:38:41.878+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:38:41.878+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:38:41.881+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:38:41.880+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:38:41.882+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:38:41.897+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.026 seconds
+[2026-04-20T15:39:18.731+0000] {processor.py:186} INFO - Started process (PID=68324) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:39:18.731+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:39:18.733+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:39:18.732+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:39:18.735+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:39:18.734+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:39:18.736+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:39:18.751+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.026 seconds
+[2026-04-20T15:39:55.856+0000] {processor.py:186} INFO - Started process (PID=68708) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:39:55.857+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:39:55.859+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:39:55.858+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:39:55.862+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:39:55.861+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:39:55.863+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:39:55.880+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.030 seconds
+[2026-04-20T15:40:33.632+0000] {processor.py:186} INFO - Started process (PID=69301) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:40:33.633+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:40:33.634+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:40:33.634+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:40:33.637+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:40:33.636+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:40:33.637+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:40:33.653+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.026 seconds
+[2026-04-20T15:41:11.883+0000] {processor.py:186} INFO - Started process (PID=69719) to work on /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:41:11.884+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/transfer_dag.py for tasks to queue
+[2026-04-20T15:41:11.885+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:41:11.885+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:41:11.888+0000] {logging_mixin.py:190} INFO - [2026-04-20T15:41:11.887+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/transfer_dag.py", line 5, in <module>
+    from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.transfers'
+[2026-04-20T15:41:11.888+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/transfer_dag.py
+[2026-04-20T15:41:11.904+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/transfer_dag.py took 0.026 seconds
