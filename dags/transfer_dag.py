@@ -2,9 +2,18 @@
 from airflow import DAG
 from datetime import datetime
 from airflow.providers.postgres.operators.postgres import PostgresOperator
-from airflow.providers.common.sql.transfers.generic_transfer import GenericTransfer
+from airflow.operators.generic_transfer import GenericTransfer
+from airflow.operators.python import PythonOperator
+from airflow.providers.postgres.hooks.postgres import PostgresHook
 
 AIRFLOW_HOME = '/workspaces/meu-projeto-airflow'
+
+def read_data():
+    pghook = PostgresHook(postgres_conn_id='postgres_default')
+    pghook.copy_expert(
+        sql="COPY (SELECT * FROM characters) TO stdout WITH CSV HEADER",
+        filename=AIRFLOW_HOME + '/data/characters.csv'
+    )
 
 with DAG(
     dag_id='transfer_dag',
@@ -16,7 +25,7 @@ with DAG(
         task_id='create_table',
         postgres_conn_id='postgres_default',
         sql="""
-        CREATE TABLE IF NOT EXISTS fox characters (
+        CREATE TABLE IF NOT EXISTS fox_characters (
             name VARCHAR(50) NOT NULL,
             class VARCHAR(50) NOT NULL,
             level INT NOT NULL
@@ -30,14 +39,14 @@ with DAG(
         destination_conn_id='postgres_default',
         destination_table='fox_characters',
         sql="""
-            SELECT character_name, character_class, character_level
-            FROM fox_character_race;
+            SELECT name, 'Fox' as class, 1 as level
+            FROM characters;
         """
     )
 
     task3 =PythonOperator(
         task_id = 'read_table',
-        python_callable = 'read_table'
+        python_callable = read_data
     )
 
 
