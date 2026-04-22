@@ -1,0 +1,25 @@
+[2026-04-22T15:29:09.159+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-04-22T15:29:09.167+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cleanup_dag.transform_data manual__2026-04-22T15:29:01.359786+00:00 [queued]>
+[2026-04-22T15:29:09.172+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cleanup_dag.transform_data manual__2026-04-22T15:29:01.359786+00:00 [queued]>
+[2026-04-22T15:29:09.172+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2026-04-22T15:29:09.189+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): transform_data> on 2026-04-22 15:29:01.359786+00:00
+[2026-04-22T15:29:09.195+0000] {standard_task_runner.py:72} INFO - Started process 40280 to run task
+[2026-04-22T15:29:09.198+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'cleanup_dag', 'transform_data', 'manual__2026-04-22T15:29:01.359786+00:00', '--job-id', '149', '--raw', '--subdir', 'DAGS_FOLDER/cleanup_dag.py', '--cfg-path', '/tmp/tmp_lohflqc']
+[2026-04-22T15:29:09.198+0000] {standard_task_runner.py:105} INFO - Job 149: Subtask transform_data
+[2026-04-22T15:29:09.288+0000] {task_command.py:467} INFO - Running <TaskInstance: cleanup_dag.transform_data manual__2026-04-22T15:29:01.359786+00:00 [running]> on host codespaces-1f1e00
+[2026-04-22T15:29:09.366+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='cleanup_dag' AIRFLOW_CTX_TASK_ID='transform_data' AIRFLOW_CTX_EXECUTION_DATE='2026-04-22T15:29:01.359786+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-22T15:29:01.359786+00:00'
+[2026-04-22T15:29:09.367+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-04-22T15:29:09.367+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-04-22T15:29:09.368+0000] {logging_mixin.py:190} INFO - Current task name:transform_data state:running start_date:2026-04-22 15:29:09.168030+00:00
+[2026-04-22T15:29:09.368+0000] {logging_mixin.py:190} INFO - Dag name:cleanup_dag and current dag run status:running
+[2026-04-22T15:29:09.368+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-04-22T15:29:09.540+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-04-22T15:29:09.544+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-04-22T15:29:09.545+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=cleanup_dag, task_id=transform_data, run_id=manual__2026-04-22T15:29:01.359786+00:00, execution_date=20260422T152901, start_date=20260422T152909, end_date=20260422T152909
+[2026-04-22T15:29:09.557+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-04-22T15:29:09.558+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-04-22T15:29:09.558+0000] {logging_mixin.py:190} INFO - Dag name:cleanup_dag queued_at:2026-04-22 15:29:01.365645+00:00
+[2026-04-22T15:29:09.558+0000] {logging_mixin.py:190} INFO - Task hostname:codespaces-1f1e00 operator:PythonOperator
+[2026-04-22T15:29:09.572+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-04-22T15:29:09.587+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-04-22T15:29:09.591+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

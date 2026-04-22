@@ -1,0 +1,27 @@
+[2026-04-22T15:15:40.615+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-04-22T15:15:40.624+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cleanup_dag.read_data manual__2026-04-22T15:15:37.615700+00:00 [queued]>
+[2026-04-22T15:15:40.628+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cleanup_dag.read_data manual__2026-04-22T15:15:37.615700+00:00 [queued]>
+[2026-04-22T15:15:40.628+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2026-04-22T15:15:40.640+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): read_data> on 2026-04-22 15:15:37.615700+00:00
+[2026-04-22T15:15:40.645+0000] {standard_task_runner.py:72} INFO - Started process 31597 to run task
+[2026-04-22T15:15:40.647+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'cleanup_dag', 'read_data', 'manual__2026-04-22T15:15:37.615700+00:00', '--job-id', '146', '--raw', '--subdir', 'DAGS_FOLDER/cleanup_dag.py', '--cfg-path', '/tmp/tmp0vpx_l92']
+[2026-04-22T15:15:40.648+0000] {standard_task_runner.py:105} INFO - Job 146: Subtask read_data
+[2026-04-22T15:15:40.684+0000] {task_command.py:467} INFO - Running <TaskInstance: cleanup_dag.read_data manual__2026-04-22T15:15:37.615700+00:00 [running]> on host codespaces-1f1e00
+[2026-04-22T15:15:40.729+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='cleanup_dag' AIRFLOW_CTX_TASK_ID='read_data' AIRFLOW_CTX_EXECUTION_DATE='2026-04-22T15:15:37.615700+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-22T15:15:37.615700+00:00'
+[2026-04-22T15:15:40.730+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-04-22T15:15:40.730+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-04-22T15:15:40.730+0000] {logging_mixin.py:190} INFO - Current task name:read_data state:running start_date:2026-04-22 15:15:40.624491+00:00
+[2026-04-22T15:15:40.730+0000] {logging_mixin.py:190} INFO - Dag name:cleanup_dag and current dag run status:running
+[2026-04-22T15:15:40.731+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-04-22T15:15:40.731+0000] {postgres.py:191} INFO - Running copy expert: COPY (SELECT * FROM characters) TO stdout WITH CSV HEADER, filename: /workspaces/meu-projeto-airflow/data/characters.csv
+[2026-04-22T15:15:40.735+0000] {base.py:84} INFO - Retrieving connection 'postgres_default'
+[2026-04-22T15:15:41.584+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-04-22T15:15:41.589+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-04-22T15:15:41.589+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=cleanup_dag, task_id=read_data, run_id=manual__2026-04-22T15:15:37.615700+00:00, execution_date=20260422T151537, start_date=20260422T151540, end_date=20260422T151541
+[2026-04-22T15:15:41.601+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-04-22T15:15:41.601+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-04-22T15:15:41.601+0000] {logging_mixin.py:190} INFO - Dag name:cleanup_dag queued_at:2026-04-22 15:15:37.624577+00:00
+[2026-04-22T15:15:41.601+0000] {logging_mixin.py:190} INFO - Task hostname:codespaces-1f1e00 operator:PythonOperator
+[2026-04-22T15:15:41.630+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-04-22T15:15:41.656+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-04-22T15:15:41.661+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
