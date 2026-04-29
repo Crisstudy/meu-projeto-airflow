@@ -1,0 +1,1274 @@
+[2026-04-28T22:28:49.115+0000] {processor.py:186} INFO - Started process (PID=9208) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:28:49.116+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T22:28:49.116+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:28:49.116+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:28:50.225+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:28:49.119+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 11, in <module>
+    @task
+     ^^^^
+NameError: name 'task' is not defined
+[2026-04-28T22:28:50.227+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:28:50.244+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 1.133 seconds
+[2026-04-28T22:29:14.661+0000] {processor.py:186} INFO - Started process (PID=9471) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:29:14.661+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T22:29:14.663+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:29:14.662+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:29:14.669+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:29:14.667+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 11, in <module>
+    @task
+     ^^^^
+NameError: name 'task' is not defined
+[2026-04-28T22:29:14.670+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:29:14.737+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.082 seconds
+[2026-04-28T22:30:00.925+0000] {processor.py:186} INFO - Started process (PID=9977) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:30:00.925+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T22:30:00.926+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:30:00.926+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:30:00.930+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:30:00.929+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 11, in <module>
+    @task
+     ^^^^
+NameError: name 'task' is not defined
+[2026-04-28T22:30:00.931+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:30:00.948+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.028 seconds
+[2026-04-28T22:30:45.733+0000] {processor.py:186} INFO - Started process (PID=10366) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:30:45.734+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T22:30:45.735+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:30:45.734+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:30:45.739+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:30:45.738+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 11, in <module>
+    @task
+     ^^^^
+NameError: name 'task' is not defined
+[2026-04-28T22:30:45.741+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:30:45.759+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.032 seconds
+[2026-04-28T22:31:30.354+0000] {processor.py:186} INFO - Started process (PID=10844) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:31:30.354+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T22:31:30.355+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:31:30.355+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:31:30.358+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:31:30.357+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 16
+    json = Variable.get(key:'JSON_TESTE', deserialize_json=True)
+                           ^
+SyntaxError: invalid syntax
+[2026-04-28T22:31:30.358+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:31:30.374+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.024 seconds
+[2026-04-28T22:32:11.346+0000] {processor.py:186} INFO - Started process (PID=11284) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:32:11.346+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T22:32:11.347+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:32:11.347+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:32:11.350+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:32:11.349+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 16
+    json = Variable.get(key:'JSON_TESTE', deserialize_json=True)
+                           ^
+SyntaxError: invalid syntax
+[2026-04-28T22:32:11.350+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:32:11.366+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.024 seconds
+[2026-04-28T22:32:53.654+0000] {processor.py:186} INFO - Started process (PID=11750) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:32:53.655+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T22:32:53.656+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:32:53.656+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:32:53.660+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:32:53.659+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 16
+    json = Variable.get(key:'JSON_TESTE', deserialize_json=True)
+                           ^
+SyntaxError: invalid syntax
+[2026-04-28T22:32:53.660+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:32:53.688+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.040 seconds
+[2026-04-28T22:33:38.234+0000] {processor.py:186} INFO - Started process (PID=12116) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:33:38.235+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T22:33:38.236+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:33:38.236+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:33:38.238+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:33:38.238+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 16
+    json = Variable.get(key:'JSON_TESTE', deserialize_json=True)
+                           ^
+SyntaxError: invalid syntax
+[2026-04-28T22:33:38.239+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:33:38.254+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.024 seconds
+[2026-04-28T22:34:18.285+0000] {processor.py:186} INFO - Started process (PID=12742) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:34:18.286+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T22:34:18.287+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:34:18.287+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:34:18.291+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:34:18.290+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 11, in <module>
+    @task
+     ^^^^
+NameError: name 'task' is not defined
+[2026-04-28T22:34:18.292+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:34:18.307+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.026 seconds
+[2026-04-28T22:34:58.842+0000] {processor.py:186} INFO - Started process (PID=13189) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:34:58.843+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T22:34:58.844+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:34:58.844+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:34:58.848+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:34:58.846+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 11, in <module>
+    @task
+     ^^^^
+NameError: name 'task' is not defined
+[2026-04-28T22:34:58.848+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:34:58.864+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.026 seconds
+[2026-04-28T22:35:42.316+0000] {processor.py:186} INFO - Started process (PID=13645) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:35:42.317+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T22:35:42.318+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:35:42.317+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:35:42.321+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:35:42.320+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 11, in <module>
+    @task
+     ^^^^
+NameError: name 'task' is not defined
+[2026-04-28T22:35:42.322+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:35:42.337+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.025 seconds
+[2026-04-28T22:36:25.169+0000] {processor.py:186} INFO - Started process (PID=14091) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:36:25.170+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T22:36:25.171+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:36:25.171+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:36:25.175+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:36:25.174+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 11, in <module>
+    @task
+     ^^^^
+NameError: name 'task' is not defined
+[2026-04-28T22:36:25.176+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:36:25.191+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.026 seconds
+[2026-04-28T22:37:07.477+0000] {processor.py:186} INFO - Started process (PID=14800) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:37:07.477+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T22:37:07.478+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:37:07.478+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:37:07.482+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:37:07.481+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 11, in <module>
+    @task
+     ^^^^
+NameError: name 'task' is not defined
+[2026-04-28T22:37:07.483+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:37:07.498+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.026 seconds
+[2026-04-28T22:37:47.847+0000] {processor.py:186} INFO - Started process (PID=15433) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:37:47.848+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T22:37:47.849+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:37:47.849+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:37:47.864+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:37:47.861+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 21, in <module>
+    le_mensagem() >> le_json()
+                     ^^^^^^^^^
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 17, in le_json
+    json = Variable.get('JSON_TESTE', deserialize_json=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable JSON_TESTE does not exist'
+[2026-04-28T22:37:47.865+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:37:47.876+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.033 seconds
+[2026-04-28T22:49:42.554+0000] {processor.py:186} INFO - Started process (PID=20721) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:49:42.554+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T22:49:42.559+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:49:42.557+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:49:42.586+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:49:42.584+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 21, in <module>
+    le_mensagem() >> le_json()
+                     ^^^^^^^^^
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 17, in le_json
+    json = Variable.get('JSON_TESTE', deserialize_json=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable JSON_TESTE does not exist'
+[2026-04-28T22:49:42.587+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:49:42.633+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.085 seconds
+[2026-04-28T22:50:54.484+0000] {processor.py:186} INFO - Started process (PID=21928) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:50:54.484+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T22:50:54.486+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:50:54.486+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:50:54.499+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:50:54.498+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 21, in <module>
+    le_mensagem() >> le_json()
+                     ^^^^^^^^^
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 17, in le_json
+    json = Variable.get('JSON_TESTE', deserialize_json=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable JSON_TESTE does not exist'
+[2026-04-28T22:50:54.500+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:50:54.511+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.031 seconds
+[2026-04-28T22:51:38.043+0000] {processor.py:186} INFO - Started process (PID=22811) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:51:38.044+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T22:51:38.045+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:51:38.045+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:51:38.058+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:51:38.056+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 21, in <module>
+    le_mensagem() >> le_json()
+                     ^^^^^^^^^
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 17, in le_json
+    json = Variable.get('JSON_TESTE', deserialize_json=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable JSON_TESTE does not exist'
+[2026-04-28T22:51:38.058+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:51:38.069+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.031 seconds
+[2026-04-28T22:52:21.265+0000] {processor.py:186} INFO - Started process (PID=23333) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:52:21.266+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T22:52:21.268+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:52:21.268+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:52:21.280+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:52:21.279+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 21, in <module>
+    le_mensagem() >> le_json()
+                     ^^^^^^^^^
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 17, in le_json
+    json = Variable.get('JSON_TESTE', deserialize_json=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable JSON_TESTE does not exist'
+[2026-04-28T22:52:21.280+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:52:21.292+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.030 seconds
+[2026-04-28T22:53:03.070+0000] {processor.py:186} INFO - Started process (PID=23768) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:53:03.071+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T22:53:03.073+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:53:03.072+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:53:03.084+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:53:03.083+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 21, in <module>
+    le_mensagem() >> le_json()
+                     ^^^^^^^^^
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 17, in le_json
+    json = Variable.get('JSON_TESTE', deserialize_json=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable JSON_TESTE does not exist'
+[2026-04-28T22:53:03.085+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:53:03.096+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.030 seconds
+[2026-04-28T22:53:46.024+0000] {processor.py:186} INFO - Started process (PID=24213) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:53:46.027+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T22:53:46.030+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:53:46.030+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:53:46.050+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:53:46.048+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 21, in <module>
+    le_mensagem() >> le_json()
+                     ^^^^^^^^^
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 17, in le_json
+    json = Variable.get('JSON_TESTE', deserialize_json=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable JSON_TESTE does not exist'
+[2026-04-28T22:53:46.051+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:53:46.103+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.088 seconds
+[2026-04-28T22:54:27.892+0000] {processor.py:186} INFO - Started process (PID=24697) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:54:27.893+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T22:54:27.895+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:54:27.894+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:54:27.906+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:54:27.905+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 21, in <module>
+    le_mensagem() >> le_json()
+                     ^^^^^^^^^
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 17, in le_json
+    json = Variable.get('JSON_TESTE', deserialize_json=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable JSON_TESTE does not exist'
+[2026-04-28T22:54:27.907+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:54:27.918+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.030 seconds
+[2026-04-28T22:55:08.496+0000] {processor.py:186} INFO - Started process (PID=25288) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:55:08.497+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T22:55:08.499+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:55:08.499+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:55:08.511+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:55:08.510+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 21, in <module>
+    le_mensagem() >> le_json()
+                     ^^^^^^^^^
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 17, in le_json
+    json = Variable.get('JSON_TESTE', deserialize_json=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable JSON_TESTE does not exist'
+[2026-04-28T22:55:08.511+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:55:08.522+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.031 seconds
+[2026-04-28T22:55:48.059+0000] {processor.py:186} INFO - Started process (PID=25864) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:55:48.059+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T22:55:48.061+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:55:48.061+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:55:48.074+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:55:48.073+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 21, in <module>
+    le_mensagem() >> le_json()
+                     ^^^^^^^^^
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 17, in le_json
+    json = Variable.get('JSON_TESTE', deserialize_json=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable JSON_TESTE does not exist'
+[2026-04-28T22:55:48.075+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:55:48.085+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.031 seconds
+[2026-04-28T22:56:30.573+0000] {processor.py:186} INFO - Started process (PID=26229) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:56:30.574+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T22:56:30.576+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:56:30.575+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:56:30.588+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:56:30.587+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 21, in <module>
+    le_mensagem() >> le_json()
+                     ^^^^^^^^^
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 17, in le_json
+    json = Variable.get('JSON_TESTE', deserialize_json=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable JSON_TESTE does not exist'
+[2026-04-28T22:56:30.589+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:56:30.600+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.032 seconds
+[2026-04-28T22:57:12.693+0000] {processor.py:186} INFO - Started process (PID=26732) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:57:12.694+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T22:57:12.695+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:57:12.695+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:57:12.707+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:57:12.706+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 21, in <module>
+    le_mensagem() >> le_json()
+                     ^^^^^^^^^
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 17, in le_json
+    json = Variable.get('JSON_TESTE', deserialize_json=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable JSON_TESTE does not exist'
+[2026-04-28T22:57:12.707+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:57:12.719+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.030 seconds
+[2026-04-28T22:57:54.326+0000] {processor.py:186} INFO - Started process (PID=27155) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:57:54.327+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T22:57:54.328+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:57:54.328+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:57:54.340+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:57:54.339+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 21, in <module>
+    le_mensagem() >> le_json()
+                     ^^^^^^^^^
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 17, in le_json
+    json = Variable.get('JSON_TESTE', deserialize_json=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable JSON_TESTE does not exist'
+[2026-04-28T22:57:54.341+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:57:54.352+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.031 seconds
+[2026-04-28T22:58:37.710+0000] {processor.py:186} INFO - Started process (PID=27560) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:58:37.711+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T22:58:37.713+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:58:37.713+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:58:37.730+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:58:37.728+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 21, in <module>
+    le_mensagem() >> le_json()
+                     ^^^^^^^^^
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 17, in le_json
+    json = Variable.get('JSON_TESTE', deserialize_json=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable JSON_TESTE does not exist'
+[2026-04-28T22:58:37.730+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:58:37.757+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.054 seconds
+[2026-04-28T22:59:19.555+0000] {processor.py:186} INFO - Started process (PID=28417) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:59:19.555+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T22:59:19.557+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:59:19.557+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:59:19.569+0000] {logging_mixin.py:190} INFO - [2026-04-28T22:59:19.568+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 21, in <module>
+    le_mensagem() >> le_json()
+                     ^^^^^^^^^
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 17, in le_json
+    json = Variable.get('JSON_TESTE', deserialize_json=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable JSON_TESTE does not exist'
+[2026-04-28T22:59:19.569+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T22:59:19.580+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.030 seconds
+[2026-04-28T23:00:00.037+0000] {processor.py:186} INFO - Started process (PID=28904) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:00:00.037+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:00:00.039+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:00:00.039+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:00:00.051+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:00:00.050+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 21, in <module>
+    le_mensagem() >> le_json()
+                     ^^^^^^^^^
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 17, in le_json
+    json = Variable.get('JSON_TESTE', deserialize_json=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable JSON_TESTE does not exist'
+[2026-04-28T23:00:00.051+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:00:00.062+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.030 seconds
+[2026-04-28T23:01:23.176+0000] {processor.py:186} INFO - Started process (PID=30038) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:01:23.179+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:01:23.181+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:01:23.181+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:01:23.213+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:01:23.212+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 21, in <module>
+    le_mensagem() >> le_json()
+                     ^^^^^^^^^
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 17, in le_json
+    json = Variable.get('JSON_TESTE', deserialize_json=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable JSON_TESTE does not exist'
+[2026-04-28T23:01:23.214+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:01:23.243+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.078 seconds
+[2026-04-28T23:02:33.147+0000] {processor.py:186} INFO - Started process (PID=30836) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:02:33.148+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:02:33.150+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:02:33.149+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:02:33.162+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:02:33.161+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 21, in <module>
+    le_mensagem() >> le_json()
+                     ^^^^^^^^^
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 17, in le_json
+    json = Variable.get('JSON_TESTE', deserialize_json=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable JSON_TESTE does not exist'
+[2026-04-28T23:02:33.163+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:02:33.173+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.030 seconds
+[2026-04-28T23:03:14.420+0000] {processor.py:186} INFO - Started process (PID=31185) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:03:14.421+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:03:14.422+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:03:14.422+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:03:14.434+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:03:14.433+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 21, in <module>
+    le_mensagem() >> le_json()
+                     ^^^^^^^^^
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 17, in le_json
+    json = Variable.get('JSON_TESTE', deserialize_json=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable JSON_TESTE does not exist'
+[2026-04-28T23:03:14.435+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:03:14.446+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.031 seconds
+[2026-04-28T23:03:57.153+0000] {processor.py:186} INFO - Started process (PID=31603) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:03:57.154+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:03:57.156+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:03:57.155+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:03:57.168+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:03:57.166+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 21, in <module>
+    le_mensagem() >> le_json()
+                     ^^^^^^^^^
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 17, in le_json
+    json = Variable.get('JSON_TESTE', deserialize_json=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable JSON_TESTE does not exist'
+[2026-04-28T23:03:57.168+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:03:57.180+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.031 seconds
+[2026-04-28T23:04:41.999+0000] {processor.py:186} INFO - Started process (PID=32038) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:04:42.000+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:04:42.003+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:04:42.002+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:04:42.018+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:04:42.017+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 21, in <module>
+    le_mensagem() >> le_json()
+                     ^^^^^^^^^
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 17, in le_json
+    json = Variable.get('JSON_TESTE', deserialize_json=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable JSON_TESTE does not exist'
+[2026-04-28T23:04:42.019+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:04:42.030+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.035 seconds
+[2026-04-28T23:05:23.838+0000] {processor.py:186} INFO - Started process (PID=32410) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:05:23.839+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:05:23.841+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:05:23.840+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:05:23.853+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:05:23.852+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 21, in <module>
+    le_mensagem() >> le_json()
+                     ^^^^^^^^^
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 17, in le_json
+    json = Variable.get('JSON_TESTE', deserialize_json=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable JSON_TESTE does not exist'
+[2026-04-28T23:05:23.853+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:05:23.864+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.031 seconds
+[2026-04-28T23:06:06.754+0000] {processor.py:186} INFO - Started process (PID=33155) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:06:06.754+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:06:06.756+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:06:06.756+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:06:06.768+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:06:06.767+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 21, in <module>
+    le_mensagem() >> le_json()
+                     ^^^^^^^^^
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 17, in le_json
+    json = Variable.get('JSON_TESTE', deserialize_json=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable JSON_TESTE does not exist'
+[2026-04-28T23:06:06.769+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:06:06.780+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.031 seconds
+[2026-04-28T23:06:47.397+0000] {processor.py:186} INFO - Started process (PID=33662) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:06:47.398+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:06:47.400+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:06:47.400+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:06:47.412+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:06:47.411+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 21, in <module>
+    le_mensagem() >> le_json()
+                     ^^^^^^^^^
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 17, in le_json
+    json = Variable.get('JSON_TESTE', deserialize_json=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable JSON_TESTE does not exist'
+[2026-04-28T23:06:47.413+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:06:47.423+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.030 seconds
+[2026-04-28T23:07:27.959+0000] {processor.py:186} INFO - Started process (PID=34039) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:07:27.960+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:07:27.961+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:07:27.961+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:07:27.973+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:07:27.972+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 21, in <module>
+    le_mensagem() >> le_json()
+                     ^^^^^^^^^
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 17, in le_json
+    json = Variable.get('JSON_TESTE', deserialize_json=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable JSON_TESTE does not exist'
+[2026-04-28T23:07:27.973+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:07:27.985+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.030 seconds
+[2026-04-28T23:08:10.714+0000] {processor.py:186} INFO - Started process (PID=34491) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:08:10.715+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:08:10.717+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:08:10.716+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:08:10.730+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:08:10.728+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 21, in <module>
+    le_mensagem() >> le_json()
+                     ^^^^^^^^^
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 17, in le_json
+    json = Variable.get('JSON_TESTE', deserialize_json=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/variable.py", line 148, in get
+    obj = json.loads(var_val)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2026-04-28T23:08:10.730+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:08:10.741+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.031 seconds
+[2026-04-28T23:08:54.240+0000] {processor.py:186} INFO - Started process (PID=35062) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:08:54.241+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:08:54.243+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:08:54.243+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:08:54.255+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:08:54.254+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 21, in <module>
+    le_mensagem() >> le_json()
+                     ^^^^^^^^^
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 17, in le_json
+    json = Variable.get('JSON_TESTE', deserialize_json=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/variable.py", line 148, in get
+    obj = json.loads(var_val)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2026-04-28T23:08:54.256+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:08:54.267+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.031 seconds
+[2026-04-28T23:09:36.601+0000] {processor.py:186} INFO - Started process (PID=35443) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:09:36.602+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:09:36.604+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:09:36.603+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:09:36.616+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:09:36.615+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-projeto-airflow/dags/var_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 21, in <module>
+    le_mensagem() >> le_json()
+                     ^^^^^^^^^
+  File "/workspaces/meu-projeto-airflow/dags/var_dag.py", line 17, in le_json
+    json = Variable.get('JSON_TESTE', deserialize_json=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/variable.py", line 148, in get
+    obj = json.loads(var_val)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2026-04-28T23:09:36.617+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:09:36.628+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.031 seconds
+[2026-04-28T23:10:19.914+0000] {processor.py:186} INFO - Started process (PID=35924) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:10:19.915+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:10:19.917+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:10:19.917+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:10:19.931+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:10:20.034+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:10:20.033+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:dag_variables
+[2026-04-28T23:10:20.043+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:10:20.043+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:dag_variables
+[2026-04-28T23:10:20.050+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:10:20.049+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:dag_variables
+[2026-04-28T23:10:20.061+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:10:20.060+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:dag_variables
+[2026-04-28T23:10:20.067+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:10:20.067+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:dag_variables
+[2026-04-28T23:10:20.074+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:10:20.073+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:dag_variables
+[2026-04-28T23:10:20.080+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:10:20.080+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:dag_variables
+[2026-04-28T23:10:20.080+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:10:20.080+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:10:20.089+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:10:20.089+0000] {dag.py:3262} INFO - Creating ORM DAG for dag_variables
+[2026-04-28T23:10:20.089+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:10:20.089+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:10:20.106+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.201 seconds
+[2026-04-28T23:11:03.023+0000] {processor.py:186} INFO - Started process (PID=36369) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:11:03.024+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:11:03.025+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:11:03.025+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:11:03.032+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:11:03.043+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:11:03.043+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:11:03.053+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:11:03.053+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:11:03.069+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.050 seconds
+[2026-04-28T23:11:43.447+0000] {processor.py:186} INFO - Started process (PID=36864) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:11:43.448+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:11:43.450+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:11:43.450+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:11:43.456+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:11:43.468+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:11:43.468+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:11:43.478+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:11:43.478+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:11:43.493+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.050 seconds
+[2026-04-28T23:12:29.042+0000] {processor.py:186} INFO - Started process (PID=37571) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:12:29.043+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:12:29.045+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:12:29.045+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:12:29.051+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:12:29.064+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:12:29.063+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:12:29.073+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:12:29.072+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:12:29.088+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.051 seconds
+[2026-04-28T23:13:16.622+0000] {processor.py:186} INFO - Started process (PID=37949) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:13:16.623+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:13:16.625+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:13:16.625+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:13:16.632+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:13:16.644+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:13:16.644+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:13:16.654+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:13:16.654+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:13:16.670+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.052 seconds
+[2026-04-28T23:14:00.109+0000] {processor.py:186} INFO - Started process (PID=38343) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:14:00.109+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:14:00.111+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:14:00.111+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:14:00.118+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:14:00.130+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:14:00.130+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:14:00.139+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:14:00.139+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:14:00.156+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.052 seconds
+[2026-04-28T23:14:41.224+0000] {processor.py:186} INFO - Started process (PID=38718) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:14:41.225+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:14:41.227+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:14:41.226+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:14:41.233+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:14:41.245+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:14:41.245+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:14:41.254+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:14:41.254+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:14:41.270+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.050 seconds
+[2026-04-28T23:15:21.224+0000] {processor.py:186} INFO - Started process (PID=39091) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:15:21.224+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:15:21.226+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:15:21.226+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:15:21.234+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:15:21.246+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:15:21.245+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:15:21.255+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:15:21.255+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:15:21.271+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.053 seconds
+[2026-04-28T23:16:02.483+0000] {processor.py:186} INFO - Started process (PID=39668) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:16:02.484+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:16:02.485+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:16:02.485+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:16:02.492+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:16:02.504+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:16:02.503+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:16:02.513+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:16:02.513+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:16:02.528+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.050 seconds
+[2026-04-28T23:16:44.758+0000] {processor.py:186} INFO - Started process (PID=40149) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:16:44.758+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:16:44.761+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:16:44.760+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:16:44.769+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:16:44.791+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:16:44.791+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:16:44.801+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:16:44.801+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:16:44.817+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.063 seconds
+[2026-04-28T23:17:25.477+0000] {processor.py:186} INFO - Started process (PID=40707) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:17:25.478+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:17:25.479+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:17:25.479+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:17:25.486+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:17:25.499+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:17:25.498+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:17:25.509+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:17:25.508+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:17:25.524+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.052 seconds
+[2026-04-28T23:18:11.379+0000] {processor.py:186} INFO - Started process (PID=41468) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:18:11.380+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:18:11.382+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:18:11.382+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:18:11.388+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:18:11.400+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:18:11.400+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:18:11.409+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:18:11.409+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:18:11.428+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.053 seconds
+[2026-04-28T23:18:52.530+0000] {processor.py:186} INFO - Started process (PID=42025) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:18:52.531+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:18:52.533+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:18:52.532+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:18:52.539+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:18:52.551+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:18:52.551+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:18:52.560+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:18:52.560+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:18:52.576+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.050 seconds
+[2026-04-28T23:19:34.722+0000] {processor.py:186} INFO - Started process (PID=42556) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:19:34.723+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:19:34.725+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:19:34.724+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:19:34.731+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:19:34.743+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:19:34.743+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:19:34.752+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:19:34.752+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:19:34.767+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.050 seconds
+[2026-04-28T23:20:16.105+0000] {processor.py:186} INFO - Started process (PID=42911) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:20:16.106+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:20:16.107+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:20:16.107+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:20:16.114+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:20:16.127+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:20:16.126+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:20:16.141+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:20:16.140+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:20:16.161+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.060 seconds
+[2026-04-28T23:20:58.476+0000] {processor.py:186} INFO - Started process (PID=43429) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:20:58.477+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:20:58.478+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:20:58.478+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:20:58.485+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:20:58.497+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:20:58.496+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:20:58.506+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:20:58.506+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:20:58.522+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.050 seconds
+[2026-04-28T23:21:39.094+0000] {processor.py:186} INFO - Started process (PID=43751) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:21:39.095+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:21:39.098+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:21:39.097+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:21:39.120+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:21:39.142+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:21:39.142+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:21:39.158+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:21:39.158+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:21:39.201+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.113 seconds
+[2026-04-28T23:22:20.847+0000] {processor.py:186} INFO - Started process (PID=44047) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:22:20.848+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:22:20.849+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:22:20.849+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:22:20.856+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:22:20.867+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:22:20.867+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:22:20.877+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:22:20.876+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:22:20.892+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.049 seconds
+[2026-04-28T23:23:03.687+0000] {processor.py:186} INFO - Started process (PID=44447) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:23:03.688+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:23:03.691+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:23:03.690+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:23:03.699+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:23:03.724+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:23:03.724+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:23:03.741+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:23:03.740+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:23:03.783+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.104 seconds
+[2026-04-28T23:23:50.060+0000] {processor.py:186} INFO - Started process (PID=44871) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:23:50.061+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:23:50.065+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:23:50.064+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:23:50.078+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:23:50.091+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:23:50.091+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:23:50.101+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:23:50.100+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:23:50.117+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.064 seconds
+[2026-04-28T23:24:35.952+0000] {processor.py:186} INFO - Started process (PID=45297) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:24:35.953+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:24:35.954+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:24:35.954+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:24:35.960+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:24:35.973+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:24:35.972+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:24:35.985+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:24:35.985+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:24:36.004+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.056 seconds
+[2026-04-28T23:25:24.512+0000] {processor.py:186} INFO - Started process (PID=45710) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:25:24.525+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:25:24.536+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:25:24.535+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:25:24.588+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:25:24.705+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:25:24.704+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:25:24.737+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:25:24.736+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:25:24.788+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.293 seconds
+[2026-04-28T23:26:12.315+0000] {processor.py:186} INFO - Started process (PID=46166) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:26:12.316+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:26:12.318+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:26:12.318+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:26:12.326+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:26:12.343+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:26:12.342+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:26:12.352+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:26:12.352+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:26:12.368+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.058 seconds
+[2026-04-28T23:26:58.021+0000] {processor.py:186} INFO - Started process (PID=46657) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:26:58.022+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:26:58.023+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:26:58.022+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:26:58.032+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:26:58.046+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:26:58.046+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:26:58.056+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:26:58.055+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:26:58.075+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.060 seconds
+[2026-04-28T23:27:41.633+0000] {processor.py:186} INFO - Started process (PID=47085) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:27:41.634+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:27:41.635+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:27:41.634+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:27:41.642+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:27:41.654+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:27:41.654+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:27:41.664+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:27:41.663+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:27:41.679+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.052 seconds
+[2026-04-28T23:28:25.867+0000] {processor.py:186} INFO - Started process (PID=47513) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:28:25.867+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:28:25.868+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:28:25.868+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:28:25.875+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:28:25.888+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:28:25.888+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:28:25.898+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:28:25.898+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:28:25.914+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.051 seconds
+[2026-04-28T23:29:10.585+0000] {processor.py:186} INFO - Started process (PID=47867) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:29:10.586+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:29:10.587+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:29:10.587+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:29:10.594+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:29:10.606+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:29:10.606+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:29:10.617+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:29:10.617+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:29:10.639+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.058 seconds
+[2026-04-28T23:29:55.313+0000] {processor.py:186} INFO - Started process (PID=48312) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:29:55.314+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:29:55.315+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:29:55.315+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:29:55.322+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:29:55.337+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:29:55.336+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:29:55.346+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:29:55.346+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:29:55.361+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.052 seconds
+[2026-04-28T23:30:39.010+0000] {processor.py:186} INFO - Started process (PID=48717) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:30:39.010+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:30:39.012+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:30:39.011+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:30:39.019+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:30:39.033+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:30:39.033+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:30:39.043+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:30:39.043+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:30:39.059+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.054 seconds
+[2026-04-28T23:31:23.843+0000] {processor.py:186} INFO - Started process (PID=49083) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:31:23.843+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:31:23.844+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:31:23.844+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:31:23.851+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:31:23.863+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:31:23.863+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:31:23.873+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:31:23.873+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:31:23.893+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.054 seconds
+[2026-04-28T23:32:08.190+0000] {processor.py:186} INFO - Started process (PID=49568) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:32:08.191+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:32:08.192+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:32:08.191+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:32:08.198+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:32:08.210+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:32:08.210+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:32:08.222+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:32:08.222+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:32:08.240+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.055 seconds
+[2026-04-28T23:32:50.771+0000] {processor.py:186} INFO - Started process (PID=49976) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:32:50.772+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:32:50.773+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:32:50.773+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:32:50.795+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:32:50.855+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:32:50.855+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:32:50.894+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:32:50.894+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:32:50.958+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.195 seconds
+[2026-04-28T23:33:35.816+0000] {processor.py:186} INFO - Started process (PID=50398) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:33:35.817+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:33:35.818+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:33:35.818+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:33:35.826+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:33:35.840+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:33:35.840+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:33:35.850+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:33:35.850+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:33:35.870+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.059 seconds
+[2026-04-28T23:34:22.711+0000] {processor.py:186} INFO - Started process (PID=50966) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:34:22.713+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:34:22.715+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:34:22.714+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:34:22.728+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:34:22.751+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:34:22.751+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:34:22.770+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:34:22.770+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:34:22.794+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.094 seconds
+[2026-04-28T23:35:07.928+0000] {processor.py:186} INFO - Started process (PID=51398) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:35:07.929+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:35:07.930+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:35:07.930+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:35:07.937+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:35:07.959+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:35:07.958+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:35:07.976+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:35:07.976+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:35:07.996+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.074 seconds
+[2026-04-28T23:35:52.131+0000] {processor.py:186} INFO - Started process (PID=52013) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:35:52.132+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:35:52.133+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:35:52.133+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:35:52.140+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:35:52.153+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:35:52.152+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:35:52.162+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:35:52.162+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:35:52.177+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.052 seconds
+[2026-04-28T23:36:36.677+0000] {processor.py:186} INFO - Started process (PID=52657) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:36:36.678+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:36:36.679+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:36:36.678+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:36:36.685+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:36:36.697+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:36:36.697+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:36:36.709+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:36:36.709+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:36:36.728+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.056 seconds
+[2026-04-28T23:37:19.194+0000] {processor.py:186} INFO - Started process (PID=53118) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:37:19.194+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:37:19.195+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:37:19.195+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:37:19.202+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:37:19.218+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:37:19.218+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:37:19.237+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:37:19.237+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:37:19.269+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.079 seconds
+[2026-04-28T23:38:00.850+0000] {processor.py:186} INFO - Started process (PID=53518) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:38:00.851+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:38:00.852+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:38:00.852+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:38:00.858+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:38:00.870+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:38:00.870+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:38:00.879+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:38:00.879+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:38:00.894+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.049 seconds
+[2026-04-28T23:38:43.295+0000] {processor.py:186} INFO - Started process (PID=53921) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:38:43.296+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:38:43.297+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:38:43.297+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:38:43.304+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:38:43.317+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:38:43.317+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:38:43.331+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:38:43.330+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:38:43.347+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.056 seconds
+[2026-04-28T23:39:28.349+0000] {processor.py:186} INFO - Started process (PID=54353) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:39:28.350+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:39:28.351+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:39:28.351+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:39:28.357+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:39:28.369+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:39:28.369+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:39:28.378+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:39:28.378+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:39:28.395+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.050 seconds
+[2026-04-28T23:40:15.113+0000] {processor.py:186} INFO - Started process (PID=55183) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:40:15.113+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:40:15.115+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:40:15.114+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:40:15.123+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:40:15.137+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:40:15.137+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:40:15.148+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:40:15.148+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:40:15.166+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.057 seconds
+[2026-04-28T23:41:01.549+0000] {processor.py:186} INFO - Started process (PID=55842) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:41:01.550+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:41:01.551+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:41:01.550+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:41:01.557+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:41:01.569+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:41:01.569+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:41:01.579+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:41:01.579+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:41:01.595+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.050 seconds
+[2026-04-28T23:41:43.538+0000] {processor.py:186} INFO - Started process (PID=56489) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:41:43.543+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:41:43.544+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:41:43.543+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:41:43.552+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:41:43.567+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:41:43.567+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:41:43.577+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:41:43.577+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:41:43.593+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.069 seconds
+[2026-04-28T23:42:28.022+0000] {processor.py:186} INFO - Started process (PID=57173) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:42:28.023+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:42:28.024+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:42:28.024+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:42:28.032+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:42:28.045+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:42:28.045+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:42:28.055+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:42:28.055+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:42:28.071+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.055 seconds
+[2026-04-28T23:43:11.138+0000] {processor.py:186} INFO - Started process (PID=57668) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:43:11.139+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:43:11.140+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:43:11.140+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:43:11.147+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:43:11.158+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:43:11.158+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:43:11.168+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:43:11.168+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:43:11.184+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.050 seconds
+[2026-04-28T23:43:53.643+0000] {processor.py:186} INFO - Started process (PID=58117) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:43:53.644+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:43:53.645+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:43:53.644+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:43:53.651+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:43:53.662+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:43:53.662+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:43:53.672+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:43:53.672+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:43:53.687+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.049 seconds
+[2026-04-28T23:44:37.965+0000] {processor.py:186} INFO - Started process (PID=58707) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:44:37.966+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:44:37.967+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:44:37.966+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:44:37.973+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:44:37.985+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:44:37.985+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:44:37.996+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:44:37.996+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:44:38.012+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.053 seconds
+[2026-04-28T23:45:24.020+0000] {processor.py:186} INFO - Started process (PID=59186) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:45:24.021+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:45:24.022+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:45:24.022+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:45:24.030+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:45:24.043+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:45:24.043+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:45:24.053+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:45:24.053+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:45:24.068+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.053 seconds
+[2026-04-28T23:46:08.828+0000] {processor.py:186} INFO - Started process (PID=59587) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:46:08.829+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:46:08.830+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:46:08.830+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:46:08.838+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:46:08.850+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:46:08.850+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:46:08.860+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:46:08.860+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:46:08.876+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.053 seconds
+[2026-04-28T23:46:51.875+0000] {processor.py:186} INFO - Started process (PID=60036) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:46:51.875+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:46:51.876+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:46:51.876+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:46:51.883+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:46:51.894+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:46:51.894+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:46:51.905+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:46:51.904+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:46:51.923+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.052 seconds
+[2026-04-28T23:47:33.268+0000] {processor.py:186} INFO - Started process (PID=60418) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:47:33.269+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:47:33.270+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:47:33.270+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:47:33.278+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:47:33.301+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:47:33.301+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:47:33.313+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:47:33.313+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:47:33.332+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.070 seconds
+[2026-04-28T23:48:16.804+0000] {processor.py:186} INFO - Started process (PID=60765) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:48:16.805+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:48:16.806+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:48:16.806+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:48:16.813+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:48:16.828+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:48:16.828+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:48:16.840+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:48:16.839+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:48:16.855+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.055 seconds
+[2026-04-28T23:49:02.419+0000] {processor.py:186} INFO - Started process (PID=61164) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:49:02.420+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:49:02.421+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:49:02.420+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:49:02.429+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:49:02.442+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:49:02.442+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:49:02.452+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:49:02.452+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:49:02.467+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.054 seconds
+[2026-04-28T23:49:47.172+0000] {processor.py:186} INFO - Started process (PID=61580) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:49:47.173+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:49:47.174+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:49:47.174+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:49:47.180+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:49:47.192+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:49:47.192+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:49:47.202+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:49:47.202+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:49:47.218+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.050 seconds
+[2026-04-28T23:50:31.018+0000] {processor.py:186} INFO - Started process (PID=61973) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:50:31.019+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:50:31.021+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:50:31.020+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:50:31.029+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:50:31.043+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:50:31.043+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:50:31.053+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:50:31.053+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:50:31.068+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.056 seconds
+[2026-04-28T23:51:16.736+0000] {processor.py:186} INFO - Started process (PID=62624) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:51:16.737+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:51:16.738+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:51:16.738+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:51:16.744+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:51:16.756+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:51:16.756+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:51:16.766+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:51:16.766+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:51:16.781+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.051 seconds
+[2026-04-28T23:52:00.536+0000] {processor.py:186} INFO - Started process (PID=63098) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:52:00.537+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:52:00.538+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:52:00.538+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:52:00.545+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:52:00.556+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:52:00.556+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:52:00.567+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:52:00.567+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:52:00.582+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.051 seconds
+[2026-04-28T23:52:44.538+0000] {processor.py:186} INFO - Started process (PID=63493) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:52:44.539+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:52:44.540+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:52:44.540+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:52:44.546+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:52:44.558+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:52:44.558+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:52:44.569+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:52:44.569+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:52:44.584+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.051 seconds
+[2026-04-28T23:53:31.520+0000] {processor.py:186} INFO - Started process (PID=63984) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:53:31.523+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:53:31.525+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:53:31.525+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:53:31.557+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:53:31.601+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:53:31.598+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:53:31.643+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:53:31.643+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:53:31.695+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.249 seconds
+[2026-04-28T23:54:16.738+0000] {processor.py:186} INFO - Started process (PID=64817) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:54:16.739+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:54:16.740+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:54:16.739+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:54:16.746+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:54:16.758+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:54:16.757+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:54:16.767+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:54:16.767+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:54:16.783+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.050 seconds
+[2026-04-28T23:55:07.894+0000] {processor.py:186} INFO - Started process (PID=65626) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:55:07.929+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:55:07.930+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:55:07.930+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:55:07.939+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:55:07.953+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:55:07.953+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:55:07.963+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:55:07.963+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:55:07.979+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.091 seconds
+[2026-04-28T23:55:56.295+0000] {processor.py:186} INFO - Started process (PID=66141) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:55:56.296+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:55:56.297+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:55:56.297+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:55:56.303+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:55:56.318+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:55:56.317+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:55:56.331+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:55:56.331+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:55:56.349+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.058 seconds
+[2026-04-28T23:56:42.324+0000] {processor.py:186} INFO - Started process (PID=66913) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:56:42.325+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:56:42.326+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:56:42.326+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:56:42.335+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:56:42.347+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:56:42.346+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:56:42.356+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:56:42.356+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:56:42.371+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.053 seconds
+[2026-04-28T23:57:28.976+0000] {processor.py:186} INFO - Started process (PID=67336) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:57:28.977+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:57:28.981+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:57:28.980+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:57:28.992+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:57:29.008+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:57:29.008+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:57:29.020+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:57:29.020+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:57:29.038+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.068 seconds
+[2026-04-28T23:58:09.811+0000] {processor.py:186} INFO - Started process (PID=67771) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:58:09.812+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:58:09.813+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:58:09.813+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:58:09.821+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:58:09.835+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:58:09.835+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:58:09.845+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:58:09.845+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:58:09.862+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.055 seconds
+[2026-04-28T23:58:52.238+0000] {processor.py:186} INFO - Started process (PID=68162) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:58:52.238+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:58:52.240+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:58:52.239+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:58:52.246+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:58:52.261+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:58:52.261+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:58:52.276+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:58:52.276+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:58:52.300+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.067 seconds
+[2026-04-28T23:59:33.977+0000] {processor.py:186} INFO - Started process (PID=68541) to work on /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:59:33.978+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/var_dag.py for tasks to queue
+[2026-04-28T23:59:33.979+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:59:33.979+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:59:33.986+0000] {processor.py:925} INFO - DAG(s) 'dag_variables' retrieved from /workspaces/meu-projeto-airflow/dags/var_dag.py
+[2026-04-28T23:59:33.998+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:59:33.998+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-28T23:59:34.008+0000] {logging_mixin.py:190} INFO - [2026-04-28T23:59:34.008+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_variables to None, run_after=None
+[2026-04-28T23:59:34.025+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/var_dag.py took 0.052 seconds

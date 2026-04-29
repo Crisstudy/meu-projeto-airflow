@@ -1,0 +1,25 @@
+[2026-04-28T15:03:56.801+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-04-28T15:03:56.808+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_custom_op.gera_arquivo_csv manual__2026-04-28T15:03:49.279370+00:00 [queued]>
+[2026-04-28T15:03:56.814+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_custom_op.gera_arquivo_csv manual__2026-04-28T15:03:49.279370+00:00 [queued]>
+[2026-04-28T15:03:56.814+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2026-04-28T15:03:56.831+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): gera_arquivo_csv> on 2026-04-28 15:03:49.279370+00:00
+[2026-04-28T15:03:56.838+0000] {standard_task_runner.py:72} INFO - Started process 56595 to run task
+[2026-04-28T15:03:56.842+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'dag_custom_op', 'gera_arquivo_csv', 'manual__2026-04-28T15:03:49.279370+00:00', '--job-id', '159', '--raw', '--subdir', 'DAGS_FOLDER/dag_custom_op.py', '--cfg-path', '/tmp/tmpkrwsnyhq']
+[2026-04-28T15:03:56.842+0000] {standard_task_runner.py:105} INFO - Job 159: Subtask gera_arquivo_csv
+[2026-04-28T15:03:56.872+0000] {task_command.py:467} INFO - Running <TaskInstance: dag_custom_op.gera_arquivo_csv manual__2026-04-28T15:03:49.279370+00:00 [running]> on host codespaces-1f1e00
+[2026-04-28T15:03:56.996+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='dag_custom_op' AIRFLOW_CTX_TASK_ID='gera_arquivo_csv' AIRFLOW_CTX_EXECUTION_DATE='2026-04-28T15:03:49.279370+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-28T15:03:49.279370+00:00'
+[2026-04-28T15:03:57.003+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-04-28T15:03:57.005+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-04-28T15:03:57.005+0000] {logging_mixin.py:190} INFO - Current task name:gera_arquivo_csv state:running start_date:2026-04-28 15:03:56.808592+00:00
+[2026-04-28T15:03:57.005+0000] {logging_mixin.py:190} INFO - Dag name:dag_custom_op and current dag run status:running
+[2026-04-28T15:03:57.007+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-04-28T15:03:57.009+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-04-28T15:03:57.020+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-04-28T15:03:57.020+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=dag_custom_op, task_id=gera_arquivo_csv, run_id=manual__2026-04-28T15:03:49.279370+00:00, execution_date=20260428T150349, start_date=20260428T150356, end_date=20260428T150357
+[2026-04-28T15:03:57.042+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-04-28T15:03:57.043+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-04-28T15:03:57.043+0000] {logging_mixin.py:190} INFO - Dag name:dag_custom_op queued_at:2026-04-28 15:03:49.292279+00:00
+[2026-04-28T15:03:57.043+0000] {logging_mixin.py:190} INFO - Task hostname:codespaces-1f1e00 operator:_PythonDecoratedOperator
+[2026-04-28T15:03:57.055+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-04-28T15:03:57.068+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-04-28T15:03:57.073+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

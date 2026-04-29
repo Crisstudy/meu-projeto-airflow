@@ -1,0 +1,26 @@
+[2026-04-29T00:28:13.958+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-04-29T00:28:13.967+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pool_dag.task_pool2 manual__2026-04-29T00:27:56.011502+00:00 [queued]>
+[2026-04-29T00:28:13.973+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pool_dag.task_pool2 manual__2026-04-29T00:27:56.011502+00:00 [queued]>
+[2026-04-29T00:28:13.973+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2026-04-29T00:28:13.986+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): task_pool2> on 2026-04-29 00:27:56.011502+00:00
+[2026-04-29T00:28:13.991+0000] {standard_task_runner.py:72} INFO - Started process 93087 to run task
+[2026-04-29T00:28:13.995+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'pool_dag', 'task_pool2', 'manual__2026-04-29T00:27:56.011502+00:00', '--job-id', '179', '--raw', '--subdir', 'DAGS_FOLDER/pool_dag.py', '--cfg-path', '/tmp/tmpd4kih_sb']
+[2026-04-29T00:28:13.995+0000] {standard_task_runner.py:105} INFO - Job 179: Subtask task_pool2
+[2026-04-29T00:28:14.032+0000] {task_command.py:467} INFO - Running <TaskInstance: pool_dag.task_pool2 manual__2026-04-29T00:27:56.011502+00:00 [running]> on host codespaces-1f1e00
+[2026-04-29T00:28:14.072+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='pool_dag' AIRFLOW_CTX_TASK_ID='task_pool2' AIRFLOW_CTX_EXECUTION_DATE='2026-04-29T00:27:56.011502+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-29T00:27:56.011502+00:00'
+[2026-04-29T00:28:14.073+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-04-29T00:28:14.073+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-04-29T00:28:14.073+0000] {logging_mixin.py:190} INFO - Current task name:task_pool2 state:running start_date:2026-04-29 00:28:13.967729+00:00
+[2026-04-29T00:28:14.073+0000] {logging_mixin.py:190} INFO - Dag name:pool_dag and current dag run status:running
+[2026-04-29T00:28:14.073+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-04-29T00:28:14.074+0000] {logging_mixin.py:190} INFO - Task_pool2
+[2026-04-29T00:28:14.074+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-04-29T00:28:14.077+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-04-29T00:28:14.077+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=pool_dag, task_id=task_pool2, run_id=manual__2026-04-29T00:27:56.011502+00:00, execution_date=20260429T002756, start_date=20260429T002813, end_date=20260429T002814
+[2026-04-29T00:28:14.085+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-04-29T00:28:14.086+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-04-29T00:28:14.086+0000] {logging_mixin.py:190} INFO - Dag name:pool_dag queued_at:2026-04-29 00:27:56.039002+00:00
+[2026-04-29T00:28:14.086+0000] {logging_mixin.py:190} INFO - Task hostname:codespaces-1f1e00 operator:_PythonDecoratedOperator
+[2026-04-29T00:28:14.127+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-04-29T00:28:14.139+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-04-29T00:28:14.139+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
