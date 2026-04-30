@@ -453,3 +453,52 @@
 [2026-04-29T00:51:02.425+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:51:02.424+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-04-29T00:51:02.457+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:51:02.456+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_schedule_dag to None, run_after=None
 [2026-04-29T00:51:02.501+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dataset_schedule.py took 0.144 seconds
+[2026-04-29T00:51:49.370+0000] {processor.py:186} INFO - Started process (PID=121701) to work on /workspaces/meu-projeto-airflow/dags/dataset_schedule.py
+[2026-04-29T00:51:49.371+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dataset_schedule.py for tasks to queue
+[2026-04-29T00:51:49.372+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:51:49.372+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dataset_schedule.py
+[2026-04-29T00:51:49.380+0000] {processor.py:925} INFO - DAG(s) 'dataset_schedule_dag' retrieved from /workspaces/meu-projeto-airflow/dags/dataset_schedule.py
+[2026-04-29T00:51:49.399+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:51:49.399+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-29T00:51:49.423+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:51:49.423+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_schedule_dag to None, run_after=None
+[2026-04-29T00:51:49.467+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dataset_schedule.py took 0.104 seconds
+[2026-04-29T00:52:36.127+0000] {processor.py:186} INFO - Started process (PID=122843) to work on /workspaces/meu-projeto-airflow/dags/dataset_schedule.py
+[2026-04-29T00:52:36.128+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dataset_schedule.py for tasks to queue
+[2026-04-29T00:52:36.129+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:52:36.129+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dataset_schedule.py
+[2026-04-29T00:52:36.136+0000] {processor.py:925} INFO - DAG(s) 'dataset_schedule_dag' retrieved from /workspaces/meu-projeto-airflow/dags/dataset_schedule.py
+[2026-04-29T00:52:36.148+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:52:36.148+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-29T00:52:36.163+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:52:36.163+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_schedule_dag to None, run_after=None
+[2026-04-29T00:52:36.182+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dataset_schedule.py took 0.061 seconds
+[2026-04-29T00:53:24.620+0000] {processor.py:186} INFO - Started process (PID=124098) to work on /workspaces/meu-projeto-airflow/dags/dataset_schedule.py
+[2026-04-29T00:53:24.621+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dataset_schedule.py for tasks to queue
+[2026-04-29T00:53:24.622+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:53:24.622+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dataset_schedule.py
+[2026-04-29T00:53:24.630+0000] {processor.py:925} INFO - DAG(s) 'dataset_schedule_dag' retrieved from /workspaces/meu-projeto-airflow/dags/dataset_schedule.py
+[2026-04-29T00:53:24.646+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:53:24.645+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-29T00:53:24.664+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:53:24.663+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_schedule_dag to None, run_after=None
+[2026-04-29T00:53:24.686+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dataset_schedule.py took 0.072 seconds
+[2026-04-29T00:54:14.993+0000] {processor.py:186} INFO - Started process (PID=125133) to work on /workspaces/meu-projeto-airflow/dags/dataset_schedule.py
+[2026-04-29T00:54:14.993+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dataset_schedule.py for tasks to queue
+[2026-04-29T00:54:14.994+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:54:14.994+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dataset_schedule.py
+[2026-04-29T00:54:15.000+0000] {processor.py:925} INFO - DAG(s) 'dataset_schedule_dag' retrieved from /workspaces/meu-projeto-airflow/dags/dataset_schedule.py
+[2026-04-29T00:54:15.012+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:54:15.012+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-29T00:54:15.034+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:54:15.034+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_schedule_dag to None, run_after=None
+[2026-04-29T00:54:15.057+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dataset_schedule.py took 0.069 seconds
+[2026-04-29T00:55:00.448+0000] {processor.py:186} INFO - Started process (PID=126040) to work on /workspaces/meu-projeto-airflow/dags/dataset_schedule.py
+[2026-04-29T00:55:00.448+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dataset_schedule.py for tasks to queue
+[2026-04-29T00:55:00.449+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:55:00.449+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dataset_schedule.py
+[2026-04-29T00:55:00.455+0000] {processor.py:925} INFO - DAG(s) 'dataset_schedule_dag' retrieved from /workspaces/meu-projeto-airflow/dags/dataset_schedule.py
+[2026-04-29T00:55:00.467+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:55:00.467+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-29T00:55:00.484+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:55:00.483+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_schedule_dag to None, run_after=None
+[2026-04-29T00:55:00.505+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dataset_schedule.py took 0.061 seconds
+[2026-04-29T00:55:44.665+0000] {processor.py:186} INFO - Started process (PID=126936) to work on /workspaces/meu-projeto-airflow/dags/dataset_schedule.py
+[2026-04-29T00:55:44.666+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dataset_schedule.py for tasks to queue
+[2026-04-29T00:55:44.667+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:55:44.667+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dataset_schedule.py
+[2026-04-29T00:55:44.673+0000] {processor.py:925} INFO - DAG(s) 'dataset_schedule_dag' retrieved from /workspaces/meu-projeto-airflow/dags/dataset_schedule.py
+[2026-04-29T00:55:44.685+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:55:44.685+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-29T00:55:44.701+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:55:44.700+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_schedule_dag to None, run_after=None
+[2026-04-29T00:55:44.721+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dataset_schedule.py took 0.061 seconds
+[2026-04-29T00:56:29.578+0000] {processor.py:186} INFO - Started process (PID=127809) to work on /workspaces/meu-projeto-airflow/dags/dataset_schedule.py
+[2026-04-29T00:56:29.578+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/dataset_schedule.py for tasks to queue
+[2026-04-29T00:56:29.579+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:56:29.579+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/dataset_schedule.py
+[2026-04-29T00:56:29.585+0000] {processor.py:925} INFO - DAG(s) 'dataset_schedule_dag' retrieved from /workspaces/meu-projeto-airflow/dags/dataset_schedule.py
+[2026-04-29T00:56:29.598+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:56:29.598+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-29T00:56:29.614+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:56:29.613+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_schedule_dag to None, run_after=None
+[2026-04-29T00:56:29.636+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/dataset_schedule.py took 0.063 seconds

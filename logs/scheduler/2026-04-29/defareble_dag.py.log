@@ -453,3 +453,52 @@
 [2026-04-29T00:51:06.522+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:51:06.522+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-04-29T00:51:06.541+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:51:06.540+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_defereable to None, run_after=None
 [2026-04-29T00:51:06.851+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/defareble_dag.py took 0.365 seconds
+[2026-04-29T00:51:52.351+0000] {processor.py:186} INFO - Started process (PID=121798) to work on /workspaces/meu-projeto-airflow/dags/defareble_dag.py
+[2026-04-29T00:51:52.352+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/defareble_dag.py for tasks to queue
+[2026-04-29T00:51:52.353+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:51:52.353+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/defareble_dag.py
+[2026-04-29T00:51:52.359+0000] {processor.py:925} INFO - DAG(s) 'dag_defereable' retrieved from /workspaces/meu-projeto-airflow/dags/defareble_dag.py
+[2026-04-29T00:51:52.372+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:51:52.372+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-29T00:51:52.382+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:51:52.382+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_defereable to None, run_after=None
+[2026-04-29T00:51:52.397+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/defareble_dag.py took 0.051 seconds
+[2026-04-29T00:52:38.566+0000] {processor.py:186} INFO - Started process (PID=122898) to work on /workspaces/meu-projeto-airflow/dags/defareble_dag.py
+[2026-04-29T00:52:38.567+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/defareble_dag.py for tasks to queue
+[2026-04-29T00:52:38.568+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:52:38.567+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/defareble_dag.py
+[2026-04-29T00:52:38.574+0000] {processor.py:925} INFO - DAG(s) 'dag_defereable' retrieved from /workspaces/meu-projeto-airflow/dags/defareble_dag.py
+[2026-04-29T00:52:38.586+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:52:38.586+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-29T00:52:38.598+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:52:38.597+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_defereable to None, run_after=None
+[2026-04-29T00:52:38.619+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/defareble_dag.py took 0.057 seconds
+[2026-04-29T00:53:27.164+0000] {processor.py:186} INFO - Started process (PID=124170) to work on /workspaces/meu-projeto-airflow/dags/defareble_dag.py
+[2026-04-29T00:53:27.165+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/defareble_dag.py for tasks to queue
+[2026-04-29T00:53:27.166+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:53:27.166+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/defareble_dag.py
+[2026-04-29T00:53:27.174+0000] {processor.py:925} INFO - DAG(s) 'dag_defereable' retrieved from /workspaces/meu-projeto-airflow/dags/defareble_dag.py
+[2026-04-29T00:53:27.190+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:53:27.190+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-29T00:53:27.204+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:53:27.203+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_defereable to None, run_after=None
+[2026-04-29T00:53:27.225+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/defareble_dag.py took 0.067 seconds
+[2026-04-29T00:54:17.618+0000] {processor.py:186} INFO - Started process (PID=125205) to work on /workspaces/meu-projeto-airflow/dags/defareble_dag.py
+[2026-04-29T00:54:17.619+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/defareble_dag.py for tasks to queue
+[2026-04-29T00:54:17.621+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:54:17.620+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/defareble_dag.py
+[2026-04-29T00:54:17.629+0000] {processor.py:925} INFO - DAG(s) 'dag_defereable' retrieved from /workspaces/meu-projeto-airflow/dags/defareble_dag.py
+[2026-04-29T00:54:17.646+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:54:17.646+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-29T00:54:17.657+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:54:17.657+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_defereable to None, run_after=None
+[2026-04-29T00:54:17.674+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/defareble_dag.py took 0.062 seconds
+[2026-04-29T00:55:03.297+0000] {processor.py:186} INFO - Started process (PID=126141) to work on /workspaces/meu-projeto-airflow/dags/defareble_dag.py
+[2026-04-29T00:55:03.298+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/defareble_dag.py for tasks to queue
+[2026-04-29T00:55:03.300+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:55:03.299+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/defareble_dag.py
+[2026-04-29T00:55:03.305+0000] {processor.py:925} INFO - DAG(s) 'dag_defereable' retrieved from /workspaces/meu-projeto-airflow/dags/defareble_dag.py
+[2026-04-29T00:55:03.318+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:55:03.318+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-29T00:55:03.331+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:55:03.331+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_defereable to None, run_after=None
+[2026-04-29T00:55:03.347+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/defareble_dag.py took 0.054 seconds
+[2026-04-29T00:55:48.175+0000] {processor.py:186} INFO - Started process (PID=127014) to work on /workspaces/meu-projeto-airflow/dags/defareble_dag.py
+[2026-04-29T00:55:48.176+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/defareble_dag.py for tasks to queue
+[2026-04-29T00:55:48.177+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:55:48.177+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/defareble_dag.py
+[2026-04-29T00:55:48.184+0000] {processor.py:925} INFO - DAG(s) 'dag_defereable' retrieved from /workspaces/meu-projeto-airflow/dags/defareble_dag.py
+[2026-04-29T00:55:48.197+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:55:48.197+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-29T00:55:48.207+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:55:48.207+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_defereable to None, run_after=None
+[2026-04-29T00:55:48.224+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/defareble_dag.py took 0.054 seconds
+[2026-04-29T00:56:32.499+0000] {processor.py:186} INFO - Started process (PID=127886) to work on /workspaces/meu-projeto-airflow/dags/defareble_dag.py
+[2026-04-29T00:56:32.500+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/defareble_dag.py for tasks to queue
+[2026-04-29T00:56:32.502+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:56:32.501+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/defareble_dag.py
+[2026-04-29T00:56:32.515+0000] {processor.py:925} INFO - DAG(s) 'dag_defereable' retrieved from /workspaces/meu-projeto-airflow/dags/defareble_dag.py
+[2026-04-29T00:56:32.538+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:56:32.537+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-29T00:56:32.548+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:56:32.548+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_defereable to None, run_after=None
+[2026-04-29T00:56:32.564+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/defareble_dag.py took 0.070 seconds

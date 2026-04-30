@@ -334,3 +334,45 @@
 [2026-04-29T00:50:23.111+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:50:23.111+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-04-29T00:50:23.123+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:50:23.123+0000] {dag.py:4180} INFO - Setting next_dagrun for hook_dag_v2 to None, run_after=None
 [2026-04-29T00:50:23.148+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/hook_dag_v2.py took 0.060 seconds
+[2026-04-29T00:51:14.018+0000] {processor.py:186} INFO - Started process (PID=120868) to work on /workspaces/meu-projeto-airflow/dags/hook_dag_v2.py
+[2026-04-29T00:51:14.019+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/hook_dag_v2.py for tasks to queue
+[2026-04-29T00:51:14.020+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:51:14.020+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/hook_dag_v2.py
+[2026-04-29T00:51:14.028+0000] {processor.py:925} INFO - DAG(s) 'hook_dag_v2' retrieved from /workspaces/meu-projeto-airflow/dags/hook_dag_v2.py
+[2026-04-29T00:51:14.041+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:51:14.041+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-29T00:51:14.051+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:51:14.051+0000] {dag.py:4180} INFO - Setting next_dagrun for hook_dag_v2 to None, run_after=None
+[2026-04-29T00:51:14.067+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/hook_dag_v2.py took 0.055 seconds
+[2026-04-29T00:52:46.377+0000] {processor.py:186} INFO - Started process (PID=123151) to work on /workspaces/meu-projeto-airflow/dags/hook_dag_v2.py
+[2026-04-29T00:52:46.378+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/hook_dag_v2.py for tasks to queue
+[2026-04-29T00:52:46.379+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:52:46.379+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/hook_dag_v2.py
+[2026-04-29T00:52:46.386+0000] {processor.py:925} INFO - DAG(s) 'hook_dag_v2' retrieved from /workspaces/meu-projeto-airflow/dags/hook_dag_v2.py
+[2026-04-29T00:52:46.398+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:52:46.398+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-29T00:52:46.408+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:52:46.408+0000] {dag.py:4180} INFO - Setting next_dagrun for hook_dag_v2 to None, run_after=None
+[2026-04-29T00:52:46.426+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/hook_dag_v2.py took 0.053 seconds
+[2026-04-29T00:53:32.505+0000] {processor.py:186} INFO - Started process (PID=124291) to work on /workspaces/meu-projeto-airflow/dags/hook_dag_v2.py
+[2026-04-29T00:53:32.505+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/hook_dag_v2.py for tasks to queue
+[2026-04-29T00:53:32.506+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:53:32.506+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/hook_dag_v2.py
+[2026-04-29T00:53:32.512+0000] {processor.py:925} INFO - DAG(s) 'hook_dag_v2' retrieved from /workspaces/meu-projeto-airflow/dags/hook_dag_v2.py
+[2026-04-29T00:53:32.527+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:53:32.527+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-29T00:53:32.539+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:53:32.539+0000] {dag.py:4180} INFO - Setting next_dagrun for hook_dag_v2 to None, run_after=None
+[2026-04-29T00:53:32.554+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/hook_dag_v2.py took 0.054 seconds
+[2026-04-29T00:54:23.800+0000] {processor.py:186} INFO - Started process (PID=125326) to work on /workspaces/meu-projeto-airflow/dags/hook_dag_v2.py
+[2026-04-29T00:54:23.801+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/hook_dag_v2.py for tasks to queue
+[2026-04-29T00:54:23.802+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:54:23.802+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/hook_dag_v2.py
+[2026-04-29T00:54:23.808+0000] {processor.py:925} INFO - DAG(s) 'hook_dag_v2' retrieved from /workspaces/meu-projeto-airflow/dags/hook_dag_v2.py
+[2026-04-29T00:54:23.824+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:54:23.823+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-29T00:54:23.837+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:54:23.836+0000] {dag.py:4180} INFO - Setting next_dagrun for hook_dag_v2 to None, run_after=None
+[2026-04-29T00:54:23.854+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/hook_dag_v2.py took 0.061 seconds
+[2026-04-29T00:55:51.799+0000] {processor.py:186} INFO - Started process (PID=127059) to work on /workspaces/meu-projeto-airflow/dags/hook_dag_v2.py
+[2026-04-29T00:55:51.799+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/hook_dag_v2.py for tasks to queue
+[2026-04-29T00:55:51.801+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:55:51.800+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/hook_dag_v2.py
+[2026-04-29T00:55:51.807+0000] {processor.py:925} INFO - DAG(s) 'hook_dag_v2' retrieved from /workspaces/meu-projeto-airflow/dags/hook_dag_v2.py
+[2026-04-29T00:55:51.821+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:55:51.820+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-29T00:55:51.833+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:55:51.833+0000] {dag.py:4180} INFO - Setting next_dagrun for hook_dag_v2 to None, run_after=None
+[2026-04-29T00:55:51.849+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/hook_dag_v2.py took 0.055 seconds
+[2026-04-29T00:56:39.042+0000] {processor.py:186} INFO - Started process (PID=127999) to work on /workspaces/meu-projeto-airflow/dags/hook_dag_v2.py
+[2026-04-29T00:56:39.043+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/hook_dag_v2.py for tasks to queue
+[2026-04-29T00:56:39.044+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:56:39.044+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/hook_dag_v2.py
+[2026-04-29T00:56:39.051+0000] {processor.py:925} INFO - DAG(s) 'hook_dag_v2' retrieved from /workspaces/meu-projeto-airflow/dags/hook_dag_v2.py
+[2026-04-29T00:56:39.082+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:56:39.081+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-29T00:56:39.097+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:56:39.097+0000] {dag.py:4180} INFO - Setting next_dagrun for hook_dag_v2 to None, run_after=None
+[2026-04-29T00:56:39.119+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/hook_dag_v2.py took 0.083 seconds

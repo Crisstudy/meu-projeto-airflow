@@ -1,0 +1,18 @@
+[2026-04-30T15:16:52.201+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-04-30T15:16:52.209+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pipeline_etl_dag.cleanup_data manual__2026-04-30T14:57:24+00:00 [queued]>
+[2026-04-30T15:16:52.214+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pipeline_etl_dag.cleanup_data manual__2026-04-30T14:57:24+00:00 [queued]>
+[2026-04-30T15:16:52.215+0000] {taskinstance.py:2865} INFO - Starting attempt 2 of 2
+[2026-04-30T15:16:52.226+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): cleanup_data> on 2026-04-30 14:57:24+00:00
+[2026-04-30T15:16:52.231+0000] {standard_task_runner.py:72} INFO - Started process 111794 to run task
+[2026-04-30T15:16:52.233+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'pipeline_etl_dag', 'cleanup_data', 'manual__2026-04-30T14:57:24+00:00', '--job-id', '235', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_etl.py', '--cfg-path', '/tmp/tmpfxms09e4']
+[2026-04-30T15:16:52.235+0000] {standard_task_runner.py:105} INFO - Job 235: Subtask cleanup_data
+[2026-04-30T15:16:52.272+0000] {task_command.py:467} INFO - Running <TaskInstance: pipeline_etl_dag.cleanup_data manual__2026-04-30T14:57:24+00:00 [running]> on host codespaces-1f1e00
+[2026-04-30T15:16:52.383+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='pipeline_etl_dag' AIRFLOW_CTX_TASK_ID='cleanup_data' AIRFLOW_CTX_EXECUTION_DATE='2026-04-30T14:57:24+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-30T14:57:24+00:00'
+[2026-04-30T15:16:52.384+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-04-30T15:16:52.393+0000] {logging_mixin.py:190} INFO - Limpeza desativada para manter os arquivos manuais.
+[2026-04-30T15:16:52.395+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-04-30T15:16:52.407+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-04-30T15:16:52.409+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=pipeline_etl_dag, task_id=cleanup_data, run_id=manual__2026-04-30T14:57:24+00:00, execution_date=20260430T145724, start_date=20260430T151652, end_date=20260430T151652
+[2026-04-30T15:16:52.495+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-04-30T15:16:52.504+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-04-30T15:16:52.505+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

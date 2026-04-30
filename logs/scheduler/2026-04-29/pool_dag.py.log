@@ -622,3 +622,52 @@ TypeError: unsupported operand type(s) for >>: 'list' and 'list'
 [2026-04-29T00:50:53.538+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:50:53.537+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-04-29T00:50:53.548+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:50:53.547+0000] {dag.py:4180} INFO - Setting next_dagrun for pool_dag to None, run_after=None
 [2026-04-29T00:50:53.564+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/pool_dag.py took 0.057 seconds
+[2026-04-29T00:51:43.119+0000] {processor.py:186} INFO - Started process (PID=121563) to work on /workspaces/meu-projeto-airflow/dags/pool_dag.py
+[2026-04-29T00:51:43.120+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/pool_dag.py for tasks to queue
+[2026-04-29T00:51:43.121+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:51:43.120+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/pool_dag.py
+[2026-04-29T00:51:43.129+0000] {processor.py:925} INFO - DAG(s) 'pool_dag' retrieved from /workspaces/meu-projeto-airflow/dags/pool_dag.py
+[2026-04-29T00:51:43.145+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:51:43.145+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-29T00:51:43.155+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:51:43.155+0000] {dag.py:4180} INFO - Setting next_dagrun for pool_dag to None, run_after=None
+[2026-04-29T00:51:43.172+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/pool_dag.py took 0.058 seconds
+[2026-04-29T00:52:28.408+0000] {processor.py:186} INFO - Started process (PID=122668) to work on /workspaces/meu-projeto-airflow/dags/pool_dag.py
+[2026-04-29T00:52:28.409+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/pool_dag.py for tasks to queue
+[2026-04-29T00:52:28.410+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:52:28.410+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/pool_dag.py
+[2026-04-29T00:52:28.421+0000] {processor.py:925} INFO - DAG(s) 'pool_dag' retrieved from /workspaces/meu-projeto-airflow/dags/pool_dag.py
+[2026-04-29T00:52:28.437+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:52:28.437+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-29T00:52:28.447+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:52:28.447+0000] {dag.py:4180} INFO - Setting next_dagrun for pool_dag to None, run_after=None
+[2026-04-29T00:52:28.467+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/pool_dag.py took 0.064 seconds
+[2026-04-29T00:53:18.924+0000] {processor.py:186} INFO - Started process (PID=123977) to work on /workspaces/meu-projeto-airflow/dags/pool_dag.py
+[2026-04-29T00:53:18.925+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/pool_dag.py for tasks to queue
+[2026-04-29T00:53:18.926+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:53:18.926+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/pool_dag.py
+[2026-04-29T00:53:18.937+0000] {processor.py:925} INFO - DAG(s) 'pool_dag' retrieved from /workspaces/meu-projeto-airflow/dags/pool_dag.py
+[2026-04-29T00:53:18.955+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:53:18.954+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-29T00:53:18.966+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:53:18.966+0000] {dag.py:4180} INFO - Setting next_dagrun for pool_dag to None, run_after=None
+[2026-04-29T00:53:18.984+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/pool_dag.py took 0.066 seconds
+[2026-04-29T00:54:08.456+0000] {processor.py:186} INFO - Started process (PID=125012) to work on /workspaces/meu-projeto-airflow/dags/pool_dag.py
+[2026-04-29T00:54:08.457+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/pool_dag.py for tasks to queue
+[2026-04-29T00:54:08.459+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:54:08.458+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/pool_dag.py
+[2026-04-29T00:54:08.477+0000] {processor.py:925} INFO - DAG(s) 'pool_dag' retrieved from /workspaces/meu-projeto-airflow/dags/pool_dag.py
+[2026-04-29T00:54:08.504+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:54:08.503+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-29T00:54:08.522+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:54:08.522+0000] {dag.py:4180} INFO - Setting next_dagrun for pool_dag to None, run_after=None
+[2026-04-29T00:54:08.562+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/pool_dag.py took 0.114 seconds
+[2026-04-29T00:54:53.087+0000] {processor.py:186} INFO - Started process (PID=125941) to work on /workspaces/meu-projeto-airflow/dags/pool_dag.py
+[2026-04-29T00:54:53.088+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/pool_dag.py for tasks to queue
+[2026-04-29T00:54:53.089+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:54:53.088+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/pool_dag.py
+[2026-04-29T00:54:53.096+0000] {processor.py:925} INFO - DAG(s) 'pool_dag' retrieved from /workspaces/meu-projeto-airflow/dags/pool_dag.py
+[2026-04-29T00:54:53.109+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:54:53.109+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-29T00:54:53.121+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:54:53.121+0000] {dag.py:4180} INFO - Setting next_dagrun for pool_dag to None, run_after=None
+[2026-04-29T00:54:53.139+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/pool_dag.py took 0.057 seconds
+[2026-04-29T00:55:37.912+0000] {processor.py:186} INFO - Started process (PID=126814) to work on /workspaces/meu-projeto-airflow/dags/pool_dag.py
+[2026-04-29T00:55:37.913+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/pool_dag.py for tasks to queue
+[2026-04-29T00:55:37.914+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:55:37.914+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/pool_dag.py
+[2026-04-29T00:55:37.924+0000] {processor.py:925} INFO - DAG(s) 'pool_dag' retrieved from /workspaces/meu-projeto-airflow/dags/pool_dag.py
+[2026-04-29T00:55:37.941+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:55:37.941+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-29T00:55:37.952+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:55:37.952+0000] {dag.py:4180} INFO - Setting next_dagrun for pool_dag to None, run_after=None
+[2026-04-29T00:55:37.968+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/pool_dag.py took 0.060 seconds
+[2026-04-29T00:56:22.349+0000] {processor.py:186} INFO - Started process (PID=127690) to work on /workspaces/meu-projeto-airflow/dags/pool_dag.py
+[2026-04-29T00:56:22.349+0000] {processor.py:914} INFO - Processing file /workspaces/meu-projeto-airflow/dags/pool_dag.py for tasks to queue
+[2026-04-29T00:56:22.351+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:56:22.350+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-projeto-airflow/dags/pool_dag.py
+[2026-04-29T00:56:22.365+0000] {processor.py:925} INFO - DAG(s) 'pool_dag' retrieved from /workspaces/meu-projeto-airflow/dags/pool_dag.py
+[2026-04-29T00:56:22.390+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:56:22.390+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-29T00:56:22.400+0000] {logging_mixin.py:190} INFO - [2026-04-29T00:56:22.400+0000] {dag.py:4180} INFO - Setting next_dagrun for pool_dag to None, run_after=None
+[2026-04-29T00:56:22.417+0000] {processor.py:208} INFO - Processing /workspaces/meu-projeto-airflow/dags/pool_dag.py took 0.074 seconds
