@@ -17,7 +17,7 @@ with DAG(
         'start_date': Param('2023-08-20', type='string'),
         'end_date': Param('2023-08-22', type='string')
     },
-    template_searchpath=['data/etl/results']
+    template_searchpath=['/workspaces/meu-projeto-airflow/data/etl/results/'],
 ) as dag:
 
     @task
@@ -120,7 +120,7 @@ with DAG(
     insert_table = PostgresOperator(
         task_id='insert_table',
         postgres_conn_id='PG_SALES',
-        sql='data/etl/results/result.sql'
+        sql='result.sql'
     )
 
     merge_csv() >> transform_data() >> create_insert_sql() >> insert_table >> cleanup_data()

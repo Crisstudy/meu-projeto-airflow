@@ -1,0 +1,18 @@
+[2026-05-01T00:04:05.438+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-01T00:04:05.444+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pipeline_etl_dag.merge_csv manual__2026-05-01T00:03:59+00:00 [queued]>
+[2026-05-01T00:04:05.451+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pipeline_etl_dag.merge_csv manual__2026-05-01T00:03:59+00:00 [queued]>
+[2026-05-01T00:04:05.451+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2026-05-01T00:04:05.464+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): merge_csv> on 2026-05-01 00:03:59+00:00
+[2026-05-01T00:04:05.471+0000] {standard_task_runner.py:72} INFO - Started process 89843 to run task
+[2026-05-01T00:04:05.475+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'pipeline_etl_dag', 'merge_csv', 'manual__2026-05-01T00:03:59+00:00', '--job-id', '301', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_etl.py', '--cfg-path', '/tmp/tmpt_aeij8u']
+[2026-05-01T00:04:05.476+0000] {standard_task_runner.py:105} INFO - Job 301: Subtask merge_csv
+[2026-05-01T00:04:05.508+0000] {task_command.py:467} INFO - Running <TaskInstance: pipeline_etl_dag.merge_csv manual__2026-05-01T00:03:59+00:00 [running]> on host codespaces-1f1e00
+[2026-05-01T00:04:05.586+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='pipeline_etl_dag' AIRFLOW_CTX_TASK_ID='merge_csv' AIRFLOW_CTX_EXECUTION_DATE='2026-05-01T00:03:59+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-01T00:03:59+00:00'
+[2026-05-01T00:04:05.588+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-05-01T00:04:05.601+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-05-01T00:04:05.605+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-05-01T00:04:05.605+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=pipeline_etl_dag, task_id=merge_csv, run_id=manual__2026-05-01T00:03:59+00:00, execution_date=20260501T000359, start_date=20260501T000405, end_date=20260501T000405
+[2026-05-01T00:04:05.650+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-01T00:04:05.663+0000] {logging_mixin.py:190} WARNING - /usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/baseoperator.py:1378 AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `airflow.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+[2026-05-01T00:04:05.675+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-05-01T00:04:05.680+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
